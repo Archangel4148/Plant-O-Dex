@@ -10,11 +10,8 @@ import {router} from 'expo-router'
 
 const populatePlants = (searchTerm) => {
   let plantsArr = [];
-  console.log("Populating")
   for (let plant in plantData) {
-    console.log("Looking")
     const commonName = plantData[plant]["Common Name"];
-    console.log(commonName)
 
     // Filter plants based on the search term
     if (commonName.toLowerCase().includes(searchTerm.toLowerCase())) {
