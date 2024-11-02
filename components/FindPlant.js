@@ -22,7 +22,6 @@ export default FindPlant = async (plant) => {
 
     try {
         const userObject = await getUser()
-        console.log(userObject)
         if (!userObject["foundPlants"].includes(plant.toLowerCase())) {
             userObject["foundPlants"].push(plant.toLowerCase())
         }

@@ -1,26 +1,23 @@
-import { Text, View, ScrollView, TextInput, Pressable, Image, Dimensions} from "react-native";
+import { Text, View, ScrollView, Pressable, Image, Dimensions} from "react-native";
 import { StyleSheet } from "react-native";
 import {router, useLocalSearchParams} from 'expo-router'
 import {ImageView} from "@/components/ImageView"
 import {plantData} from "@/assets/plant_data/json_data/0_combined_plants.js"
 import FindPlant from '@/components/FindPlant.js'
 
-const plantLockedImage = require('@/assets/temp_images/temp_plant_icon.png');
 const backButtonIcon = require('@/assets/temp_images/temp_back_button.png');
 const lockIconImage = require('@/assets/temp_images/temp_lock_icon.png');
 const {screenWidth, screenHeight} = Dimensions.get('window');
 
 const formatAttributes = (selectedPlant) => {
-  console.log(selectedPlant)
   return Object.entries(selectedPlant)
-    .map(([key, value]) => `${key.replace(/_/g, ' ')}: ${value}`) // Format attribute
-    .join('\n'); // Join with newlines for display
+    .map(([key, value]) => `${key.replace(/_/g, ' ')}: ${value}`)
+    .join('\n');
 };
 
 export default function plant_locked() {
   const {plant} = useLocalSearchParams();
   const dataObject = plantData[plant.toLowerCase().replace(/ /g, "_")]
-  console.log("Object:", dataObject)
   return (
     <View>
         <View styles={styles.headerContainer}>
