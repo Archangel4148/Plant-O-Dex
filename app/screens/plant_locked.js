@@ -2,6 +2,8 @@ import { Text, View, ScrollView, TextInput, Pressable, Image, Dimensions} from "
 import { StyleSheet } from "react-native";
 
 const plantLockedImage = require('@/assets/temp_images/temp_plant_icon.png');
+const backButtonIcon = require('@/assets/temp_images/temp_back_button.png');
+const lockIconImage = require('@/assets/temp_images/temp_lock_icon.png');
 const {screenWidth, screenHeight} = Dimensions.get('window');
 
 export default function plant_locked() {
@@ -13,8 +15,10 @@ export default function plant_locked() {
 
         <ScrollView>
           <View style={styles.main}>
-            <View>
+            <View style={styles.topBar}>
+              <Image source={backButtonIcon} style={styles.backButton}/>
               <Text style={styles.pageHeader}>Plant Name!</Text>
+              <Image source={lockIconImage} style={styles.lockIcon}/>
             </View>
             <View style={styles.imageWrapper}>
               <Image source={plantLockedImage} style={styles.plantImage}/>
@@ -45,10 +49,17 @@ export default function plant_locked() {
       fontSize: 24,
       margin: 50,
     },
+    topBar: {
+      display: 'flex',
+      flexDirection: 'row',
+      padding: 20,
+    },
     pageHeader: {
       fontSize: 20,
-      marginTop: 'auto',
-      marginBottom: 15,
+      textAlign: 'center',
+      textAlignVertical: 'center',
+      marginLeft: 'auto',
+      //margin: '10 10 10 auto',
     },
     imageWrapper: {
       display: 'flex',
@@ -61,6 +72,19 @@ export default function plant_locked() {
       width: '88%'
       //height: 100,
       //maxWidth: '100%',
+    },
+    backButton: {
+      width: 50,
+      height: 50,
+      resizeMode: 'contain',
+      //margin: '10 auto 10 10',
+      marginRight: 'auto',
+    },
+    lockIcon: {
+      width: 50,
+      height: 50,
+      resizeMode: 'contain',
+      marginLeft: 'auto',
     }
   })
   
