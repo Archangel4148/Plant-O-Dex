@@ -64,7 +64,7 @@ export default function home() {
       <View style={[styles.webContainer]}>
         
         <View style={[styles.searchContainer]}>
-          <View style={[styles.searchBar, {backgroundColor: '#FFF7FC'}, {borderColor: "#FFF1FE"}]}>
+          <View style={[styles.searchBar, {backgroundColor: '#BDFFC2'}, {borderColor: "#BDFFC2"}]}> 
           <FontAwesome name="search" size={20} color="black" opacity={0.7} />
             <TextInput
                   style={[styles.searchTextInput]}
@@ -181,13 +181,10 @@ const styles = StyleSheet.create({
   },
 
   plantBox: {
-    width: 170, 
-    height: 170,
-    borderColor: "#FCEAFF",
     borderWidth: 1,
     width: 190, 
     height: 190,
-    borderColor: "#f3a8ff",
+    borderColor: "#BDFFC2",
 
     backgroundColor: '#555555',
     borderRadius: 10,
