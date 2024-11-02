@@ -1,18 +1,30 @@
 import { Text, View, ScrollView, TextInput, Pressable, Image } from "react-native";
 import { StyleSheet } from "react-native";
-import React, { useState } from 'react'; 
+import React, { useState, useEffect } from 'react'; 
 import {ImageView} from '@/components/ImageView.js'
-
 import {plantData} from "@/assets/plant_data/json_data/0_combined_plants.js"
+import AsyncStorage from "@react-native-async-storage/async-storage";
 import FontAwesome from '@expo/vector-icons/FontAwesome';
 import {router} from 'expo-router'
-
-
-
+import { useFocusEffect } from 'expo-router';
+import { useCallback } from 'react';
 
 export default function home() {
+
+  
+
+  const [user, setUser] = useState({foundPlants: [],})
   const [searchTerm, setSearchTerm] = useState(''); // Initializing state
-  const [userFound, setUserFound] = useState([]);
+  
+  const getUser = async () => {
+    try {
+      const jsonValue = await AsyncStorage.getItem('userObject');
+      setUser((jsonValue != null) ? JSON.parse(jsonValue) : {foundPlants: [],});
+    } catch (e) {
+      // error reading value
+    }
+  };
+
 
   const populatePlants = (searchTerm) => {
     let plantsArr = [];
@@ -48,7 +60,7 @@ export default function home() {
           </Pressable>
         );
   
-        if (src && src in userFound) {
+        if (src && user["foundPlants"].includes(commonName.toLowerCase())) {
           plantsArr.push(newPlant);
         }
       }
@@ -62,11 +74,23 @@ export default function home() {
     return plantsArr;
   };
 
+  useFocusEffect(
+    useCallback(() => {
+      getUser()
+
+      return () => {
+      }
+    }, [])
+  );
+
+  useEffect(() => {
+    getUser()
+  }, [])
   return (
   <View>
 
     <View style={[styles.headerContainer, {backgroundColor: "#EDFFEA"}]}>
-      <Text style={styles.headerText}>Personal Deck</Text>
+      <Text style={styles.headerText}>{user["foundPlants"].length}/ 94 Collected</Text>
     </View>
     <ScrollView style={{backgroundColor: "#EDFFEA"}}>
       <View style={styles.webContainer}>
@@ -102,7 +126,8 @@ const styles = StyleSheet.create({
     alignContent: 'center'
   },
   headerText: {
-    fontSize: 24,
+    fontSize: 28,
+    fontFamily: 'JetBrains',
     marginTop: 'auto',
     marginBottom: 15,
     

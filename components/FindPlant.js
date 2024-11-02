@@ -19,11 +19,11 @@ export default FindPlant = async (plant) => {
         }
       };
 
-
     try {
         const userObject = await getUser()
-        if (!userObject["foundPlants"].includes(plant.toLowerCase())) {
-            userObject["foundPlants"].push(plant.toLowerCase())
+        console.log(userObject)
+        if (!userObject["foundPlants"].includes(plant.toLowerCase().replace("_", " "))) {
+            userObject["foundPlants"].push(plant.toLowerCase().replace("_", " "))
         }
         await storeUser(userObject)
     }
