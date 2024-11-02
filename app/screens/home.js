@@ -55,7 +55,7 @@ export default function home() {
   const [searchTerm, setSearchTerm] = useState(''); // Initializing state
 
   return (
-  <View>
+  <View style={{flex: 1}}>
 
     <View style={[styles.headerContainer, {backgroundColor: "#E3FFE5"}]}>
       <Text style={[styles.headerText, {fontFamily: 'Georgia'}]}>All Plants</Text>

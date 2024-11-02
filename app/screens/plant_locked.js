@@ -1,5 +1,6 @@
 import { Text, View, ScrollView, TextInput, Pressable, Image, Dimensions} from "react-native";
 import { StyleSheet } from "react-native";
+import {router} from 'expo-router'
 
 const plantLockedImage = require('@/assets/temp_images/temp_plant_icon.png');
 const backButtonIcon = require('@/assets/temp_images/temp_back_button.png');
@@ -16,7 +17,20 @@ export default function plant_locked() {
         <ScrollView style={styles.mainScroll}>
           <View style={styles.main}>
             <View style={styles.topBar}>
-              <Image source={backButtonIcon} style={styles.backButton}/>
+            
+        <Pressable 
+          key={0} 
+          onPress={() => { router.push({
+            pathname: "/screens/home"
+          }); 
+        }}          
+        style={({ pressed }) => ({ opacity: pressed ? 0.5 : 1 })}>
+          <View style={styles.plantBox}>
+          <Image source={backButtonIcon} style={styles.backButton}/>
+          </View>
+        </Pressable>
+
+              {/* <Image source={backButtonIcon} style={styles.backButton}/> */}
               <View style={styles.pageHeader}>
                 <Text style={styles.plantNameText}>big name long plant weed</Text>
                 <Text style={styles.plantScientificNameText}>Scientific name here</Text>
