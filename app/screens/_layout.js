@@ -26,7 +26,7 @@ export default function screens() {
         name="personal_deck"
         options={{
           title: 'Personal Deck',
-          tabBarIcon: ({ color }) => <MaterialCommunityIcons name="cards-playing-spade-multiple-outline" size={24} color={color} />,
+          tabBarIcon: ({ color }) => <MaterialCommunityIcons name="flower" size={24} color={color} />,
         }}
       />
       <Tabs.Screen
