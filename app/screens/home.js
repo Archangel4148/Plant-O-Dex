@@ -7,9 +7,8 @@ const populatePlants = () => {
   let newPlant;
   let plantsArr = []
   for (let plant in plantData) {
-    let src = require (`@/assets/plant_data/images/` + (String(plantData[plant]["Common Name"])).toLowerCase().replace(" ", "_")  + '.png');
     newPlant = <Pressable onPress={() => {console.log(src)}} style={({pressed}) => ({opacity: pressed ? 0.5 : 1})} ><View style={styles.plantBox}>
-        <Image  height={100} width={100} style={{height: '100%', width: '100%'} } source={src} />
+        <Image  height={100} width={100} style={{height: '100%', width: '100%'} }  />
       </View></Pressable>;
     plantsArr.push(newPlant)
   }
