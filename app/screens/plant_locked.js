@@ -1,6 +1,7 @@
 import { Text, View, ScrollView, TextInput, Pressable, Image, Dimensions} from "react-native";
 import { StyleSheet } from "react-native";
-import {router} from 'expo-router'
+import {router, useLocalSearchParams} from 'expo-router'
+import {ImageView} from "@/components/ImageView"
 
 const plantLockedImage = require('@/assets/temp_images/temp_plant_icon.png');
 const backButtonIcon = require('@/assets/temp_images/temp_back_button.png');
@@ -8,6 +9,8 @@ const lockIconImage = require('@/assets/temp_images/temp_lock_icon.png');
 const {screenWidth, screenHeight} = Dimensions.get('window');
 
 export default function plant_locked() {
+  const {plant} = useLocalSearchParams();
+  console.log("Thing: " + String(plant))
   return (
     <View>
         <View styles={styles.headerContainer}>
@@ -32,13 +35,13 @@ export default function plant_locked() {
 
               {/* <Image source={backButtonIcon} style={styles.backButton}/> */}
               <View style={styles.pageHeader}>
-                <Text style={styles.plantNameText}>big name long plant weed</Text>
+                <Text style={styles.plantNameText}>{String(plant)}</Text>
                 <Text style={styles.plantScientificNameText}>Scientific name here</Text>
               </View>
               <Image source={lockIconImage} style={styles.lockIcon}/>
             </View>
             <View style={styles.imageWrapper}>
-              <Image source={plantLockedImage} style={styles.plantImage}/>
+              <Image source={ImageView[plant.toLowerCase()]} style={styles.plantImage}/>
             </View>
             <View>
               <Text>Location</Text>
@@ -97,11 +100,13 @@ export default function plant_locked() {
       width: '62.5%',
     },
     plantNameText: {
+      textTransform: 'capitalize',
       backgroundColor: '#dddddd',
       fontSize: 30,
       textAlign: 'center',
     },
     plantScientificNameText: {
+      textTransform: 'capitalize',
       backgroundColor: '#eeeeee',
       fontSize: 15,
       textAlign: 'center',
