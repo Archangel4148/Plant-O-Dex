@@ -8,7 +8,7 @@ import MaterialCommunityIcons from '@expo/vector-icons/MaterialCommunityIcons';
 export default function screens() {
   return (
 
-    <Tabs screenOptions={{ tabBarActiveTintColor: 'blue', headerShown: false}}>
+    <Tabs screenOptions={{ tabBarActiveTintColor: 'blue', headerShown: false, tabBarStyle: {backgroundColor: "#C6FFCA"}}}>
     <Tabs.Screen
         name="community"
         options={{
