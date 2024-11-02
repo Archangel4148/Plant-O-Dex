@@ -54,7 +54,6 @@ export default function home() {
       <Text style={styles.headerText}>Plant Page</Text>
     </View>
     <ScrollView style={{backgroundColor: "#EDFFEA"}}>
-    <ScrollView style={{backgroundColor: "#f7c5ff", minHeight: 800}}>
       <View style={styles.webContainer}>
         
         <View style={styles.searchContainer}>
