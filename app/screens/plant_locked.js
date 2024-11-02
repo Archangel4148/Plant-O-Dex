@@ -105,8 +105,9 @@ export default function plant_locked() {
     },
     plantImage: {
       resizeMode: 'contain',
+      aspectRatio: 1/1,
       height: 200,
-      width: 'auto',
+      width: '100%',
       borderStyle: 'solid',
       borderWidth: 5,
       borderColor: 'black',
