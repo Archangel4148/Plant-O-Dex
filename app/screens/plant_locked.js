@@ -19,6 +19,8 @@ const formatAttributes = (selectedPlant) => {
 
 export default function plant_locked() {
   const {plant} = useLocalSearchParams();
+  const dataObject = plantData[plant.toLowerCase().replace(/ /g, "_")]
+  console.log("Object:", dataObject)
   return (
     <View>
         <View styles={styles.headerContainer}>
@@ -44,7 +46,7 @@ export default function plant_locked() {
               {/* <Image source={backButtonIcon} style={styles.backButton}/> */}
               <View style={styles.pageHeader}>
                 <Text style={styles.plantNameText}>{String(plant)}</Text>
-                <Text style={styles.plantScientificNameText}>{plantData[plant.toLowerCase().replace(" ", "_")]["Scientific Name"]}</Text>
+                <Text style={styles.plantScientificNameText}>{dataObject["Scientific Name"]}</Text>
               </View>
               <Image source={lockIconImage} style={styles.lockIcon}/>
             </View>
@@ -55,7 +57,7 @@ export default function plant_locked() {
               <Pressable onPress={() => {FindPlant(plant)}}style={{borderRadius: 10, backgroundColor: 'red', width: 100, height: 40, display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
                 <Text style={{color: 'white'}}>Find Plant</Text>
               </Pressable>
-              <Text style={styles.attributesText}>{formatAttributes(plantData[plant.toLowerCase().replace(" ", "_")])}
+              <Text style={styles.attributesText}>{formatAttributes(dataObject)}
               </Text>
             </View>
           </View>
