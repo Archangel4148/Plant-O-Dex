@@ -9,7 +9,7 @@ const routeToHome = () => {
 const routeToLocked = () => {
   router.push('screens/plant_locked');
 }
- 
+
 export default function Index() {
   return (
     <View
