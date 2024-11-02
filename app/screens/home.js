@@ -57,7 +57,7 @@ export default function home() {
   <View style={{flex: 1}}>
 
     <View style={[styles.headerContainer, {backgroundColor: "#E3FFE5"}]}>
-      <Text style={[styles.headerText, {fontFamily: 'JetBrains'}, {fontSize: '35'}]}>All Plants</Text>
+      <Text style={[styles.headerText, {fontFamily: 'JetBrains'}, {fontSize: 35}]}>All Plants</Text>
     </View>
     <ScrollView style={{backgroundColor: "#E3FFE5"}}>
       <View style={[styles.webContainer]}>
