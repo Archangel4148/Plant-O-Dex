@@ -58,7 +58,7 @@ export default function home() {
   <View style={{flex: 1}}>
 
     <View style={[styles.headerContainer, {backgroundColor: "#E3FFE5"}]}>
-      <Text style={[styles.headerText, {fontFamily: 'Georgia'}]}>All Plants</Text>
+      <Text style={[styles.headerText, {fontFamily: 'JetBrains'}]}>All Plants</Text>
     </View>
     <ScrollView style={{backgroundColor: "#E3FFE5"}}>
       <View style={[styles.webContainer]}>
@@ -111,7 +111,7 @@ const styles = StyleSheet.create({
     alignContent: 'center'
   },
   headerText: {
-    fontSize: 24,
+    fontSize: 28,
     marginTop: 'auto',
     marginBottom: 15,
     
@@ -136,7 +136,7 @@ const styles = StyleSheet.create({
     alignContent: 'center',
     alignItems: 'center',
     
-    width: 270,
+    width: 360,
     height: 45,
     
     paddingLeft: 10,
@@ -148,7 +148,7 @@ const styles = StyleSheet.create({
     paddingLeft: 10,
     color: 'white',
     fontSize: 20,
-    width: 240,
+    width: 340
   },
 
   sortButton: {
@@ -169,8 +169,7 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     gap: 5,
     justifyContent: 'center',
-    alignContent: 'center',
-    alignItems:'center',
+    
     flexWrap: 'wrap',
     backgroundColor: "#E3FFE5", //Color for the backround bottom of the app
 
@@ -185,7 +184,7 @@ const styles = StyleSheet.create({
     width: 170, 
     height: 170,
     borderColor: "#FCEAFF",
-    borderWidth: 0,
+    borderWidth: 1,
     width: 190, 
     height: 190,
     borderColor: "#f3a8ff",

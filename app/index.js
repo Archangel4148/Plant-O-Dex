@@ -1,5 +1,6 @@
 import { Text, View, Pressable } from "react-native";
 import { StyleSheet } from "react-native";
+import { useFonts } from "expo-font";
 import {router} from 'expo-router';
 
 const routeToHome = () => {
@@ -11,6 +12,9 @@ const routeToLocked = () => {
 }
 
 export default function Index() {
+  const [loaded, error] = useFonts({
+    'JetBrains': require('@/assets/fonts/JetBrainsMono-Medium.ttf'),
+  });
   return (
     <View
       style={{
