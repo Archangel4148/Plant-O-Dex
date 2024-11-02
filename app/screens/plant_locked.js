@@ -3,6 +3,7 @@ import { StyleSheet } from "react-native";
 import {router, useLocalSearchParams} from 'expo-router'
 import {ImageView} from "@/components/ImageView"
 import {plantData} from "@/assets/plant_data/json_data/0_combined_plants.js"
+import FindPlant from '@/components/FindPlant.js'
 
 const plantLockedImage = require('@/assets/temp_images/temp_plant_icon.png');
 const backButtonIcon = require('@/assets/temp_images/temp_back_button.png');
@@ -51,9 +52,12 @@ export default function plant_locked() {
             <View style={styles.imageWrapper}>
               <Image source={ImageView[plant.toLowerCase()]} style={styles.plantImage}/>
             </View>
-            <View>
-            <Text style={styles.attributesText}>{formatAttributes(plantData[plant.toLowerCase().replace(" ", "_")])}
-            </Text>
+            <View style={{display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
+              <Pressable onPress={() => {FindPlant(plant)}}style={{borderRadius: 10, backgroundColor: 'red', width: 100, height: 40, display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
+                <Text style={{color: 'white'}}>Find Plant</Text>
+              </Pressable>
+              <Text style={styles.attributesText}>{formatAttributes(plantData[plant.toLowerCase().replace(" ", "_")])}
+              </Text>
             </View>
           </View>
         </ScrollView>
