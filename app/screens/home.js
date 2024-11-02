@@ -26,8 +26,8 @@ const populatePlants = (searchTerm) => {
           onPress={() => { router.push({
             pathname: "/screens/plant_locked", params: {plant: commonName}
           }); 
-        }} 
-          style={({ pressed }) => ({ opacity: pressed ? 0.5 : 1 })}>
+        }}          
+        style={({ pressed }) => ({ opacity: pressed ? 0.5 : 1 })}>
           <View style={styles.plantBox}>
             <Image 
               height={100} 
@@ -57,28 +57,30 @@ export default function home() {
   return (
   <View>
 
-    <View style={[styles.headerContainer, {backgroundColor: "#EDFFEA"}]}>
-      <Text style={styles.headerText}>Plant Page</Text>
+    <View style={[styles.headerContainer, {backgroundColor: "#E3FFE5"}]}>
+      <Text style={[styles.headerText, {fontFamily: 'Georgia'}]}>All Plants</Text>
     </View>
-    <ScrollView style={{backgroundColor: "#EDFFEA"}}>
-      <View style={styles.webContainer}>
+    <ScrollView style={{backgroundColor: "#E3FFE5"}}>
+      <View style={[styles.webContainer]}>
         
-        <View style={styles.searchContainer}>
-          <View style={styles.searchBar}>
-          <FontAwesome name="search" size={20} color="white" opacity={0.7} />
+        <View style={[styles.searchContainer]}>
+          <View style={[styles.searchBar, {backgroundColor: '#FFF1FE'}, {borderColor: "#FFF1FE"}]}>
+          <FontAwesome name="search" size={20} color="black" opacity={0.7} />
             <TextInput
-                  style={styles.searchTextInput}
+                  style={[styles.searchTextInput]}
                   placeholder="Search for plants..."
                   onChangeText={setSearchTerm} // Call setSearchTerm here
                   value={searchTerm}
+                  placeholderTextColor="black"
+                  color = 'black'
            />
             </View>
-          <Pressable style={({pressed}) => [({opacity: pressed ? 0.5 : 1}), styles.sortButton]}>
+          {/* <Pressable style={({pressed}) => [({opacity: pressed ? 0.5 : 1}), styles.sortButton]}> //Got rid of the sort button for now
             <Text>Sort</Text>
-          </Pressable>
+          </Pressable> */} 
         </View>
 
-        <View style={styles.mainBody}>
+        <View style={[styles.mainBody, {backgroundColor: "#E3FFE5"}]}>
         {populatePlants(searchTerm)}
         </View>
       </View>
@@ -94,7 +96,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     flex: 1,
     marginTop: 10,
-    backgroundColor: "#EDFFEA" //The middle of the backround
+    backgroundColor: "#E3FFE5" //The middle of the backround
   },
   headerContainer: {
     backgroundColor: '#d2d3db',
@@ -170,7 +172,7 @@ const styles = StyleSheet.create({
     alignContent: 'center',
     alignItems:'center',
     flexWrap: 'wrap',
-    backgroundColor: "#EDFFEA", //Color for the backround bottom of the app
+    backgroundColor: "#E3FFE5", //Color for the backround bottom of the app
 
     width: 400,
     paddingBottom: 200,
