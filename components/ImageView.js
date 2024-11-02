@@ -1,11 +1,3 @@
-import React from 'react';
-import { Image, Dimensions } from 'react-native';
-import Images from './Index';
-const ImageView = ({ index }) => {
-    return (
-        <Image
-            source={Images['image' + index]}
-        />
-    )
+export const ImageView = {
+    "american beech": require("@/assets/plant_data/images/american_beech.png")
 }
-export default ImageView;
