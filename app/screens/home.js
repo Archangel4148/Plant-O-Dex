@@ -5,6 +5,7 @@ import {ImageView} from '@/components/ImageView.js'
 
 import {plantData} from "@/assets/plant_data/json_data/0_combined_plants.js"
 import FontAwesome from '@expo/vector-icons/FontAwesome';
+import {router} from 'expo-router'
 
 
 const populatePlants = (searchTerm) => {
@@ -22,7 +23,10 @@ const populatePlants = (searchTerm) => {
       const newPlant = (
         <Pressable 
           key={commonName} 
-          onPress={() => { console.log(commonName); }} 
+          onPress={() => { router.push({
+            pathname: "/screens/plant_locked", params: {plant: commonName}
+          }); 
+        }} 
           style={({ pressed }) => ({ opacity: pressed ? 0.5 : 1 })}>
           <View style={styles.plantBox}>
             <Image 
@@ -142,6 +146,7 @@ const styles = StyleSheet.create({
     paddingLeft: 10,
     color: 'white',
     fontSize: 20,
+    width: 240,
   },
 
   sortButton: {
@@ -168,6 +173,8 @@ const styles = StyleSheet.create({
     backgroundColor: "#EDFFEA", //Color for the backround bottom of the app
 
     width: 400,
+    paddingBottom: 200,
+    minHeight: 1000,
 
     marginTop: 15,
   },

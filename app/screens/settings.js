@@ -1,21 +1,150 @@
-import { View } from "react-native";
+import { View, Text, } from "react-native";
 import { StyleSheet } from "react-native";
+import { ScrollView } from "react-native";
 
 export default function community() {
     return (
-      <View
-        style={{
-          flex: 1,
-          justifyContent: "center",
-          alignItems: "center",
-        }}
-      >
-        
+      <View>
+    <View style={[styles.headerContainer, {backgroundColor: "#EDFFEA"}]}>
+      <Text style={styles.headerText}>Settings</Text>
+    </View>
+    <ScrollView style={{backgroundColor: "#EDFFEA"}}>
+      <View style={styles.webContainer}>
+
+        <View style={styles.mainBody}>
+
+          <View style={styles.container}>
+
+          </View>
+          <View style={styles.container}>
+
+          </View>
+          <View style={styles.container}>
+
+          </View>
+          <View style={styles.container}>
+
+          </View>
+
+        </View>
       </View>
+    </ScrollView>
+    </View>
     );
   }
   
   const styles = StyleSheet.create({
+    webContainer: {
+      display: 'flex',
+      flexDirection: 'column',
+      alignItems: 'center',
+      flex: 1,
+      marginTop: 10,
+      backgroundColor: "#EDFFEA" //The middle of the backround
+    },
+    container: {
+      backgroundColor: '#DDDDDD',
+      width: 360,
+      height: 90,
+      borderRadius: 10,
+    },
+    headerContainer: {
+      backgroundColor: '#d2d3db',
+      borderRadius: 10,
+  
+      width: '100%',
+      height: 100,
+  
+      display: 'flex',
+      justifyContent: 'center',
+      alignItems:'center',
+      alignContent: 'center'
+    },
+    headerText: {
+      fontSize: 24,
+      marginTop: 'auto',
+      marginBottom: 15,
+      
+    },
+    searchContainer: {
+      width: '100%',
+  
+      display: 'flex',
+      flexDirection: 'row',
+      justifyContent: 'center',
+      alignItems: 'center',
+      gap: 5,
     
+    },
+    searchBar: {
+      borderColor: 'black',
+      borderWidth: 1,
+      borderRadius: 70,
+  
+      display: 'flex',
+      flexDirection: 'row',
+      alignContent: 'center',
+      alignItems: 'center',
+      
+      width: 270,
+      height: 45,
+      
+      paddingLeft: 10,
+  
+      backgroundColor: 'gray',
+      
+    },
+    searchTextInput: {
+      paddingLeft: 10,
+      color: 'white',
+      fontSize: 20,
+      width: 240,
+    },
+  
+    sortButton: {
+      width: 60,
+      height: 50,
+      
+      borderColor: 'black',
+      borderRadius: 10,
+      borderWidth: 3,
+  
+      display: 'flex',
+      justifyContent: 'center',
+      alignItems: 'center',
+  
+    },
+    mainBody: {
+      display: 'flex',
+      flexDirection: 'row',
+      gap: 5,
+      justifyContent: 'center',
+      
+      flexWrap: 'wrap',
+      backgroundColor: "#EDFFEA", //Color for the backround bottom of the app
+  
+      width: 400,
+      paddingBottom: 200,
+      minHeight: 800,
+  
+      marginTop: 15,
+    },
+  
+    plantBox: {
+      width: 170, 
+      height: 170,
+      borderColor: "#FCEAFF",
+      borderWidth: 0,
+      width: 190, 
+      height: 190,
+      borderColor: "#f3a8ff",
+  
+      backgroundColor: '#555555',
+      borderRadius: 10,
+      marginBottom: -40,
+  
+    }
+  
   })
+  
   
