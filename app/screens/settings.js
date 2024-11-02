@@ -1,8 +1,23 @@
-import { View, Text, } from "react-native";
+import { View, Text, Button } from "react-native";
 import { StyleSheet } from "react-native";
 import { ScrollView } from "react-native";
+import AsyncStorage from "@react-native-async-storage/async-storage";
 
-export default function community() {
+
+
+export default function settings() {
+
+  const clearAsyncStorage = async() => {
+    try {
+    await AsyncStorage.clear();
+    console.log("Storage Clear")
+
+    }
+    catch {
+      console.log("Storage Clear Error")
+    }
+}
+
     return (
       <View>
     <View style={[styles.headerContainer, {backgroundColor: "#EDFFEA"}]}>
@@ -25,6 +40,8 @@ export default function community() {
           <View style={styles.container}>
 
           </View>
+
+          <Button onPress={clearAsyncStorage} title={"Clear Cache"} color={'red'}></Button>
 
         </View>
       </View>
