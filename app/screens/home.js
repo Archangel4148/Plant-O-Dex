@@ -5,7 +5,7 @@ const populatePlants = () => {
   let newPlant;
   let plantsArr = []
   for (let i = 0; i < 20; i++) {
-    newPlant = <Pressable><View id={i} style={styles.plantBox}></View></Pressable>
+    newPlant = <Pressable id={i} style={({pressed}) => ({opacity: pressed ? 0.5 : 1})} ><View style={styles.plantBox}></View></Pressable>
     plantsArr.push(newPlant)
   }
   return plantsArr;
@@ -23,7 +23,7 @@ export default function home() {
         
         <View style={styles.searchContainer}>
           <TextInput style={styles.searchBar}></TextInput>
-          <Pressable style={styles.sortButton}>
+          <Pressable style={({pressed}) => [({opacity: pressed ? 0.5 : 1}), styles.sortButton]}>
             <Text>Sort</Text>
           </Pressable>
         </View>
@@ -37,7 +37,7 @@ export default function home() {
     </View>
   );
 }
-const styles = {
+const styles = StyleSheet.create({
   webContainer: {
     display: 'flex',
     flexDirection: 'column',
@@ -79,6 +79,8 @@ const styles = {
 
     width: 270,
     height: 50,
+    fontSize: 20,
+    paddingLeft: 10,
   },
 
   sortButton: {
@@ -113,6 +115,10 @@ const styles = {
     height: 170,
     borderColor: 'black',
     borderWidth: 2,
+    borderRadius: 10,
+
+    backgroundColor: '#555555'
+
   }
 
-}
+})
