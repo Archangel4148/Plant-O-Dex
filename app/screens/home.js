@@ -5,7 +5,7 @@ const populatePlants = () => {
   let newPlant;
   let plantsArr = []
   for (let i = 0; i < 20; i++) {
-    newPlant = <Pressable id={i} style={({pressed}) => ({opacity: pressed ? 0.5 : 1})} ><View style={styles.plantBox}></View></Pressable>
+    newPlant = <Pressable key={i} style={({pressed}) => ({opacity: pressed ? 0.5 : 1})} ><View style={styles.plantBox}></View></Pressable>
     plantsArr.push(newPlant)
   }
   return plantsArr;
