@@ -1,6 +1,7 @@
 import { Stack, Tabs } from "expo-router";
 import {View} from 'react-native';
 import FontAwesome from '@expo/vector-icons/FontAwesome';
+import MaterialIcons from '@expo/vector-icons/MaterialIcons';
 import MaterialCommunityIcons from '@expo/vector-icons/MaterialCommunityIcons';
 
 
@@ -12,21 +13,20 @@ export default function screens() {
         name="community"
         options={{
           title: 'Community',
-          tabBarIcon: ({ color }) => <FontAwesome size={28} name="home" color={color} />,
-        }}
+          tabBarIcon: ({ color }) =><MaterialIcons name="groups" size={24} color={color} />        }}
       />
     <Tabs.Screen
         name="home"
         options={{
           title: 'Home',
-          tabBarIcon: ({ color }) => <MaterialCommunityIcons name="cards-playing-spade-multiple-outline" size={24} color={color} />,
+          tabBarIcon: ({ color }) => <FontAwesome size={28} name="home" color={color} />,
         }}
       />
       <Tabs.Screen
         name="personal_deck"
         options={{
           title: 'Personal Deck',
-          tabBarIcon: ({ color }) => <MaterialCommunityIcons name="flower" size={24} color={color} />,
+          tabBarIcon: ({ color }) => <MaterialCommunityIcons name="cards-playing-spade-multiple-outline" size={24} color={color} />,
         }}
       />
       <Tabs.Screen
