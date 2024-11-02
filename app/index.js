@@ -1,4 +1,5 @@
 import { Text, View, Pressable } from "react-native";
+import { StyleSheet } from "react-native";
 import {router} from 'expo-router';
 
 const routeToHome = () => {
@@ -14,9 +15,21 @@ export default function Index() {
         alignItems: "center",
       }}
     >
-      <Pressable onPress={routeToHome}>
-        <Text>Click here to route home</Text>
+      <Pressable onPress={routeToHome} style={styles.button}>
+        <Text style={styles.buttonText}>Click here to route home</Text>
       </Pressable>
     </View>
   );
+}
+
+const styles = {
+  button: {
+    borderRadius: 10,
+    borderColor: 'blue',
+    borderWidth: 2,
+    padding: 10,
+  },
+  buttonText: {
+    color: 'blue',
+  }
 }
