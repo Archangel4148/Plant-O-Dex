@@ -58,13 +58,13 @@ export default function home() {
   <View style={{flex: 1}}>
 
     <View style={[styles.headerContainer, {backgroundColor: "#E3FFE5"}]}>
-      <Text style={[styles.headerText, {fontFamily: 'JetBrains'}]}>All Plants</Text>
+      <Text style={[styles.headerText, {fontFamily: 'JetBrains'}, {fontSize: '35'}]}>All Plants</Text>
     </View>
     <ScrollView style={{backgroundColor: "#E3FFE5"}}>
       <View style={[styles.webContainer]}>
         
         <View style={[styles.searchContainer]}>
-          <View style={[styles.searchBar, {backgroundColor: '#FFF1FE'}, {borderColor: "#FFF1FE"}]}>
+          <View style={[styles.searchBar, {backgroundColor: '#FFF7FC'}, {borderColor: "#FFF1FE"}]}>
           <FontAwesome name="search" size={20} color="black" opacity={0.7} />
             <TextInput
                   style={[styles.searchTextInput]}
