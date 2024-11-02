@@ -1,6 +1,15 @@
 import { Text, View, ScrollView, TextInput, Pressable } from "react-native";
 import { StyleSheet } from "react-native";
 
+const populatePlants = () => {
+  let newPlant;
+  let plantsArr = []
+  for (let i = 0; i < 20; i++) {
+    newPlant = <Pressable key={i} style={({pressed}) => ({opacity: pressed ? 0.5 : 1})} ><View style={styles.plantBox}></View></Pressable>
+    plantsArr.push(newPlant)
+  }
+  return plantsArr;
+}
 
 export default function home() {
   return (
@@ -14,9 +23,13 @@ export default function home() {
         
         <View style={styles.searchContainer}>
           <TextInput style={styles.searchBar}></TextInput>
-          <Pressable style={styles.sortButton}>
+          <Pressable style={({pressed}) => [({opacity: pressed ? 0.5 : 1}), styles.sortButton]}>
             <Text>Sort</Text>
           </Pressable>
+        </View>
+
+        <View style={styles.mainBody}>
+          {populatePlants()}
         </View>
       </View>
     </ScrollView>
@@ -24,7 +37,7 @@ export default function home() {
     </View>
   );
 }
-const styles = {
+const styles = StyleSheet.create({
   webContainer: {
     display: 'flex',
     flexDirection: 'column',
@@ -50,9 +63,6 @@ const styles = {
     marginBottom: 15,
   },
   searchContainer: {
-    backgroundColor: '#d2d3db',
-    borderRadius: 10,
-
     width: '100%',
 
     display: 'flex',
@@ -69,6 +79,8 @@ const styles = {
 
     width: 270,
     height: 50,
+    fontSize: 20,
+    paddingLeft: 10,
   },
 
   sortButton: {
@@ -83,6 +95,30 @@ const styles = {
     justifyContent: 'center',
     alignItems: 'center',
 
+  },
+  mainBody: {
+    display: 'flex',
+    flexDirection: 'row',
+    gap: 10,
+    justifyContent: 'center',
+    alignContent: 'center',
+    alignItems:'center',
+    flexWrap: 'wrap',
+
+    width: 400,
+
+    marginTop: 15,
+  },
+
+  plantBox: {
+    width: 170, 
+    height: 170,
+    borderColor: 'black',
+    borderWidth: 2,
+    borderRadius: 10,
+
+    backgroundColor: '#555555'
+
   }
 
-}
+})
