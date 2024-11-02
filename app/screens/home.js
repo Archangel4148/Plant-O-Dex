@@ -33,7 +33,7 @@ const populatePlants = (searchTerm) => {
             />
           </View>
           <View style={{display: 'flex', justifyContent: 'center', alignContent: 'center',backgroundColor: 'rgba(0,0,0,0.3)', width: 190, height: 40, transform: "translateY(-10px)"}}>
-            <Text style={{textAlign: 'center', color: 'rgba(255,255,255,0.8)'}}>{commonName}</Text>
+            <Text style={{textTransform: 'capitalize', textAlign: 'center', color: 'rgba(255,255,255,0.8)'}}>{commonName}</Text>
           </View>
         </Pressable>
       );
