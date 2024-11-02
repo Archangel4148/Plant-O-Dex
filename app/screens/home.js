@@ -1,17 +1,24 @@
-import { Text, View, ScrollView, TextInput, Pressable } from "react-native";
+import { Text, View, ScrollView, TextInput, Pressable, Image } from "react-native";
 import { StyleSheet } from "react-native";
+
+import {plantData} from "@/assets/plant_data/json_data/0_combined_plants.js"
 
 const populatePlants = () => {
   let newPlant;
   let plantsArr = []
-  for (let i = 0; i < 20; i++) {
-    newPlant = <Pressable key={i} style={({pressed}) => ({opacity: pressed ? 0.5 : 1})} ><View style={styles.plantBox}></View></Pressable>
+  for (let plant in plantData) {
+    let src = require (`@/assets/plant_data/images/` + (String(plantData[plant]["Common Name"])).toLowerCase().replace(" ", "_")  + '.png');
+    newPlant = <Pressable onPress={() => {console.log(src)}} style={({pressed}) => ({opacity: pressed ? 0.5 : 1})} ><View style={styles.plantBox}>
+        <Image  height={100} width={100} style={{height: '100%', width: '100%'} } source={src} />
+      </View></Pressable>;
     plantsArr.push(newPlant)
   }
   return plantsArr;
 }
 
 export default function home() {
+  console.log(plantData)
+
   return (
   <View>
 
@@ -29,7 +36,7 @@ export default function home() {
         </View>
 
         <View style={styles.mainBody}>
-          {populatePlants()}
+        {populatePlants()}
         </View>
       </View>
     </ScrollView>

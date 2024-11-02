@@ -1,4 +1,5 @@
 import { View } from "react-native";
+import { StyleSheet } from "react-native";
 
 export default function community() {
     return (
@@ -14,7 +15,7 @@ export default function community() {
     );
   }
   
-  const styles = {
+  const styles = StyleSheet.create({
     
-  }
+  })
   
