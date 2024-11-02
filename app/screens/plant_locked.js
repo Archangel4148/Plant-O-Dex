@@ -2,11 +2,19 @@ import { Text, View, ScrollView, TextInput, Pressable, Image, Dimensions} from "
 import { StyleSheet } from "react-native";
 import {router, useLocalSearchParams} from 'expo-router'
 import {ImageView} from "@/components/ImageView"
+import {plantData} from "@/assets/plant_data/json_data/0_combined_plants.js"
 
 const plantLockedImage = require('@/assets/temp_images/temp_plant_icon.png');
 const backButtonIcon = require('@/assets/temp_images/temp_back_button.png');
 const lockIconImage = require('@/assets/temp_images/temp_lock_icon.png');
 const {screenWidth, screenHeight} = Dimensions.get('window');
+
+const formatAttributes = (selectedPlant) => {
+  console.log(selectedPlant)
+  return Object.entries(selectedPlant)
+    .map(([key, value]) => `${key.replace(/_/g, ' ')}: ${value}`) // Format attribute
+    .join('\n'); // Join with newlines for display
+};
 
 export default function plant_locked() {
   const {plant} = useLocalSearchParams();
@@ -44,12 +52,8 @@ export default function plant_locked() {
               <Image source={ImageView[plant.toLowerCase()]} style={styles.plantImage}/>
             </View>
             <View>
-              <Text>Location</Text>
-              <Text>The plant is nestled in a sun-dappled clearing within a dense forest.
-                Tall trees surround the area, their canopies forming a natural shelter that
-                filters the sunlight, creating a warm and slightly humid environment ideal
-                for the plant's growth. Moss covers the ground, and a gentle stream flows
-                nearby, providing fresh water and creating a serene, almost mystical atmosphere.</Text>
+            <Text style={styles.attributesText}>{formatAttributes(plantData[plant.toLowerCase().replace(" ", "_")])}
+            </Text>
             </View>
           </View>
         </ScrollView>

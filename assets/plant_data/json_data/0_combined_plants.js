@@ -1,5 +1,5 @@
 export const plantData = {
-    "American_beech": {
+    "american_beech": {
         "Common Name": "American beech",
         "Type": "Tree",
         "Family": "Fagaceae",
@@ -18,7 +18,7 @@ export const plantData = {
         "Fruit": "Showy, Edible",
         "Tolerate": "Deer, Black Walnut"
     },
-    "American_bittersweet": {
+    "american_bittersweet": {
         "Common Name": "American bittersweet",
         "Type": "Vine",
         "Family": "Celastraceae",
@@ -38,7 +38,7 @@ export const plantData = {
         "Other": "Winter Interest",
         "Tolerate": "Deer, Drought"
     },
-    "American_holly": {
+    "american_holly": {
         "Common Name": "American holly",
         "Type": "Broadleaf evergreen",
         "Family": "Aquifoliaceae",
@@ -58,7 +58,7 @@ export const plantData = {
         "Other": "Winter Interest, Thorns",
         "Tolerate": "Deer, Clay Soil, Air Pollution"
     },
-    "American_hornbeam": {
+    "american_hornbeam": {
         "Common Name": "American hornbeam",
         "Type": "Tree",
         "Family": "Betulaceae",
@@ -77,7 +77,7 @@ export const plantData = {
         "Attracts": "Birds",
         "Tolerate": "Clay Soil, Black Walnut"
     },
-    "American_spikenard": {
+    "american_spikenard": {
         "Common Name": "American spikenard",
         "Type": "Herbaceous perennial",
         "Family": "Araliaceae",
@@ -330,7 +330,7 @@ export const plantData = {
         "Fruit": "Showy",
         "Tolerate": "Drought"
     },
-    "Christmas_fern": {
+    "christmas_fern": {
         "Common Name": "Christmas fern",
         "Type": "Fern",
         "Family": "Dryopteridaceae",
@@ -476,7 +476,7 @@ export const plantData = {
         "Fruit": "Showy, Edible",
         "Tolerate": "Clay Soil, Air Pollution"
     },
-    "Dutchman's_pipe": {
+    "dutchman's_pipe": {
         "Common Name": "Dutchman's pipe",
         "Type": "Vine",
         "Family": "Aristolochiaceae",
@@ -601,7 +601,7 @@ export const plantData = {
         "Leaf": "Fragrant",
         "Tolerate": "Deer, Drought, Dry Soil, Shallow-Rocky Soil, Black Walnut"
     },
-    "American_agave": {
+    "american_agave": {
         "Common Name": "American agave",
         "Type": "Herbaceous perennial",
         "Family": "Asparagaceae",
@@ -746,7 +746,7 @@ export const plantData = {
         "Flower": "Showy",
         "Tolerate": "Deer"
     },
-    "Joe-pyeweed": {
+    "joe-pyeweed": {
         "Common Name": "Joe-pyeweed",
         "Type": "Herbaceous perennial",
         "Family": "Asteraceae",
@@ -765,7 +765,7 @@ export const plantData = {
         "Attracts": "Butterflies",
         "Tolerate": "Deer, Wet Soil"
     },
-    "Indian_pink": {
+    "indian_pink": {
         "Common Name": "Indian pink",
         "Type": "Herbaceous perennial",
         "Family": "Loganiaceae",
