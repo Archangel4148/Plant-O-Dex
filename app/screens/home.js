@@ -4,6 +4,7 @@ import React, { useState } from 'react';
 import {ImageView} from '@/components/ImageView.js'
 
 import {plantData} from "@/assets/plant_data/json_data/0_combined_plants.js"
+import FontAwesome from '@expo/vector-icons/FontAwesome';
 
 
 const populatePlants = (searchTerm) => {
@@ -21,20 +22,22 @@ const populatePlants = (searchTerm) => {
       const newPlant = (
         <Pressable 
           key={commonName} 
-          onPress={() => { console.log(src); }} 
+          onPress={() => { console.log(commonName); }} 
           style={({ pressed }) => ({ opacity: pressed ? 0.5 : 1 })}>
           <View style={styles.plantBox}>
             <Image 
               height={100} 
               width={100} 
-              style={{ height: '100%', width: '100%' }} 
+              style={{ height: '100%', width: '100%', borderRadius: 10,}} 
               source={src} 
             />
           </View>
         </Pressable>
       );
 
-      plantsArr.push(newPlant);
+      if (src) {
+        plantsArr.push(newPlant);
+      }
     }
   }
 
@@ -50,16 +53,19 @@ export default function home() {
     <View style={[styles.headerContainer, {backgroundColor: "#f7c5ff"}]}>
       <Text style={styles.headerText}>Plant Page</Text>
     </View>
-    <ScrollView style={{backgroundColor: "#f7c5ff"}}>
+    <ScrollView style={{backgroundColor: "#f7c5ff", minHeight: 800}}>
       <View style={styles.webContainer}>
         
         <View style={styles.searchContainer}>
-        <TextInput
-              style={styles.searchBar}
-              placeholder="Search for plants..."
-              onChangeText={setSearchTerm} // Call setSearchTerm here
-              value={searchTerm}
-            />
+          <View style={styles.searchBar}>
+          <FontAwesome name="search" size={20} color="white" opacity={0.7} />
+            <TextInput
+                  style={styles.searchTextInput}
+                  placeholder="Search for plants..."
+                  onChangeText={setSearchTerm} // Call setSearchTerm here
+                  value={searchTerm}
+           />
+            </View>
           <Pressable style={({pressed}) => [({opacity: pressed ? 0.5 : 1}), styles.sortButton]}>
             <Text>Sort</Text>
           </Pressable>
@@ -113,13 +119,26 @@ const styles = StyleSheet.create({
   },
   searchBar: {
     borderColor: 'black',
-    borderWidth: 3,
-    borderRadius: 10,
+    borderWidth: 1,
+    borderRadius: 70,
 
+    display: 'flex',
+    flexDirection: 'row',
+    alignContent: 'center',
+    alignItems: 'center',
+    
     width: 270,
-    height: 50,
-    fontSize: 20,
+    height: 45,
+    
     paddingLeft: 10,
+
+    backgroundColor: 'gray',
+    
+  },
+  searchTextInput: {
+    paddingLeft: 10,
+    color: 'white',
+    fontSize: 20,
   },
 
   sortButton: {
@@ -138,7 +157,7 @@ const styles = StyleSheet.create({
   mainBody: {
     display: 'flex',
     flexDirection: 'row',
-    gap: 10,
+    gap: 5,
     justifyContent: 'center',
     alignContent: 'center',
     alignItems:'center',
@@ -151,13 +170,12 @@ const styles = StyleSheet.create({
   },
 
   plantBox: {
-    width: 170, 
-    height: 170,
+    width: 190, 
+    height: 190,
     borderColor: "#f3a8ff",
-    borderWidth: 2,
-    borderRadius: 10,
 
-    backgroundColor: '#555555'
+    backgroundColor: '#555555',
+    borderRadius: 10,
 
   }
 
