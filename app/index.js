@@ -5,6 +5,10 @@ import {router} from 'expo-router';
 const routeToHome = () => {
   router.push('screens/home');
 }
+
+const routeToLocked = () => {
+  router.push('screens/plant_locked');
+}
  
 export default function Index() {
   return (
@@ -17,6 +21,9 @@ export default function Index() {
     >
       <Pressable onPress={routeToHome} style={styles.button}>
         <Text style={styles.buttonText}>Click here to route home</Text>
+      </Pressable>
+      <Pressable onPress={routeToLocked} style={styles.button}>
+        <Text style={styles.buttonText}>Click here to route locked</Text>
       </Pressable>
     </View>
   );

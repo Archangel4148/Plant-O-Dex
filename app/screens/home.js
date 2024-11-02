@@ -1,6 +1,15 @@
 import { Text, View, ScrollView, TextInput, Pressable } from "react-native";
 import { StyleSheet } from "react-native";
 
+const populatePlants = () => {
+  let newPlant;
+  let plantsArr = []
+  for (let i = 0; i < 20; i++) {
+    newPlant = <Pressable><View id={i} style={styles.plantBox}></View></Pressable>
+    plantsArr.push(newPlant)
+  }
+  return plantsArr;
+}
 
 export default function home() {
   return (
@@ -17,6 +26,10 @@ export default function home() {
           <Pressable style={styles.sortButton}>
             <Text>Sort</Text>
           </Pressable>
+        </View>
+
+        <View style={styles.mainBody}>
+          {populatePlants()}
         </View>
       </View>
     </ScrollView>
@@ -50,9 +63,6 @@ const styles = {
     marginBottom: 15,
   },
   searchContainer: {
-    backgroundColor: '#d2d3db',
-    borderRadius: 10,
-
     width: '100%',
 
     display: 'flex',
@@ -83,6 +93,26 @@ const styles = {
     justifyContent: 'center',
     alignItems: 'center',
 
+  },
+  mainBody: {
+    display: 'flex',
+    flexDirection: 'row',
+    gap: 10,
+    justifyContent: 'center',
+    alignContent: 'center',
+    alignItems:'center',
+    flexWrap: 'wrap',
+
+    width: 400,
+
+    marginTop: 15,
+  },
+
+  plantBox: {
+    width: 170, 
+    height: 170,
+    borderColor: 'black',
+    borderWidth: 2,
   }
 
 }
