@@ -1,5 +1,6 @@
 export const plantData = {
     "american_beech": {
+        "Scientific Name": "fagus grandifolia ",
         "Common Name": "American beech",
         "Type": "Tree",
         "Family": "Fagaceae",
@@ -19,6 +20,7 @@ export const plantData = {
         "Tolerate": "Deer, Black Walnut"
     },
     "american_bittersweet": {
+        "Scientific Name": "celastrus scandens ",
         "Common Name": "American bittersweet",
         "Type": "Vine",
         "Family": "Celastraceae",
@@ -39,6 +41,7 @@ export const plantData = {
         "Tolerate": "Deer, Drought"
     },
     "american_holly": {
+        "Scientific Name": "ilex opaca ",
         "Common Name": "American holly",
         "Type": "Broadleaf evergreen",
         "Family": "Aquifoliaceae",
@@ -59,6 +62,7 @@ export const plantData = {
         "Tolerate": "Deer, Clay Soil, Air Pollution"
     },
     "american_hornbeam": {
+        "Scientific Name": "carpinus caroliniana ",
         "Common Name": "American hornbeam",
         "Type": "Tree",
         "Family": "Betulaceae",
@@ -78,6 +82,7 @@ export const plantData = {
         "Tolerate": "Clay Soil, Black Walnut"
     },
     "american_spikenard": {
+        "Scientific Name": "aralia racemosa ",
         "Common Name": "American spikenard",
         "Type": "Herbaceous perennial",
         "Family": "Araliaceae",
@@ -95,6 +100,7 @@ export const plantData = {
         "Tolerate": "Drought"
     },
     "prairie_dock": {
+        "Scientific Name": "silphium terebinthinaceum ",
         "Common Name": "prairie dock",
         "Type": "Herbaceous perennial",
         "Family": "Asteraceae",
@@ -112,6 +118,7 @@ export const plantData = {
         "Tolerate": "Clay Soil"
     },
     "bald_cypress": {
+        "Scientific Name": "taxodium distichum ",
         "Common Name": "bald cypress",
         "Type": "Tree",
         "Family": "Cupressaceae",
@@ -131,6 +138,7 @@ export const plantData = {
         "Tolerate": "Deer, Clay Soil, Wet Soil, Air Pollution"
     },
     "eastern_beebalm": {
+        "Scientific Name": "monarda bradburiana ",
         "Common Name": "eastern beebalm",
         "Type": "Herbaceous perennial",
         "Family": "Lamiaceae",
@@ -150,6 +158,7 @@ export const plantData = {
         "Tolerate": "Deer, Drought, Dry Soil, Shallow-Rocky Soil"
     },
     "black_cohosh": {
+        "Scientific Name": "actaea racemosa ",
         "Common Name": "black cohosh",
         "Type": "Herbaceous perennial",
         "Family": "Ranunculaceae",
@@ -167,6 +176,7 @@ export const plantData = {
         "Tolerate": "Rabbit"
     },
     "black_gum": {
+        "Scientific Name": "nyssa sylvatica ",
         "Common Name": "black gum",
         "Type": "Tree",
         "Family": "Nyssaceae",
@@ -186,6 +196,7 @@ export const plantData = {
         "Tolerate": "Clay Soil, Wet Soil, Black Walnut"
     },
     "blue_cardinal_flower": {
+        "Scientific Name": "lobelia siphilitica ",
         "Common Name": "blue cardinal flower",
         "Type": "Herbaceous perennial",
         "Family": "Campanulaceae",
@@ -203,6 +214,7 @@ export const plantData = {
         "Tolerate": "Deer, Heavy Shade, Wet Soil"
     },
     "blue_false_indigo": {
+        "Scientific Name": "baptisia australis ",
         "Common Name": "blue false indigo",
         "Type": "Herbaceous perennial",
         "Family": "Fabaceae",
@@ -222,6 +234,7 @@ export const plantData = {
         "Tolerate": "Drought, Erosion, Clay Soil, Dry Soil, Shallow-Rocky Soil"
     },
     "bristle-leaved_sedge": {
+        "Scientific Name": "carex eburnea ",
         "Common Name": "bristle-leaved sedge",
         "Type": "Rush or Sedge",
         "Family": "Cyperaceae",
@@ -239,6 +252,7 @@ export const plantData = {
         "Tolerate": "Deer, Heavy Shade"
     },
     "bur_oak": {
+        "Scientific Name": "quercus macrocarpa ",
         "Common Name": "bur oak",
         "Type": "Tree",
         "Family": "Fagaceae",
@@ -257,6 +271,7 @@ export const plantData = {
         "Tolerate": "Drought, Clay Soil, Dry Soil"
     },
     "butterfly_weed": {
+        "Scientific Name": "asclepias tuberosa ",
         "Common Name": "butterfly weed",
         "Type": "Herbaceous perennial",
         "Family": "Apocynaceae",
@@ -275,6 +290,7 @@ export const plantData = {
         "Tolerate": "Deer, Drought, Erosion, Dry Soil, Shallow-Rocky Soil"
     },
     "buttonbush": {
+        "Scientific Name": "cephalanthus occidentalis ",
         "Common Name": "buttonbush",
         "Type": "Deciduous shrub",
         "Family": "Rubiaceae",
@@ -295,6 +311,7 @@ export const plantData = {
         "Tolerate": "Erosion, Wet Soil"
     },
     "cardinal_flower": {
+        "Scientific Name": "lobelia cardinalis ",
         "Common Name": "cardinal flower",
         "Type": "Herbaceous perennial",
         "Family": "Campanulaceae",
@@ -313,6 +330,7 @@ export const plantData = {
         "Tolerate": "Rabbit, Deer, Wet Soil"
     },
     "chinkapin_oak": {
+        "Scientific Name": "quercus muehlenbergii ",
         "Common Name": "chinkapin oak",
         "Type": "Tree",
         "Family": "Fagaceae",
@@ -331,6 +349,7 @@ export const plantData = {
         "Tolerate": "Drought"
     },
     "christmas_fern": {
+        "Scientific Name": "polystichum acrostichoides ",
         "Common Name": "Christmas fern",
         "Type": "Fern",
         "Family": "Dryopteridaceae",
@@ -348,6 +367,7 @@ export const plantData = {
         "Tolerate": "Rabbit, Deer, Drought, Heavy Shade, Erosion, Dry Soil, Shallow-Rocky Soil"
     },
     "goldenrod": {
+        "Scientific Name": "solidago speciosa ",
         "Common Name": "goldenrod",
         "Type": "Herbaceous perennial",
         "Family": "Asteraceae",
@@ -366,6 +386,7 @@ export const plantData = {
         "Tolerate": "Deer, Drought, Clay Soil"
     },
     "closed_gentian": {
+        "Scientific Name": "gentiana andrewsii ",
         "Common Name": "closed gentian",
         "Type": "Herbaceous perennial",
         "Family": "Gentianaceae",
@@ -383,6 +404,7 @@ export const plantData = {
         "Tolerate": "Deer, Clay Soil"
     },
     "copper_iris": {
+        "Scientific Name": "iris fulva ",
         "Common Name": "copper iris",
         "Type": "Herbaceous perennial",
         "Family": "Iridaceae",
@@ -401,6 +423,7 @@ export const plantData = {
         "Tolerate": "Deer, Clay Soil, Wet Soil"
     },
     "trumpet_honeysuckle": {
+        "Scientific Name": "lonicera sempervirens ",
         "Common Name": "trumpet honeysuckle",
         "Type": "Vine",
         "Family": "Caprifoliaceae",
@@ -421,6 +444,7 @@ export const plantData = {
         "Invasive": "Where is this species invasive in the US?"
     },
     "cross_vine": {
+        "Scientific Name": "bignonia capreolata ",
         "Common Name": "cross vine",
         "Type": "Vine",
         "Family": "Bignoniaceae",
@@ -438,6 +462,7 @@ export const plantData = {
         "Tolerate": "Heavy Shade"
     },
     "common_dittany": {
+        "Scientific Name": "cunila origanoides ",
         "Common Name": "common dittany",
         "Type": "Herbaceous perennial",
         "Family": "Lamiaceae",
@@ -457,6 +482,7 @@ export const plantData = {
         "Tolerate": "Drought, Dry Soil, Shallow-Rocky Soil"
     },
     "serviceberry": {
+        "Scientific Name": "amelanchier arborea ",
         "Common Name": "serviceberry",
         "Type": "Tree",
         "Family": "Rosaceae",
@@ -477,6 +503,7 @@ export const plantData = {
         "Tolerate": "Clay Soil, Air Pollution"
     },
     "dutchman's_pipe": {
+        "Scientific Name": "aristolochia tomentosa ",
         "Common Name": "Dutchman's pipe",
         "Type": "Vine",
         "Family": "Aristolochiaceae",
@@ -493,6 +520,7 @@ export const plantData = {
         "Attracts": "Butterflies"
     },
     "dwarf_crested_iris": {
+        "Scientific Name": "iris cristata ",
         "Common Name": "dwarf crested iris",
         "Type": "Herbaceous perennial",
         "Family": "Iridaceae",
@@ -510,6 +538,7 @@ export const plantData = {
         "Tolerate": "Deer, Drought"
     },
     "blazing_star": {
+        "Scientific Name": "liatris aspera ",
         "Common Name": "blazing star",
         "Type": "Herbaceous perennial",
         "Family": "Asteraceae",
@@ -527,6 +556,7 @@ export const plantData = {
         "Tolerate": "Drought, Dry Soil, Shallow-Rocky Soil"
     },
     "blue_star": {
+        "Scientific Name": "amsonia ciliata ",
         "Common Name": "blue star",
         "Type": "Herbaceous perennial",
         "Family": "Apocynaceae",
@@ -545,6 +575,7 @@ export const plantData = {
         "Tolerate": "Deer"
     },
     "eastern_redbud": {
+        "Scientific Name": "cercis canadensis ",
         "Common Name": "eastern redbud",
         "Type": "Tree",
         "Family": "Fabaceae",
@@ -564,6 +595,7 @@ export const plantData = {
         "Tolerate": "Deer, Clay Soil, Black Walnut"
     },
     "common_witch_hazel": {
+        "Scientific Name": "hamamelis virginiana ",
         "Common Name": "common witch hazel",
         "Type": "Deciduous shrub",
         "Family": "Hamamelidaceae",
@@ -584,6 +616,7 @@ export const plantData = {
         "Tolerate": "Deer, Erosion, Clay Soil"
     },
     "prairie_onion": {
+        "Scientific Name": "allium stellatum ",
         "Common Name": "prairie onion",
         "Type": "Bulb",
         "Family": "Amaryllidaceae",
@@ -602,6 +635,7 @@ export const plantData = {
         "Tolerate": "Deer, Drought, Dry Soil, Shallow-Rocky Soil, Black Walnut"
     },
     "american_agave": {
+        "Scientific Name": "manfreda virginica ",
         "Common Name": "American agave",
         "Type": "Herbaceous perennial",
         "Family": "Asparagaceae",
@@ -618,6 +652,7 @@ export const plantData = {
         "Tolerate": "Drought, Dry Soil, Shallow-Rocky Soil"
     },
     "flowering_dogwood": {
+        "Scientific Name": "cornus florida ",
         "Common Name": "flowering dogwood",
         "Type": "Tree",
         "Family": "Cornaceae",
@@ -638,6 +673,7 @@ export const plantData = {
         "Tolerate": "Deer, Clay Soil, Black Walnut"
     },
     "fringe_tree": {
+        "Scientific Name": "chionanthus virginicus ",
         "Common Name": "fringe tree",
         "Type": "Tree",
         "Family": "Oleaceae",
@@ -658,6 +694,7 @@ export const plantData = {
         "Tolerate": "Clay Soil, Black Walnut, Air Pollution"
     },
     "wavyleaf_purple_coneflower": {
+        "Scientific Name": "echinacea simulata ",
         "Common Name": "wavyleaf purple coneflower",
         "Type": "Herbaceous perennial",
         "Family": "Asteraceae",
@@ -675,6 +712,7 @@ export const plantData = {
         "Tolerate": "Deer, Drought, Clay Soil, Dry Soil, Shallow-Rocky Soil"
     },
     "meadow_zizia": {
+        "Scientific Name": "zizia aptera ",
         "Common Name": "meadow zizia",
         "Type": "Herbaceous perennial",
         "Family": "Apiaceae",
@@ -692,6 +730,7 @@ export const plantData = {
         "Tolerate": "Dry Soil"
     },
     "clove_currant": {
+        "Scientific Name": "ribes odoratum ",
         "Common Name": "clove currant",
         "Type": "Deciduous shrub",
         "Family": "Grossulariaceae",
@@ -711,6 +750,7 @@ export const plantData = {
         "Tolerate": "Rabbit, Drought, Erosion, Clay Soil"
     },
     "gray_sedge": {
+        "Scientific Name": "carex grayi ",
         "Common Name": "gray sedge",
         "Type": "Rush or Sedge",
         "Family": "Cyperaceae",
@@ -730,6 +770,7 @@ export const plantData = {
         "Tolerate": "Deer, Erosion, Wet Soil"
     },
     "bluebell": {
+        "Scientific Name": "campanula rotundifolia ",
         "Common Name": "bluebell",
         "Type": "Herbaceous perennial",
         "Family": "Campanulaceae",
@@ -747,6 +788,7 @@ export const plantData = {
         "Tolerate": "Deer"
     },
     "joe-pyeweed": {
+        "Scientific Name": "eutrochium fistulosum ",
         "Common Name": "Joe-pyeweed",
         "Type": "Herbaceous perennial",
         "Family": "Asteraceae",
@@ -766,6 +808,7 @@ export const plantData = {
         "Tolerate": "Deer, Wet Soil"
     },
     "indian_pink": {
+        "Scientific Name": "spigelia marilandica ",
         "Common Name": "Indian pink",
         "Type": "Herbaceous perennial",
         "Family": "Loganiaceae",
@@ -783,6 +826,7 @@ export const plantData = {
         "Tolerate": "Wet Soil"
     },
     "false_indigo": {
+        "Scientific Name": "amorpha fruticosa ",
         "Common Name": "false indigo",
         "Type": "Deciduous shrub",
         "Family": "Fabaceae",
@@ -802,6 +846,7 @@ export const plantData = {
         "Invasive": "Where is this species invasive in the US?"
     },
     "large-flowered_bellwort": {
+        "Scientific Name": "uvularia grandiflora ",
         "Common Name": "large-flowered bellwort",
         "Type": "Herbaceous perennial",
         "Family": "Colchicaceae",
@@ -818,6 +863,7 @@ export const plantData = {
         "Tolerate": "Drought, Dry Soil"
     },
     "lead_plant": {
+        "Scientific Name": "amorpha canescens ",
         "Common Name": "lead plant",
         "Type": "Deciduous shrub",
         "Family": "Fabaceae",
@@ -836,6 +882,7 @@ export const plantData = {
         "Tolerate": "Drought, Erosion, Dry Soil"
     },
     "leatherwood": {
+        "Scientific Name": "dirca palustris ",
         "Common Name": "leatherwood",
         "Type": "Deciduous shrub",
         "Family": "Thymelaeaceae",
@@ -854,6 +901,7 @@ export const plantData = {
         "Tolerate": "Heavy Shade, Wet Soil"
     },
     "little_bluestem": {
+        "Scientific Name": "schizachyrium scoparium ",
         "Common Name": "little bluestem",
         "Type": "Ornamental grass",
         "Family": "Poaceae",
@@ -874,6 +922,7 @@ export const plantData = {
         "Tolerate": "Deer, Drought, Erosion, Dry Soil, Shallow-Rocky Soil, Black Walnut, Air Pollution"
     },
     "littleflower_alumroot": {
+        "Scientific Name": "heuchera parviflora ",
         "Common Name": "littleflower alumroot",
         "Type": "Herbaceous perennial",
         "Family": "Saxifragaceae",
@@ -890,6 +939,7 @@ export const plantData = {
         "Tolerate": "Rabbit, Deer, Shallow-Rocky Soil"
     },
     "purple_lovegrass": {
+        "Scientific Name": "eragrostis spectabilis ",
         "Common Name": "purple lovegrass",
         "Type": "Ornamental grass",
         "Family": "Poaceae",
@@ -907,6 +957,7 @@ export const plantData = {
         "Tolerate": "Drought, Black Walnut, Air Pollution"
     },
     "meadowsweet": {
+        "Scientific Name": "spiraea alba ",
         "Common Name": "meadowsweet",
         "Type": "Deciduous shrub",
         "Family": "Rosaceae",
@@ -924,7 +975,8 @@ export const plantData = {
         "Attracts": "Butterflies",
         "Tolerate": "Deer, Wet Soil"
     },
-    "Missouri_evening_primrose": {
+    "missouri_evening_primrose": {
+        "Scientific Name": "oenothera macrocarpa ",
         "Common Name": "Missouri evening primrose",
         "Type": "Herbaceous perennial",
         "Family": "Onagraceae",
@@ -941,7 +993,8 @@ export const plantData = {
         "Fruit": "Showy",
         "Tolerate": "Drought, Clay Soil, Dry Soil, Shallow-Rocky Soil"
     },
-    "New_Jersey_tea": {
+    "new_jersey_tea": {
+        "Scientific Name": "ceanothus americanus ",
         "Common Name": "New Jersey tea",
         "Type": "Deciduous shrub",
         "Family": "Rhamnaceae",
@@ -959,6 +1012,7 @@ export const plantData = {
         "Tolerate": "Drought, Dry Soil, Shallow-Rocky Soil, Black Walnut"
     },
     "ninebark": {
+        "Scientific Name": "physocarpus opulifolius ",
         "Common Name": "ninebark",
         "Type": "Deciduous shrub",
         "Family": "Rosaceae",
@@ -976,6 +1030,7 @@ export const plantData = {
         "Tolerate": "Drought, Erosion, Clay Soil, Dry Soil, Wet Soil, Shallow-Rocky Soil, Black Walnut"
     },
     "nodding_onion": {
+        "Scientific Name": "allium cernuum ",
         "Common Name": "nodding onion",
         "Type": "Bulb",
         "Family": "Amaryllidaceae",
@@ -995,6 +1050,7 @@ export const plantData = {
         "Tolerate": "Deer, Drought, Dry Soil, Shallow-Rocky Soil, Black Walnut"
     },
     "white-tinged_sedge": {
+        "Scientific Name": "carex albicans ",
         "Common Name": "white-tinged sedge",
         "Type": "Rush or Sedge",
         "Family": "Cyperaceae",
@@ -1011,6 +1067,7 @@ export const plantData = {
         "Tolerate": "Drought, Dry Soil"
     },
     "overcup_oak": {
+        "Scientific Name": "quercus lyrata ",
         "Common Name": "overcup oak",
         "Type": "Tree",
         "Family": "Fagaceae",
@@ -1030,6 +1087,7 @@ export const plantData = {
         "Tolerate": "Erosion, Clay Soil, Wet Soil"
     },
     "pagoda_dogwood": {
+        "Scientific Name": "cornus alternifolia ",
         "Common Name": "pagoda dogwood",
         "Type": "Deciduous shrub",
         "Family": "Cornaceae",
@@ -1050,6 +1108,7 @@ export const plantData = {
         "Tolerate": "Deer, Black Walnut"
     },
     "pale_beardtongue": {
+        "Scientific Name": "penstemon pallidus ",
         "Common Name": "pale beardtongue",
         "Type": "Herbaceous perennial",
         "Family": "Plantaginaceae",
@@ -1067,6 +1126,7 @@ export const plantData = {
         "Tolerate": "Deer, Drought, Dry Soil, Shallow-Rocky Soil"
     },
     "pale_purple_coneflower": {
+        "Scientific Name": "echinacea pallida ",
         "Common Name": "pale purple coneflower",
         "Type": "Herbaceous perennial",
         "Family": "Asteraceae",
@@ -1085,6 +1145,7 @@ export const plantData = {
         "Tolerate": "Deer, Drought, Clay Soil, Dry Soil, Shallow-Rocky Soil"
     },
     "palm_sedge": {
+        "Scientific Name": "carex muskingumensis ",
         "Common Name": "palm sedge",
         "Type": "Rush or Sedge",
         "Family": "Cyperaceae",
@@ -1102,6 +1163,7 @@ export const plantData = {
         "Tolerate": "Deer, Drought"
     },
     "sedge": {
+        "Scientific Name": "carex pensylvanica ",
         "Common Name": "sedge",
         "Type": "Rush or Sedge",
         "Family": "Cyperaceae",
@@ -1119,6 +1181,7 @@ export const plantData = {
         "Tolerate": "Heavy Shade, Wet Soil"
     },
     "pink_muhlygrass": {
+        "Scientific Name": "muhlenbergia capillaris ",
         "Common Name": "pink muhlygrass",
         "Type": "Ornamental grass",
         "Family": "Poaceae",
@@ -1137,6 +1200,7 @@ export const plantData = {
         "Tolerate": "Drought, Black Walnut, Air Pollution"
     },
     "alum_root": {
+        "Scientific Name": "heuchera richardsonii ",
         "Common Name": "alum root",
         "Type": "Herbaceous perennial",
         "Family": "Saxifragaceae",
@@ -1154,6 +1218,7 @@ export const plantData = {
         "Tolerate": "Drought"
     },
     "prairie_blazing_star": {
+        "Scientific Name": "liatris pycnostachya ",
         "Common Name": "prairie blazing star",
         "Type": "Herbaceous perennial",
         "Family": "Asteraceae",
@@ -1172,6 +1237,7 @@ export const plantData = {
         "Tolerate": "Drought, Clay Soil, Dry Soil"
     },
     "prairie_dropseed": {
+        "Scientific Name": "sporobolus heterolepis ",
         "Common Name": "prairie dropseed",
         "Type": "Ornamental grass",
         "Family": "Poaceae",
@@ -1192,6 +1258,7 @@ export const plantData = {
         "Tolerate": "Deer, Drought, Erosion, Dry Soil, Shallow-Rocky Soil, Black Walnut, Air Pollution"
     },
     "prairie_everlasting": {
+        "Scientific Name": "antennaria neglecta ",
         "Common Name": "prairie everlasting",
         "Type": "Herbaceous perennial",
         "Family": "Asteraceae",
@@ -1211,6 +1278,7 @@ export const plantData = {
         "Tolerate": "Drought, Dry Soil, Shallow-Rocky Soil"
     },
     "dew_flower": {
+        "Scientific Name": "penstemon cobaea ",
         "Common Name": "dew flower",
         "Type": "Herbaceous perennial",
         "Family": "Plantaginaceae",
@@ -1228,6 +1296,7 @@ export const plantData = {
         "Tolerate": "Deer, Drought, Dry Soil, Shallow-Rocky Soil"
     },
     "purple_coneflower": {
+        "Scientific Name": "echinacea purpurea ",
         "Common Name": "purple coneflower",
         "Type": "Herbaceous perennial",
         "Family": "Asteraceae",
@@ -1246,6 +1315,7 @@ export const plantData = {
         "Tolerate": "Deer, Drought, Clay Soil, Dry Soil, Shallow-Rocky Soil"
     },
     "purple_prairie_clover": {
+        "Scientific Name": "dalea purpurea ",
         "Common Name": "purple prairie clover",
         "Type": "Herbaceous perennial",
         "Family": "Fabaceae",
@@ -1264,6 +1334,7 @@ export const plantData = {
         "Tolerate": "Drought, Dry Soil, Shallow-Rocky Soil"
     },
     "ladies'_tobacco": {
+        "Scientific Name": "antennaria parlinii ",
         "Common Name": "ladies' tobacco",
         "Type": "Herbaceous perennial",
         "Family": "Asteraceae",
@@ -1282,6 +1353,7 @@ export const plantData = {
         "Tolerate": "Drought, Dry Soil, Shallow-Rocky Soil"
     },
     "queen_of_the_prairie": {
+        "Scientific Name": "filipendula rubra ",
         "Common Name": "queen of the prairie",
         "Type": "Herbaceous perennial",
         "Family": "Rosaceae",
@@ -1300,6 +1372,7 @@ export const plantData = {
         "Tolerate": "Deer, Clay Soil"
     },
     "rattlesnake_master": {
+        "Scientific Name": "eryngium yuccifolium ",
         "Common Name": "rattlesnake master",
         "Type": "Herbaceous perennial",
         "Family": "Apiaceae",
@@ -1317,6 +1390,7 @@ export const plantData = {
         "Tolerate": "Drought, Erosion, Clay Soil, Dry Soil, Shallow-Rocky Soil"
     },
     "red_maple": {
+        "Scientific Name": "acer rubrum ",
         "Common Name": "red maple",
         "Type": "Tree",
         "Family": "Sapindaceae",
@@ -1336,6 +1410,7 @@ export const plantData = {
         "Tolerate": "Wet Soil, Black Walnut, Air Pollution"
     },
     "river_birch": {
+        "Scientific Name": "betula nigra ",
         "Common Name": "river birch",
         "Type": "Tree",
         "Family": "Betulaceae",
@@ -1354,7 +1429,8 @@ export const plantData = {
         "Other": "Winter Interest",
         "Tolerate": "Deer, Drought, Clay Soil, Wet Soil, Black Walnut, Air Pollution"
     },
-    "Robin's_plantain": {
+    "robin's_plantain": {
+        "Scientific Name": "erigeron pulchellus ",
         "Common Name": "Robin's plantain",
         "Type": "Herbaceous perennial",
         "Family": "Asteraceae",
@@ -1373,6 +1449,7 @@ export const plantData = {
         "Tolerate": "Drought, Dry Soil"
     },
     "rose_mallow": {
+        "Scientific Name": "hibiscus laevis ",
         "Common Name": "rose mallow",
         "Type": "Herbaceous perennial",
         "Family": "Malvaceae",
@@ -1390,6 +1467,7 @@ export const plantData = {
         "Tolerate": "Deer, Wet Soil"
     },
     "turtlehead": {
+        "Scientific Name": "chelone obliqua ",
         "Common Name": "turtlehead",
         "Type": "Herbaceous perennial",
         "Family": "Plantaginaceae",
@@ -1407,6 +1485,7 @@ export const plantData = {
         "Tolerate": "Erosion, Clay Soil, Wet Soil"
     },
     "rose_verbena": {
+        "Scientific Name": "glandularia canadensis ",
         "Common Name": "rose verbena",
         "Type": "Herbaceous perennial",
         "Family": "Verbenaceae",
@@ -1425,6 +1504,7 @@ export const plantData = {
         "Tolerate": "Drought, Dry Soil, Shallow-Rocky Soil"
     },
     "round-leaved_ragwort": {
+        "Scientific Name": "packera obovata ",
         "Common Name": "round-leaved ragwort",
         "Type": "Herbaceous perennial",
         "Family": "Asteraceae",
@@ -1442,6 +1522,7 @@ export const plantData = {
         "Attracts": "Butterflies"
     },
     "shagbark_hickory": {
+        "Scientific Name": "carya ovata ",
         "Common Name": "shagbark hickory",
         "Type": "Tree",
         "Family": "Juglandaceae",
@@ -1462,6 +1543,7 @@ export const plantData = {
         "Tolerate": "Clay Soil, Black Walnut"
     },
     "shining_blue_star": {
+        "Scientific Name": "amsonia illustris ",
         "Common Name": "shining blue star",
         "Type": "Herbaceous perennial",
         "Family": "Apocynaceae",
@@ -1481,6 +1563,7 @@ export const plantData = {
         "Tolerate": "Deer"
     },
     "shooting_star": {
+        "Scientific Name": "dodecatheon meadia ",
         "Common Name": "shooting star",
         "Type": "Herbaceous perennial",
         "Family": "Primulaceae",
@@ -1497,6 +1580,7 @@ export const plantData = {
         "Tolerate": "Clay Soil"
     },
     "orange_coneflower": {
+        "Scientific Name": "rudbeckia fulgida ",
         "Common Name": "orange coneflower",
         "Type": "Herbaceous perennial",
         "Family": "Asteraceae",
@@ -1514,7 +1598,8 @@ export const plantData = {
         "Attracts": "Birds, Butterflies",
         "Tolerate": "Deer, Drought, Clay Soil, Dry Soil, Shallow-Rocky Soil, Air Pollution"
     },
-    "shrubby_St._John's_wort": {
+    "shrubby_st._john's_wort": {
+        "Scientific Name": "hypericum prolificum ",
         "Common Name": "shrubby St. John's wort",
         "Type": "Deciduous shrub",
         "Family": "Hypericaceae",
@@ -1533,6 +1618,7 @@ export const plantData = {
         "Tolerate": "Drought, Erosion, Clay Soil, Black Walnut"
     },
     "sideoats_grass": {
+        "Scientific Name": "bouteloua curtipendula ",
         "Common Name": "sideoats grass",
         "Type": "Ornamental grass",
         "Family": "Poaceae",
@@ -1552,6 +1638,7 @@ export const plantData = {
         "Tolerate": "Drought, Erosion, Dry Soil, Shallow-Rocky Soil, Black Walnut, Air Pollution"
     },
     "tickseed": {
+        "Scientific Name": "coreopsis pubescens ",
         "Common Name": "tickseed",
         "Type": "Herbaceous perennial",
         "Family": "Asteraceae",
@@ -1570,6 +1657,7 @@ export const plantData = {
         "Tolerate": "Deer, Drought, Dry Soil, Shallow-Rocky Soil"
     },
     "spice_bush": {
+        "Scientific Name": "lindera benzoin ",
         "Common Name": "spice bush",
         "Type": "Deciduous shrub",
         "Family": "Lauraceae",
@@ -1590,6 +1678,7 @@ export const plantData = {
         "Tolerate": "Deer, Drought, Heavy Shade, Clay Soil, Wet Soil, Black Walnut"
     },
     "sugar_maple": {
+        "Scientific Name": "acer saccharum ",
         "Common Name": "sugar maple",
         "Type": "Tree",
         "Family": "Sapindaceae",
@@ -1607,7 +1696,8 @@ export const plantData = {
         "Leaf": "Good Fall",
         "Tolerate": "Heavy Shade"
     },
-    "Alabama_supplejack": {
+    "alabama_supplejack": {
+        "Scientific Name": "berchemia scandens ",
         "Common Name": "Alabama supplejack",
         "Type": "Vine",
         "Family": "Rhamnaceae",
@@ -1625,6 +1715,7 @@ export const plantData = {
         "Tolerate": "Drought"
     },
     "blue_jasmine": {
+        "Scientific Name": "clematis crispa ",
         "Common Name": "blue jasmine",
         "Type": "Vine",
         "Family": "Ranunculaceae",
@@ -1641,6 +1732,7 @@ export const plantData = {
         "Tolerate": "Deer, Clay Soil, Black Walnut"
     },
     "swamp_milkweed": {
+        "Scientific Name": "asclepias incarnata ",
         "Common Name": "swamp milkweed",
         "Type": "Herbaceous perennial",
         "Family": "Apocynaceae",
@@ -1659,6 +1751,7 @@ export const plantData = {
         "Tolerate": "Deer, Clay Soil, Wet Soil"
     },
     "swamp_white_oak": {
+        "Scientific Name": "quercus bicolor ",
         "Common Name": "swamp white oak",
         "Type": "Tree",
         "Family": "Fagaceae",
@@ -1678,6 +1771,7 @@ export const plantData = {
         "Tolerate": "Wet Soil"
     },
     "thimbleweed": {
+        "Scientific Name": "anemone virginiana ",
         "Common Name": "thimbleweed",
         "Type": "Herbaceous perennial",
         "Family": "Ranunculaceae",
@@ -1694,6 +1788,7 @@ export const plantData = {
         "Tolerate": "Deer, Drought, Heavy Shade, Dry Soil, Shallow-Rocky Soil"
     },
     "tulip_tree": {
+        "Scientific Name": "liriodendron tulipifera ",
         "Common Name": "tulip tree",
         "Type": "Tree",
         "Family": "Magnoliaceae",
@@ -1712,7 +1807,8 @@ export const plantData = {
         "Attracts": "Birds, Hummingbirds",
         "Tolerate": "Rabbit, Deer, Clay Soil, Wet Soil, Black Walnut"
     },
-    "Ozark_witch_hazel": {
+    "ozark_witch_hazel": {
+        "Scientific Name": "hamamelis vernalis ",
         "Common Name": "Ozark witch hazel",
         "Type": "Deciduous shrub",
         "Family": "Hamamelidaceae",
@@ -1732,7 +1828,8 @@ export const plantData = {
         "Other": "Winter Interest",
         "Tolerate": "Deer, Erosion, Clay Soil"
     },
-    "Virginia_creeper": {
+    "virginia_creeper": {
+        "Scientific Name": "parthenocissus quinquefolia ",
         "Common Name": "Virginia creeper",
         "Type": "Vine",
         "Family": "Vitaceae",
@@ -1752,6 +1849,7 @@ export const plantData = {
         "Tolerate": "Deer, Drought, Heavy Shade, Erosion, Clay Soil, Black Walnut"
     },
     "goat's_beard": {
+        "Scientific Name": "aruncus dioicus ",
         "Common Name": "goat's beard",
         "Type": "Herbaceous perennial",
         "Family": "Rosaceae",
@@ -1769,6 +1867,7 @@ export const plantData = {
         "Tolerate": "Rabbit"
     },
     "whorled_milkweed": {
+        "Scientific Name": "asclepias verticillata ",
         "Common Name": "whorled milkweed",
         "Type": "Herbaceous perennial",
         "Family": "Apocynaceae",
@@ -1787,6 +1886,7 @@ export const plantData = {
         "Tolerate": "Deer, Drought, Dry Soil"
     },
     "wild_ginger": {
+        "Scientific Name": "asarumcanadense ",
         "Common Name": "wild ginger",
         "Type": "Herbaceous perennial",
         "Family": "Aristolochiaceae",
@@ -1804,6 +1904,7 @@ export const plantData = {
         "Tolerate": "Deer, Heavy Shade, Erosion, Wet Soil"
     },
     "smooth_hydrangea": {
+        "Scientific Name": "hydrangea arborescens ",
         "Common Name": "smooth hydrangea",
         "Type": "Deciduous shrub",
         "Family": "Hydrangeaceae",
@@ -1821,6 +1922,7 @@ export const plantData = {
         "Tolerate": "Rabbit, Erosion, Clay Soil, Dry Soil, Wet Soil, Shallow-Rocky Soil, Black Walnut"
     },
     "wild_quinine": {
+        "Scientific Name": "parthenium integrifolium ",
         "Common Name": "wild quinine",
         "Type": "Herbaceous perennial",
         "Family": "Asteraceae",
@@ -1838,6 +1940,7 @@ export const plantData = {
         "Tolerate": "Drought, Erosion, Clay Soil, Dry Soil, Shallow-Rocky Soil"
     },
     "three-leaved_stonecrop": {
+        "Scientific Name": "sedum ternatum ",
         "Common Name": "three-leaved stonecrop",
         "Type": "Herbaceous perennial",
         "Family": "Crassulaceae",
@@ -1856,6 +1959,7 @@ export const plantData = {
         "Tolerate": "Rabbit, Deer, Drought, Shallow-Rocky Soil, Air Pollution"
     },
     "spiderwort": {
+        "Scientific Name": "tradescantia ernestiana ",
         "Common Name": "spiderwort",
         "Type": "Herbaceous perennial",
         "Family": "Commelinaceae",
@@ -1872,6 +1976,7 @@ export const plantData = {
         "Flower": "Showy"
     },
     "yellowwood": {
+        "Scientific Name": "cladrastis kentukea ",
         "Common Name": "yellowwood",
         "Type": "Tree",
         "Family": "Fabaceae",
@@ -1889,6 +1994,7 @@ export const plantData = {
         "Leaf": "Good Fall"
     },
     "yellow_coneflower": {
+        "Scientific Name": "echinacea paradoxa ",
         "Common Name": "yellow coneflower",
         "Type": "Herbaceous perennial",
         "Family": "Asteraceae",
@@ -1905,6 +2011,7 @@ export const plantData = {
         "Tolerate": "Deer, Drought, Clay Soil, Dry Soil, Shallow-Rocky Soil"
     },
     "yellow_trout-lily": {
+        "Scientific Name": "erythronium americanum ",
         "Common Name": "yellow trout-lily",
         "Type": "Herbaceous perennial",
         "Family": "Liliaceae",
@@ -1922,6 +2029,7 @@ export const plantData = {
         "Leaf": "Colorful"
     },
     "yellow_wild_indigo": {
+        "Scientific Name": "baptisia sphaerocarpa ",
         "Common Name": "yellow wild indigo",
         "Type": "Herbaceous perennial",
         "Family": "Fabaceae",
