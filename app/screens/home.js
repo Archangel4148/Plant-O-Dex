@@ -21,10 +21,10 @@ export default function home() {
   return (
   <View>
 
-    <View style={[styles.headerContainer, {backgroundColor: "#f7c5ff"}]}>
+    <View style={[styles.headerContainer, {backgroundColor: "#EDFFEA"}]}>
       <Text style={styles.headerText}>Plant Page</Text>
     </View>
-    <ScrollView style={{backgroundColor: "#f7c5ff"}}>
+    <ScrollView style={{backgroundColor: "#EDFFEA"}}>
       <View style={styles.webContainer}>
         
         <View style={styles.searchContainer}>
@@ -50,7 +50,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     flex: 1,
     marginTop: 10,
-    backgroundColor: "#f7c5ff" //The middle of the backround
+    backgroundColor: "#EDFFEA" //The middle of the backround
   },
   headerContainer: {
     backgroundColor: '#d2d3db',
@@ -112,7 +112,7 @@ const styles = StyleSheet.create({
     alignContent: 'center',
     alignItems:'center',
     flexWrap: 'wrap',
-    backgroundColor: "#f7c5ff", //Color for the backround bottom of the app
+    backgroundColor: "#EDFFEA", //Color for the backround bottom of the app
 
     width: 400,
 
@@ -122,8 +122,8 @@ const styles = StyleSheet.create({
   plantBox: {
     width: 170, 
     height: 170,
-    borderColor: "#f3a8ff",
-    borderWidth: 2,
+    borderColor: "#FCEAFF",
+    borderWidth: 3,
     borderRadius: 10,
 
     backgroundColor: '#555555'
