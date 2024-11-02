@@ -1,6 +1,7 @@
 import { Text, View, ScrollView, TextInput, Pressable, Image } from "react-native";
 import { StyleSheet } from "react-native";
 import React, { useState } from 'react'; 
+import {ImageView} from '@/components/ImageView.js'
 
 import {plantData} from "@/assets/plant_data/json_data/0_combined_plants.js"
 
@@ -15,7 +16,7 @@ const populatePlants = (searchTerm) => {
     if (commonName.toLowerCase().includes(searchTerm.toLowerCase())) {
       // let src = require(`@/assets/plant_data/images/` + 
       //   commonName.toLowerCase().replace(" ", "_") + '.png');
-      let src = require(`@/assets/plant_data/images/american_beech.png`)
+      let src = ImageView[commonName.toLowerCase()]
 
       const newPlant = (
         <Pressable 
@@ -41,7 +42,6 @@ const populatePlants = (searchTerm) => {
 };
 
 export default function home() {
-  console.log(plantData)
   const [searchTerm, setSearchTerm] = useState(''); // Initializing state
 
   return (
