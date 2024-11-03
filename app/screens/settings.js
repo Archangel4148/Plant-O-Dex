@@ -1,10 +1,12 @@
 import React, { useState, useEffect } from "react";
 import { View, Text, Button, Image, TextInput } from "react-native";
-import { StyleSheet } from "react-native";
+import { StyleSheet, Dimensions } from "react-native";
 import { ScrollView } from "react-native";
 import AsyncStorage from "@react-native-async-storage/async-storage";
 import { iconPaths } from '@/assets/user_icons/icon_paths.js'
 import { useFonts } from "expo-font";
+
+const {screenWidth, screenHeight} = Dimensions.get('window');
 
 
 const storeUsername = async (username) => {
@@ -144,7 +146,7 @@ const styles = StyleSheet.create({
     flexWrap: 'wrap',
     backgroundColor: "#E3FFE5", //Color for the back-round bottom of the app
     
-    width: 400,
+    width: screenWidth,
     paddingBottom: 200,
     minHeight: 800,
     
@@ -155,9 +157,10 @@ const styles = StyleSheet.create({
   instructionAndIconContainer: {
     backgroundColor: '#BDFFC2',
     borderRadius: 10,
-    width: 360,
+    width: '90%',
     height: 100,
     alignItems: 'center',
+    marginBottom: 10,
   },
   instructionText: {
     marginBottom: 10,
@@ -187,14 +190,14 @@ const styles = StyleSheet.create({
   // Username Input
   usernameContainer: {
     backgroundColor: '#BDFFC2',
-    width: 360,
+    width: '90%',
     height: 90,
     borderRadius: 10,
     alignItems: 'center',
   },
   usernameLabel: {
     fontWeight: 'bold',
-    fontSize: 18,
+    fontSize: 16,
     marginTop: 15,
     marginBottom: 10
   },
