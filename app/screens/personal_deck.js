@@ -137,10 +137,10 @@ const styles = StyleSheet.create({
     alignContent: 'center'
   },
   headerText: {
+    fontFamily: 'JetBrains',
     fontSize: 28,
     marginTop: 'auto',
     marginBottom: 15,
-    
   },
   searchContainer: {
     width: '100%',
