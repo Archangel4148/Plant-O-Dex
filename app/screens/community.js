@@ -69,8 +69,8 @@ export default function community() {
     'JetBrains': require('@/assets/fonts/JetBrainsMono-Medium.ttf'),
   });
     return (
-      <View>
-        <View style={styles.headerContainer}>
+      <View style={{backgroundColor: "#E3FFE5"}}>
+        <View style={[styles.headerContainer, {backgroundColor: "#E3FFE5"}]}>
           <Text style={styles.headerText}>Community</Text>
         </View>
         <ScrollView>
