@@ -59,7 +59,6 @@ export default FindPlant = async (plant, router) => {
             });
             // Clear capturedImageUri from AsyncStorage after using it
             await AsyncStorage.removeItem('capturedImageUri');
-            console.log('Updated user object:', userObject);
         }
         await storeUser(userObject)
         router.push('/screens/personal_deck');  // Navigate to your deck after saving the image

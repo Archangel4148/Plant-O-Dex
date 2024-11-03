@@ -105,6 +105,7 @@ useEffect(()=> {fetchPosts()}, [])
     display: 'flex',
     flexDirection: 'column',
     alignItems: 'center',
+    alignContent: 'center',
     flex: 1,
     gap: 10,
     marginTop: 10,
@@ -112,7 +113,11 @@ useEffect(()=> {fetchPosts()}, [])
     width: screenWidth,
   },
   communityPostText: {
-    height: 20,
+    height: 40,
+    fontFamily: 'JetBrains',
+    fontSize: 14,
+    width: 300,
+    textWrap: 'wrap',
   },
   postImage: {
     width: '100%',
@@ -121,7 +126,7 @@ useEffect(()=> {fetchPosts()}, [])
     resizeMode: "cover",
   },
   postImageContainer: {
-    width: '100%',
+    width: '90%',
     height: 360,
 
     borderColor: 'black',
