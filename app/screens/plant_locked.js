@@ -124,6 +124,7 @@ const styles = StyleSheet.create({
     backgroundColor: '#eeeeee',
     fontSize: 15,
     textAlign: 'center',
+    fontStyle: 'italic',
   },
   lockIcon: {
     width: 50,
