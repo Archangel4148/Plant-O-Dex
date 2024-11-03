@@ -46,11 +46,9 @@ const previousIcon = () => {
   storeUserData(username, (currentIndex - 1 + Object.values(iconPaths).length) % Object.values(iconPaths).length); // Save new index
 };
 
-const handleUsernameChange = (newUsername) => {
-  setUsername(newUsername);
-  storeUserData(newUsername, currentIndex); // Store updated username and current index
-};
-
+useEffect(() =>{
+  storeUserData(username)
+}, [username])
     return (
   <View>
     <View style={[styles.headerContainer, {backgroundColor: "#E3FFE5"}]}>
@@ -79,8 +77,7 @@ const handleUsernameChange = (newUsername) => {
             <Text style={styles.usernameLabel}>Change Username:</Text>
             <TextInput
               style={styles.usernameInput}
-              value={username}
-              onChangeText={handleUsernameChange}
+              onChangeText={(text) => {setUsername(text)}}
               placeholder="Input a username"
               placeholderTextColor="#888"
             />
@@ -177,7 +174,7 @@ const styles = StyleSheet.create({
   usernameContainer: {
     backgroundColor: '#BDFFC2',
     width: '90%',
-    height: 90,
+    height: 100,
     borderRadius: 10,
     alignItems: 'center',
   },
@@ -190,9 +187,10 @@ const styles = StyleSheet.create({
   usernameInput: {
     backgroundColor: 'white',
     borderRadius: 15,
-    height: 25,
+    height: 35,
     width: "60%",
-    padding: 15
+    paddingLeft: 15,
+
   },
   imageContainer: {
     
