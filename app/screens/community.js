@@ -1,4 +1,4 @@
-import { View, ScrollView, Text, Image } from "react-native";
+import { View, ScrollView, Text, Image, Dimensions } from "react-native";
 import { StyleSheet } from "react-native";
 import { useFonts } from "expo-font";
 
@@ -6,6 +6,8 @@ import { ImageView } from '@/components/ImageView.js';
 import { names } from '@/assets/random_usernames.js'
 import { getRandomIcon } from '@/assets/user_icons/icon_paths.js'
 import { useEffect, useState } from "react";
+
+const {screenWidth, screenHeight} = Dimensions.get('window');
 
 const url = "https://ad1000dre0.execute-api.us-east-2.amazonaws.com/default/items"
 
@@ -107,8 +109,7 @@ useEffect(()=> {fetchPosts()}, [])
     gap: 10,
     marginTop: 10,
     marginBottom: 110,
-    marginLeft: 50,
-    marginRight: 50,
+    width: screenWidth,
   },
   communityPostText: {
     height: 20,
@@ -120,7 +121,7 @@ useEffect(()=> {fetchPosts()}, [])
     resizeMode: "cover",
   },
   postImageContainer: {
-    width: 360,
+    width: '100%',
     height: 360,
 
     borderColor: 'black',
@@ -146,12 +147,12 @@ useEffect(()=> {fetchPosts()}, [])
     marginBottom: 15,
   },
   postContainer: {
-    width: 380,
+    width: '100%',
     display: 'flex',
     flexDirection: 'column',
     alignContent: 'center',
     alignItems: 'center',
-
+    marginBottom: 20,
     gap: 5,
     
   },
@@ -161,7 +162,7 @@ useEffect(()=> {fetchPosts()}, [])
     alignItems: 'center',
 
     gap: 20,
-
+    width: '85%',
     marginRight: 'auto',
   },
   profilePictureContainer: {
