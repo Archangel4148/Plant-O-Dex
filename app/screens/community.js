@@ -1,13 +1,29 @@
-import { View, ScrollView, Text } from "react-native";
+import { View, ScrollView, Text, Image } from "react-native";
 import { StyleSheet } from "react-native";
+import { iconPaths } from "../../assets/user_icons/icon_paths";
+
+// Function to get a random icon from the iconPaths
+const getRandomIcon = () => {
+  const keys = Object.keys(iconPaths);
+  const randomKey = keys[Math.floor(Math.random() * keys.length)];
+  return iconPaths[randomKey];
+};
 
 const generatePost = () => {
     const postArr = []
+    let profileImagePath;
     let post;
     for (let i = 0; i < 20; i++) {
+        profileImagePath = getRandomIcon();
         post = <View key={i} style={styles.postContainer}>
                     <View style={styles.upperPost}>
-                        <View style={styles.profilePicture}></View>
+                    <View style={styles.profilePicture}>
+                          <Image 
+                            source={profileImagePath} 
+                            style={{ width: '100%', height: '100%', borderRadius: 10 }} // Adjust styles as needed
+                            resizeMode="cover" // or "contain", depending on your preference
+                          />
+                        </View>
                         <Text style={{}}>USER Found a PLANT_NAME!!!</Text>
                     </View>
                     <View style={styles.lowerPost}>
