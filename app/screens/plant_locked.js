@@ -182,7 +182,7 @@ const styles = StyleSheet.create({
   },
 
   attributesText: {
-
+    width: 340
   }
   })
   

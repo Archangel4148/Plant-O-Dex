@@ -12,7 +12,7 @@ import AsyncStorage from "@react-native-async-storage/async-storage";
 
 
 
-export default function home() {
+export default function index() {
   const [searchTerm, setSearchTerm] = useState(''); // Initializing state
   const [userArray, setUserArray] = useState([])
 
