@@ -20,12 +20,12 @@ export default function plant_locked() {
   const dataObject = plantData[plant.toLowerCase().replace(/ /g, "_")]
   return (
     <View>
-      <View styles={styles.headerContainer}>
-        <Text style={styles.headerText}>Floradex</Text>
+      <View style={[styles.headerContainer]}>
+        <Text style={[styles.headerText]}>Floradex</Text>
       </View>
-      <ScrollView style={styles.mainScroll}>
+      <ScrollView style={[styles.mainScroll]}>
         <View style={styles.main}>
-          <View style={styles.topBar}> 
+          <View style={[styles.topBar]}> 
             <Pressable 
               key={0} 
               onPress={() => { router.push({
@@ -62,7 +62,7 @@ export default function plant_locked() {
 const styles = StyleSheet.create({
   // Header Elements
   headerContainer: {
-    backgroundColor: '#d2d3db',
+    backgroundColor: '#E3FFE5',
     borderRadius: 10,
   
     width: '100%',
@@ -80,12 +80,14 @@ const styles = StyleSheet.create({
 
   // Main Elements
   mainScroll: {
+    backgroundColor: '#E3FFE5'
     },
   main: {
     width: screenWidth,
     display: 'flex',
     flexDirection: 'column',
     paddingBottom: 200,
+    backgroundColor: '#E3FFE5'
   },
 
   // Top Bar Elements
@@ -95,6 +97,9 @@ const styles = StyleSheet.create({
     marginLeft: '2.5%',
     marginRight: '2.5%',
     marginBottom: 20,
+    backgroundColor: '#E3FFE5',
+
+    
   },
   backButton: {
     borderRadius: 50,
@@ -112,16 +117,20 @@ const styles = StyleSheet.create({
     marginLeft: 'auto',
     marginRight: 'auto',
     width: '62.5%',
+    backgroundColor: '#E3FFE5'
+
+  
   },
   plantNameText: {
     textTransform: 'capitalize',
     backgroundColor: '#dddddd',
     fontSize: 30,
     textAlign: 'center',
+    backgroundColor: '#E3FFE5',
   },
   plantScientificNameText: {
     textTransform: 'capitalize',
-    backgroundColor: '#eeeeee',
+    backgroundColor: '#E3FFE5',
     fontSize: 15,
     textAlign: 'center',
     fontStyle: 'italic',
