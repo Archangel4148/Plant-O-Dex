@@ -73,11 +73,11 @@ export default function plant_locked() {
           </View>
           <View style={{display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
             <Pressable onPress={() => {FindPlant(plant, router)}}
-              style={{borderRadius: 20, backgroundColor: '#FFEBB6', width: 270,
-              height: 40, marginTop: 15, display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
-              <Text style={[{color: 'black'}, {fontSize: '25'}]}>Capture Plant</Text>
+              style={{borderRadius: 20, backgroundColor: '#FFE5A5', width: 270,
+              height: 60, marginTop: 15, display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
+              <Text style={[{color: 'black'}, {fontSize: 30}]}>Capture Plant</Text>
             </Pressable>
-            {<Text style={styles.attributesText}>{formatAttributes(dataObject)}</Text>}
+            {<Text style={[styles.attributesText, {marginLeft: 20}, {marginTop: 30}, {fontSize: 20}]}>{formatAttributes(dataObject)}</Text>}
           </View>
         </View>
       </ScrollView>
