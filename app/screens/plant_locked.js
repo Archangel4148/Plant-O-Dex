@@ -46,7 +46,7 @@ export default function plant_locked() {
             <Image source={ImageView[plant.toLowerCase()]} style={styles.plantImage}/>
           </View>
           <View style={{display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
-            <Pressable onPress={() => {FindPlant(plant)}}
+            <Pressable onPress={() => {FindPlant(plant, router)}}
               style={{borderRadius: 10, backgroundColor: 'red', width: 100,
               height: 40, display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
               <Text style={{color: 'white'}}>Find Plant</Text>
