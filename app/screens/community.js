@@ -55,8 +55,7 @@ const generatePost = () => {
           <View style={styles.postImageContainer}>
             <Image 
                 source={postImagePath} 
-                style={{ width: '100%', height: '100%', borderRadius: 10 }} // Adjust styles as needed
-                resizeMode="cover" // or "contain", depending on your preference
+                style={styles.postImage}
               />
           </View>
         </View>;
@@ -71,19 +70,15 @@ export default function community() {
   });
     return (
       <View>
-
-    <View style={styles.headerContainer}>
-      <Text style={styles.headerText}>Community</Text>
-    </View>
-
-    <ScrollView>
-        <View style={styles.webContainer}>
-        {generatePost()}
-
+        <View style={styles.headerContainer}>
+          <Text style={styles.headerText}>Community</Text>
         </View>
-    </ScrollView>
-
-    </View>
+        <ScrollView>
+          <View style={styles.webContainer}>
+          {generatePost()}
+          </View>
+        </ScrollView>
+      </View>
     );
   }
   
@@ -101,6 +96,12 @@ export default function community() {
   },
   communityPostText: {
 
+  },
+  postImage: {
+    width: '100%',
+    height: '100%',
+    borderRadius: 10,
+    resizeMode: "cover",
   },
   postImageContainer: {
     width: 360,
@@ -120,7 +121,7 @@ export default function community() {
     display: 'flex',
     justifyContent: 'center',
     alignItems:'center',
-    alignContent: 'center'
+    alignContent: 'center',
   },
   headerText: {
     fontFamily: 'JetBrains',
