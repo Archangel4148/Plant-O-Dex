@@ -17,7 +17,8 @@ export const plantData = {
         "Flower": "Insignificant",
         "Leaf": "Good Fall",
         "Fruit": "Showy, Edible",
-        "Tolerate": "Deer, Black Walnut"
+        "Tolerate": "Deer, Black Walnut",
+        "Noteworthy Characteristics": "Fagus grandifolia, commonly called American beech, is native to eastern North America. It is a large deciduous tree typically growing to 50-80\u2019 (less frequently to 120\u2019) tall with a dense, upright-oval to rounded-spreading crown. In Missouri, it occurs in rich woods of ravines, slopes and valleys only in the far southeastern corner of the state (Steyermark). It is a low-branched tree with its mature trunk ranging from 2-3\u2019 (less frequently 4\u2019) in diameter. Trunks have distinctive thin, smooth, gray bark. Ovate to elliptic dark green leaves (to 5\u201d long) have coarse, widely-spaced marginal teeth and prominent parallel veins, each vein ending at the tip of a marginal tooth. Foliage turns golden bronze in fall. Monoecious yellowish green flowers bloom in April-May, the male flowers in drooping, long-stemmed, globular clusters and the female flowers in short spikes. Female flowers give way to triangular nuts enclosed by spiny bracts. Beechnuts ripen in fall and are edible.Genus name comes from the Latin name.Specific epithet means large-leaved."
     },
     "american_bittersweet": {
         "Scientific Name": "celastrus scandens ",
@@ -38,7 +39,8 @@ export const plantData = {
         "Attracts": "Birds",
         "Fruit": "Showy",
         "Other": "Winter Interest",
-        "Tolerate": "Deer, Drought"
+        "Tolerate": "Deer, Drought",
+        "Noteworthy Characteristics": "Celastrus scandens, commonly called American bittersweet, is a deciduous twining woody vine that is best known for its showy red berries that brighten up fall and winter landscapes. This species is native to central and eastern North America including Missouri. In Missouri, bittersweet is typically found in woodland areas, thickets, rocky slopes, bluffs, glade peripheries and along fence rows throughout the State (Steyermark). It is often seen growing along the ground, over and through low shrubs or circling trees in the wild. Berry-laden branches are prized for use as indoor decorations, and collection of the branches in the wild has significantly reduced the wild populations in some areas. Rapidly grows to 20\u2019. It produces serrate, elliptic to ovate, yellowish-green leaves (to 4\u201d long). Staminate and pistillate flowers appear in clusters on separate plants in late spring. Flowers are greenish-white to yellow. Fertilized female flowers give way in summer to spherical orange-yellow fruits. Fruits split open in fall to reveal scarlet fleshy berry-like seeds (arils). Fruits are poisonous if ingested, but are considered to be quite tasty by many birds.Genus name comes from the Greek wordkelastrosfor an evergreen tree.Specific epithet means climbing.In the 1700s, plants were given the name bittersweet by European colonists because their fruits purportedly resembled in appearance the fruits of a Eurasian nightshade (Solanum dulcamara) that was known to them as bittersweet. The common name of false bittersweet also came to be used for the within species to distinguish it from the Eurasian nightshade. American bittersweet is the generally accepted common name that is used today, in large part to distinguish this American native from its aggressive Asiatic relative,C. orbiculatus(Oriental bittersweet) which has escaped cultivation and is naturalizing in parts of eastern and central North America."
     },
     "american_holly": {
         "Scientific Name": "ilex opaca ",
@@ -59,7 +61,8 @@ export const plantData = {
         "Attracts": "Birds",
         "Fruit": "Showy",
         "Other": "Winter Interest, Thorns",
-        "Tolerate": "Deer, Clay Soil, Air Pollution"
+        "Tolerate": "Deer, Clay Soil, Air Pollution",
+        "Noteworthy Characteristics": "Ilex opaca, commonly called American holly, is an upright, pyramidal, evergreen tree that slowly matures to 15-30' in cultivation, but may reach 50' tall in the wild.  It is native to the eastern and central U.S., most frequently found in moist woods, forest bottomlands and swamp peripheries plus some coastal dunes (e.g., Cape Cod down the Atlantic Coast) from Massachusetts to West Virginia to Ohio to southeastern Missouri south to Texas and Florida.  This species is easily identified because it is the only native U.S. holly with spiny green leaves and bright red berries.  This is the Christmas holly whose berry-laden boughs are typically collected at Christmas time each year for ornamentation (\"decking the halls\" as it were).  Thick, leathery, deep green leaves (2-4\" long) have spiny marginal teeth.  Species is dioecious (male and female flowers are on separate trees).  Greenish-white flowers bloom May-June (male flowers in 3-12 flowered clusters and female flowers solitary or in 2s or 3s).  Bright red or orange fruits (drupes to 1/4- 1/2\" diameter) ripen in fall on pollinated female trees, and persist on the tree through winter.  Birds love the fruit.Genus name comes from the Latin nameQuercus ilexfor holm oak in reference to the foliage similarities (holm oak and many of the shrubs in the genusIlexhave evergreen leaves).Specific epithet means opaque or dull, in reference to the non-lustrous leaf surfaces of species plants (many of the cultivars have more lustrous foliage)."
     },
     "american_hornbeam": {
         "Scientific Name": "carpinus caroliniana ",
@@ -79,7 +82,8 @@ export const plantData = {
         "Flower": "Insignificant",
         "Leaf": "Good Fall",
         "Attracts": "Birds",
-        "Tolerate": "Clay Soil, Black Walnut"
+        "Tolerate": "Clay Soil, Black Walnut",
+        "Noteworthy Characteristics": "Carpinus caroliniana, commonly called American hornbeam, is a slow-growing, deciduous, small to medium-sized understory tree with an attractive globular form. It is native to Missouri where it is typically found in rich moist woods, valleys, ravine bottoms and rocky slopes along streams throughout the eastern and Ozark regions of the state (Steyermark). Typically grows 20-35' tall. The smooth, gray trunk and larger branches of a mature tree exhibit a distinctive muscle-like fluting that has given rise to another common name of musclewood for this tree. Flowers appear in spring in separate male and female catkins, with the female catkins giving way to distinctive clusters of winged nutlets. Serrated, elliptic-oval, dark green leaves often produce respectable shades of yellow, orange and red in fall. The extremely hard wood of this tree will, as the common name suggests, take a horn-like polish and was once used by early Americans to make bowls, tool handles and ox yokes. Commercial use of hornbeam wood is not practicable, however, due to the limited amount of wood that can be harvested per tree.Genus name comes from the classical Latin name.Specific epithet means of North or South Carolina."
     },
     "american_spikenard": {
         "Scientific Name": "aralia racemosa ",
@@ -97,7 +101,8 @@ export const plantData = {
         "Maintenance": "Low",
         "Suggested Use": "Naturalize",
         "Flower": "Showy",
-        "Tolerate": "Drought"
+        "Tolerate": "Drought",
+        "Noteworthy Characteristics": "Aralia racemosa, commonly called American spikenard, is a rhizomatous, shrubby-looking, soft-stemmed, herbaceous perennial of the Ginseng family that is native to moist rich woods from Quebec to Manitoba south to Kansas, Missouri, Mississippi and Georgia.  In Missouri, it is typically found on wooded slopes and ravines, shaded moist ledges, and bluffs in the northern and eastern parts of the State and in the Ozark Mountains, but is absent from the unglaciated prairie regions in west central and southwestern Missouri south of the Missouri River (Steyermark).Glabrous, freely branching, dark maroon to near black stems rise from large aromatic roots to 3-5' tall (infrequently to 10') bearing few but very large 2-3 pinnate compound leaves (to 2 1/2' long) each of which is divided and subdivided into 9-21 coarse oval-rounded leaflets (each to 2-6\" long) with toothed margins, cordate bases and pointed tips.  Small but numerous umbels of tiny greenish-white flowers (to 1/8\" across) bloom in long upright terminal but sometimes axillary panicles (each to 12-18\" long) in early to mid-summer (June to August).  Flowers are followed by dense hanging clusters of basically inedible berries (drupes to 1/4\" diameter) which mature to dark purple.  Berries are attractive to birds.  Thick roots have been used to flavor teas and as an ingredient in root beer.  A poultice made from the roots was formerly used for a variety of medicinal purposes including treatment of infections, burns, skin irritations, ulcers, and swellings.Genus name comes from the Latinization of the old French-Canadian name ofaralie.Specific epithet from the Latin wordracemosusmeaning flowers in racemes. Glabrous, freely branching, dark maroon to near black stems rise from large aromatic roots to 3-5' tall (infrequently to 10') bearing few but very large 2-3 pinnate compound leaves (to 2 1/2' long) each of which is divided and subdivided into 9-21 coarse oval-rounded leaflets (each to 2-6\" long) with toothed margins, cordate bases and pointed tips.  Small but numerous umbels of tiny greenish-white flowers (to 1/8\" across) bloom in long upright terminal but sometimes axillary panicles (each to 12-18\" long) in early to mid-summer (June to August).  Flowers are followed by dense hanging clusters of basically inedible berries (drupes to 1/4\" diameter) which mature to dark purple.  Berries are attractive to birds.  Thick roots have been used to flavor teas and as an ingredient in root beer.  A poultice made from the roots was formerly used for a variety of medicinal purposes including treatment of infections, burns, skin irritations, ulcers, and swellings.Genus name comes from the Latinization of the old French-Canadian name ofaralie.Specific epithet from the Latin wordracemosusmeaning flowers in racemes."
     },
     "prairie_dock": {
         "Scientific Name": "silphium terebinthinaceum ",
@@ -115,7 +120,8 @@ export const plantData = {
         "Maintenance": "Low",
         "Flower": "Showy",
         "Attracts": "Birds",
-        "Tolerate": "Clay Soil"
+        "Tolerate": "Clay Soil",
+        "Noteworthy Characteristics": "Silphium terebinthinaceum, commonly called prairie dock, is a herbaceous perennial native to prairies, glades, fens, railroad right-of-ways, and other exposed habitats in the Midwest and portions of the southern United States. From a basal clump of huge oval to heart-shaped, dark green leaves (to 2' long) rise smooth, almost leafless stems branching at the top to a height of 10' tall. Sunflower-like flowers (to 3\" wide) with yellow rays and yellow center disks bloom in loose clusters on the upper parts of the plant in mid to late summer. The seeds are attractive to birds.The genus nameSilphiumcomes from the Greek namesilphion, used to refer to a resin-bearing plant from northern Africa.The specific epithetterebinthinaceumcomes from Greek and means \"like turpentine\" in reference to the aromatic resin produced in the stem."
     },
     "bald_cypress": {
         "Scientific Name": "taxodium distichum ",
@@ -135,7 +141,8 @@ export const plantData = {
         "Leaf": "Good Fall",
         "Attracts": "Birds",
         "Fruit": "Showy",
-        "Tolerate": "Deer, Clay Soil, Wet Soil, Air Pollution"
+        "Tolerate": "Deer, Clay Soil, Wet Soil, Air Pollution",
+        "Noteworthy Characteristics": "Taxodium distichum, commonly called bald cypress, is a long-lived, pyramidal conifer (cone-bearing tree) which grows 50-70' tall (less frequently to 125'). Although it looks like a needled evergreen (same family as redwoods) in summer, it is deciduous (\"bald\" as the common name suggests). It is native to southern swamps, bayous and rivers, primarily being found in coastal areas from Maryland to Texas and in the lower Mississippi River valley to as far north as the southeast corner of Missouri. In the deep South, it is a familiar sight growing directly in swampy water, often in large strands, with its branches heavily draped with Spanish moss. In cultivation, however, it grows very well in drier, upland soils. Trunks are buttressed (flared or fluted) at the base, and when growing in water, often develop distinctive, knobby root growths (\"knees\") which protrude above the water surface around the tree. Soft, feathery, yellowish-green foliage (1/4\" long, flat needles in two ranks) turns an attractive orange/cinnamon-brown in fall. Rounded, wrinkled, 1 inch diameter, purplish-green cones mature to brown. Heavy, straight-grained, rot-resistant wood has been used for a variety of purposes including barrels, railroad ties and shingles. Closest relative is the dawn redwood (Metasequoia) which is also deciduous. State tree of Louisiana.Genus name comes from the Latin wordTaxusmeaning yew and the Greek wordeidosmeaning resemblance from a similarity of leaf shape.Specific epithet means is two ranks for the needle arrangement."
     },
     "eastern_beebalm": {
         "Scientific Name": "monarda bradburiana ",
@@ -155,7 +162,8 @@ export const plantData = {
         "Flower": "Showy, Fragrant, Good Cut",
         "Leaf": "Fragrant",
         "Attracts": "Hummingbirds, Butterflies",
-        "Tolerate": "Deer, Drought, Dry Soil, Shallow-Rocky Soil"
+        "Tolerate": "Deer, Drought, Dry Soil, Shallow-Rocky Soil",
+        "Noteworthy Characteristics": "Monarda bradburiana, commonly called beebalm, is a common Missouri native perennial which occurs statewide in dryish, acidic soils in open, rocky woods and glade margins. A clump-forming, mint family member that grows typically to 1-2' tall. Tubular, two-lipped, pinkish to whitish, purple-spotted flowers appear in dense, globular, solitary, terminal heads atop square stems. Each flower head is subtended by (rests upon) a whorl of showy, purplish-tinged, leafy bracts. Flowers are attractive to bees and butterflies. The toothed, aromatic, oblong, grayish-green leaves (to 4\") may be used in teas. Long summer bloom period. Nomenclature for this plant is somewhat confused because some references assert that this separate species is synonymous withMonarda russeliana.Genus name honors Nicholas Monardes (1493-1588), physician and botanist of Seville."
     },
     "black_cohosh": {
         "Scientific Name": "actaea racemosa ",
@@ -173,7 +181,8 @@ export const plantData = {
         "Maintenance": "Low",
         "Suggested Use": "Naturalize",
         "Flower": "Showy, Fragrant",
-        "Tolerate": "Rabbit"
+        "Tolerate": "Rabbit",
+        "Noteworthy Characteristics": "Actaea racemosa, commonly called black cohosh, is an upright, Missouri native perennial which occurs in rocky woods in the Ozark region of the State. It typically grows to a total height (foliage plus flowering spikes) of 4-6\u2019, but under optimum conditions can reach 8\u2019. Small, numerous, creamy white, fragrant flowers appear in late summer to early fall in long, terminal racemes resembling fluffy spires (typically 1-2\u2019 long) rising well above the foliage on wiry stems. Astilbe-like, deeply cut, tripinnate foliage is an attractive deep green. Synonymous with and formerly known asCimicifuga racemosa. All plants in the genusCimicifugahave recently been transferred to the genusActaea.Genus name is the Latin name adopted by Linnaeus from Pliny.Specific epithet refers to the flowers being produced in racemes.The common name of bugbane is in reference to the odoriferous insect repellant properties of this plant. Cohosh comes from an Algonquin word meaning rough in reference to the appearance of plant rhizomes."
     },
     "black_gum": {
         "Scientific Name": "nyssa sylvatica ",
@@ -193,7 +202,8 @@ export const plantData = {
         "Flower": "Insignificant",
         "Leaf": "Good Fall",
         "Attracts": "Birds",
-        "Tolerate": "Clay Soil, Wet Soil, Black Walnut"
+        "Tolerate": "Clay Soil, Wet Soil, Black Walnut",
+        "Noteworthy Characteristics": "Nyssa sylvatica, commonly called sour gum, is a slow-growing, deciduous, Missouri native tree which occurs in a wide range of soils south of the Missouri River in the southeastern quarter of the State. It is primarily a lowland tree found in low wet woods, bottomlands and pond peripheries, but also can be found on dry rocky wooded slopes and ravines. A stately tree with a straight trunk and rounded crown (more pyramidal when young) that typically grows 30-50' tall, but occasionally to 90'. Primarily dioecious (separate male and female trees), but each tree often has some perfect flowers. Small, greenish-white flowers appear in spring on long stalks (female flowers in sparse clusters and male flowers in dense heads). Although flowers are not showy, they are an excellent nectar source for bees. Flowers give way to oval, 1/2\" long fruits which are technically edible but quite sour (hence the common name). Fruits mature to a dark blue and are attractive to birds and wildlife. Spectacular scarlet fall color. Obovate to elliptic, entire to slightly toothed leaves (to 5\" long) are dark green above and paler below. Sometimes commonly called black tupelo. The closely related water tupelo (Nyssa aquatica) is a tree most often seen growing in standing water in swamps and bottomlands in the lower Mississippi valley and southeastern U.S. coastal areas, either in pure stands or in combination with bald cypress, water oaks and swamp cottonwoods.Genus name comes from Nysa or Nyssa, one of the water nymphs.Specific epithet means growing in the woods or forest-loving."
     },
     "blue_cardinal_flower": {
         "Scientific Name": "lobelia siphilitica ",
@@ -211,7 +221,8 @@ export const plantData = {
         "Maintenance": "Low",
         "Suggested Use": "Naturalize, Rain Garden",
         "Flower": "Showy",
-        "Tolerate": "Deer, Heavy Shade, Wet Soil"
+        "Tolerate": "Deer, Heavy Shade, Wet Soil",
+        "Noteworthy Characteristics": "Lobelia siphilitica, commonly called great lobelia or blue cardinal flower, is a Missouri native perennial which typically grows in moist to wet locations along streams, sloughs, springs, swamps, meadows and in low wooded areas. A clump-forming perennial which features light to dark blue, tubular, 2-lipped flowers with the three lobes of the lower lip appearing more prominent than the two lobes of the upper lip. Flowers arise from the upper leaf axils forming a dense terminal raceme atop stiff, unbranched, leafy stalks typically rising 2-3' tall. Finely-toothed, lance-shaped, light green leaves (to 5\" long). Late summer bloom period.Genus name honors Matthias de l'Obel (1538-1616), French physician and botanist, who with Pierre Pena wroteStirpium Adversaria Nova(1570) which detailed a new plant classification system based upon leaves.Species name ofsiphiliticaarose from a prior medicinal use of the plant in the treatment of venereal disease."
     },
     "blue_false_indigo": {
         "Scientific Name": "baptisia australis ",
@@ -231,7 +242,8 @@ export const plantData = {
         "Flower": "Showy",
         "Attracts": "Butterflies",
         "Fruit": "Showy",
-        "Tolerate": "Drought, Erosion, Clay Soil, Dry Soil, Shallow-Rocky Soil"
+        "Tolerate": "Drought, Erosion, Clay Soil, Dry Soil, Shallow-Rocky Soil",
+        "Noteworthy Characteristics": "Baptisia australis, commonly called blue false indigo, is an upright perennial which typically grows 3-4' tall and occurs in rich woods, thickets and along streambanks from Pennsylvania south to North Carolina and Tennessee. It features purple, lupine-like flowers in erect racemes (to 12\") atop flower spikes extending well above a foliage mound of clover-like, trifoliate, bluish-green leaves (leaflets to 2\" long). Blooms in spring. Flowers give way to inflated seed pods (to 2.5\" long) which turn charcoal black when ripe and have considerable ornamental interest. Seeds rattle around in the blackened pods which were once popularly used by children as rattles. Stems with seed pods are valued additions to dried flower arrangements.The genus nameBaptisiacomes from the Greek wordbaptomeaning \"to dye\".Specific epithet means southern.The common name of false indigo refers to the use of certain native baptisias by early American colonists as a substitutes, albeit inferior, for true indigo (genusIndigofera) in making dyes."
     },
     "bristle-leaved_sedge": {
         "Scientific Name": "carex eburnea ",
@@ -249,7 +261,8 @@ export const plantData = {
         "Maintenance": "Low",
         "Suggested Use": "Ground Cover, Naturalize",
         "Flower": "Insignificant",
-        "Tolerate": "Deer, Heavy Shade"
+        "Tolerate": "Deer, Heavy Shade",
+        "Noteworthy Characteristics": "Carex eburnea, sometimes commonly called bristle-leaf sedge, is native from Newfoundland to Alaska south to Virginia, Alabama, Arkansas and Texas. In Missouri, it most commonly occurs in crevices of limestone bluffs in the Ozark areas of the state (Steyermark). It is also known to grow in drier sandy soils, particularly on limestone outcroppings and glades. This sedge is grown in the landscape for its foliage effect. Soft, thread-like, green leaves form a spherical, porcupine-like clump to 6-10\u201d tall and as wide. Whitish-green flowers on spikes in spring are insignificant. Other common names for this sedge include ivory sedge and ebony sedge.Genus name from Latin means cutter in reference to the sharp leaves and stem edges (rushes are round but sedges have edges) found on most species' plants.Specific epithet means ivory-white."
     },
     "bur_oak": {
         "Scientific Name": "quercus macrocarpa ",
@@ -268,7 +281,8 @@ export const plantData = {
         "Suggested Use": "Shade Tree, Rain Garden",
         "Flower": "Insignificant",
         "Fruit": "Showy",
-        "Tolerate": "Drought, Clay Soil, Dry Soil"
+        "Tolerate": "Drought, Clay Soil, Dry Soil",
+        "Noteworthy Characteristics": "Quercus macrocarpa, commonly called bur oak or mossycup oak, is one of the most majestic of the native North American oaks. It is a medium to large sized deciduous oak of the white oak group that typically grows 60-80\u2019 (less frequently to 150\u2019) tall with a broad-spreading, rounded crown. Acorn cups are covered with a mossy scale or bur near the rim, hence the common names. It is native to a variety of habitats in central and eastern North America. Best growth occurs in bottomland soils, particularly in the Ohio River valley. In Missouri, it typically occurs in low woods and stream valleys in the Ozark region, but on dry upland soils in the unglaciated parts of the state north of the Missouri River (Steyermark). Insignificant monoecious yellowish-green flowers in separate male and female catkins appear in spring as the leaves emerge. Fruits are oval acorns (to 1 1/2\u201d long), with fringed, burry cups that extend to approximately 1/2 to 3/4 the acorn length. Acorns are an important source of food for wildlife. Leathery, dark green leaves (6-12\u201d long) with 5-9 rounded lobes are variable in shape, but usually have a pair of deep central sinuses that extend nearly to the midrib giving the leaf a waisted appearance. Fall color is an undistinguished yellow-brown. Twigs sometimes are ridged with corky wings.Genus name comes from the classical Latin name for oak trees.Specific epithet comes from the Greek wordsmacromeaning large andcarpameaning fruit in reference to the large acorn size."
     },
     "butterfly_weed": {
         "Scientific Name": "asclepias tuberosa ",
@@ -287,7 +301,8 @@ export const plantData = {
         "Suggested Use": "Naturalize, Rain Garden",
         "Flower": "Showy",
         "Attracts": "Butterflies",
-        "Tolerate": "Deer, Drought, Erosion, Dry Soil, Shallow-Rocky Soil"
+        "Tolerate": "Deer, Drought, Erosion, Dry Soil, Shallow-Rocky Soil",
+        "Noteworthy Characteristics": "Asclepias tuberosa, commonly called butterfly weed, is a tuberous rooted, Missouri native perennial which occurs in dry/rocky open woods, glades, prairies, fields and roadsides throughout the State (Steyermark). It typically grows in a clump to 1-2.5' tall and features clusters (umbels) of bright orange to yellow-orange flowers atop upright to reclining, hairy stems with narrow, lance-shaped leaves. Unlike many of the other milkweeds, this species does not have milky-sapped stems. Flowers give way to prominent, spindle-shaped seed pods (3-6\" long) which split open when ripe releasing numerous silky-tailed seeds for dispersal by the wind. Seed pods are valued in dried flower arrangements. Long bloom period from late spring throughout the summer. Flowers are a nectar source for hummingbirds, butterflies and many other pollinators, and leaves are a food source for monarch butterfly larvae (caterpillars).Genus name honors the Greek god Asklepios the god of medicine.Specific epithet means \"tuberous\" in reference to the roots.The common name butterfly weed refers to how attractive this plant is to butterflies. This species is sometimes also called pleurisy root in reference to a traditional medicinal use of the plant roots to treat lung inflammations."
     },
     "buttonbush": {
         "Scientific Name": "cephalanthus occidentalis ",
@@ -308,7 +323,8 @@ export const plantData = {
         "Attracts": "Hummingbirds, Butterflies",
         "Fruit": "Showy",
         "Other": "Winter Interest",
-        "Tolerate": "Erosion, Wet Soil"
+        "Tolerate": "Erosion, Wet Soil",
+        "Noteworthy Characteristics": "Genus name comes from the Greek wordskephalemeaning \"head\" andanthosmeaning \"flower\".Buttonbush is a somewhat coarse, deciduous shrub with an open-rounded habit that typically grows 6-12\u2019 (infrequently to 20\u2019) tall. It is common throughout Missouri, most frequently occurring in wet open areas, low woods, thickets, swamps, upland sink-hole ponds, river bottomland and stream/pond margins (Steyermark). Tiny, tubular, 5-lobed, fragrant white flowers appear in dense, spherical, long-stalked flower heads (to 1.5\u201d diameter) in early to mid-summer. Long, projecting styles give the flower heads a distinctively pincushion-like appearance. Flower heads are very attractive to hummingbirds, butterflies, and other insect pollinators. Flower heads mature into hard spherical ball-like fruits consisting of multiple tiny two-seeded nutlets. Fruiting heads usually persist throughout the winter. Ovate to elliptic glossy bright green leaves (to 6\u201d long) are in pairs or whorls. Leaves emerge late in spring."
     },
     "cardinal_flower": {
         "Scientific Name": "lobelia cardinalis ",
@@ -327,7 +343,8 @@ export const plantData = {
         "Suggested Use": "Naturalize, Rain Garden",
         "Flower": "Showy",
         "Attracts": "Hummingbirds, Butterflies",
-        "Tolerate": "Rabbit, Deer, Wet Soil"
+        "Tolerate": "Rabbit, Deer, Wet Soil",
+        "Noteworthy Characteristics": "Lobelia cardinalis, commonly called cardinal flower is a Missouri native perennial which typically grows in moist locations along streams, sloughs, springs, swamps and in low wooded areas. A somewhat short-lived, clump-forming perennial which features erect, terminal spikes (racemes) of large, cardinal red flowers on unbranched, alternate-leafed stalks rising typically to a height of 2-3' (infrequently to 4'). Tubular flowers are 2-lipped, with the three lobes of the lower lip appearing more prominent than the two lobes of the upper lip. Finely-toothed, lance-shaped, dark green leaves (to 4\" long). Late summer bloom period. Flowers are very attractive to butterflies and hummingbirds, but not cardinals. White and rose colored forms are also known.Genus name honors Matthias de l'Obel (1538-1616), French physician and botanist, who with Pierre Pena wroteStirpium Adversaria Nova(1570) which detailed a new plant classification system based upon leaves.Specific epithet means scarlet or cardinal red.Common name is in reference to the red robes worn by Roman Catholic cardinals."
     },
     "chinkapin_oak": {
         "Scientific Name": "quercus muehlenbergii ",
@@ -346,7 +363,8 @@ export const plantData = {
         "Suggested Use": "Shade Tree",
         "Flower": "Insignificant",
         "Fruit": "Showy",
-        "Tolerate": "Drought"
+        "Tolerate": "Drought",
+        "Noteworthy Characteristics": "Quercus muehlenbergii, commonly called Chinkapin (or Chinquapin) oak, is a medium sized deciduous oak of the white oak group that typically grows 40-60\u2019 (less frequently to 80\u2019) tall with an open globular crown. It is native to central and eastern North America where it is typically found on dry upland sites often in rocky, alkaline soils. Insignificant monoecious yellowish-green flowers in separate male and female catkins appear in spring as the leaves emerge. Fruits are small oval acorns (to 3/4\u201d long), with scaly cups that extend to approximately 1/2 the acorn length. Acorns are valued food for a variety of wildlife. Narrow, oblong-lanceolate, shiny green leaves (4-7\u201d long) have coarse marginal teeth. Leaves somewhat resemble the leaves of chestnut (Castanea) whose nut is sometimes called a chinquapin, hence the common name of this oak whose acorn is sweet and edible. Also sometimes commonly called yellow chestnut oak. Fall color is variable, but usually undistinguished shades of yellow and brown.Genus name comes from the classical Latin name for oak trees.Specific epithet honors Gotthilf Henry Ernest Muhlenberg, 18-19th century Lutheran minister-botanist from Pennsylvania."
     },
     "christmas_fern": {
         "Scientific Name": "polystichum acrostichoides ",
@@ -364,7 +382,8 @@ export const plantData = {
         "Maintenance": "Low",
         "Leaf": "Evergreen",
         "Other": "Winter Interest",
-        "Tolerate": "Rabbit, Deer, Drought, Heavy Shade, Erosion, Dry Soil, Shallow-Rocky Soil"
+        "Tolerate": "Rabbit, Deer, Drought, Heavy Shade, Erosion, Dry Soil, Shallow-Rocky Soil",
+        "Noteworthy Characteristics": "Polystichum acrostichoides, commonly called Christmas fern, is a Missouri native fern which occurs in both dry and moist wooded slopes, moist banks and ravines. Typically grows in a fountain-like clump to 2' tall and features leathery, lance-shaped, evergreen (green at Christmas time as the common name suggests) fronds. Stocking shape of the pinnae also suggests Christmas. Crosiers (young fiddleheads) in spring are silvery and scaled. Sori appear on the undersides of the pinnae only at the ends (last 1/3) of the fronds. Evergreen fronds provide good winter interest for the landscape.Genus name comes from the Greek wordspolysmeaning many andstichosmeaning in a row in reference to its spore cases being in rows."
     },
     "goldenrod": {
         "Scientific Name": "solidago speciosa ",
@@ -383,7 +402,8 @@ export const plantData = {
         "Suggested Use": "Naturalize",
         "Flower": "Showy",
         "Attracts": "Butterflies",
-        "Tolerate": "Deer, Drought, Clay Soil"
+        "Tolerate": "Deer, Drought, Clay Soil",
+        "Noteworthy Characteristics": "Solidago speciosa, commonly called showy goldenrod, is a rhizomatous, Missouri native perennial which typically occurs in dry soils in open woods, fields and prairies throughout most of the State except the Ozark region. Features tiny, bright yellow flowers borne in dense, erect, club-shaped terminal clusters atop stiff, narrow-leaved, reddish stems typically growing 2-3' tall. Flowers bloom mid to late summer. As the common name suggests, this species is one of the showiest of the many goldenrods. Goldenrods have been wrongly accused of causing hay fever which is actually an allergic reaction to wind-borne pollen from other plants such as ragweed. Attractive to bees and butterflies.Genus name comes from the Latin wordssolidusmeaning whole andagomeaning to make in reference to the medicinal healing properties of some species plants.Specific epithet means showy."
     },
     "closed_gentian": {
         "Scientific Name": "gentiana andrewsii ",
@@ -401,7 +421,8 @@ export const plantData = {
         "Maintenance": "Low",
         "Suggested Use": "Naturalize",
         "Flower": "Showy",
-        "Tolerate": "Deer, Clay Soil"
+        "Tolerate": "Deer, Clay Soil",
+        "Noteworthy Characteristics": "Gentiana andrewsii, commonly called bottle gentian, is a Missouri native wildflower which is most often found in moist woods, thickets and low wooded areas near streams and ponds. Typically grows 1-2' tall and features tight clusters of tubular (bottle-shaped), deep blue flowers which never open. Flower clusters appear at the tops of the stems or in the upper leaf axils in late summer to early autumn (October in the St. Louis area). Ovate, lance-shaped leaves (to 4\" long) with parallel veins. Sometimes also commonly called closed gentian.Genus name honors King Gentius of Illyria (reign c. 180-168) B.C., who was reputed to have discovered the medicinal virtues of the root of the yellow gentian or bitterwort (G. lutea) from which a tonic bitters is still made.Specific epithet honors English botanical artist Henry C. Andrews (active 1794-1830)."
     },
     "copper_iris": {
         "Scientific Name": "iris fulva ",
@@ -420,7 +441,8 @@ export const plantData = {
         "Suggested Use": "Water Plant, Naturalize, Rain Garden",
         "Flower": "Showy",
         "Attracts": "Hummingbirds",
-        "Tolerate": "Deer, Clay Soil, Wet Soil"
+        "Tolerate": "Deer, Clay Soil, Wet Soil",
+        "Noteworthy Characteristics": "Iris fulvais commonly called copper iris because of the unusual copper color of its flowers. It is a beardless, crestless iris (Louisiana Iris group) that is native to swamps and wetlands of the deep South and of the lower Mississippi Valley from Louisiana north to southeastern Missouri and southern Illinois. In Missouri, it is primarily found in bald cypress swamps, sloughs, ponds, ditches and swampy woodland areas in the southeastern corner of the State (Steyermark). It is often found growing and blooming in standing water in spring-flooded areas that typically dry up as the summer progresses. Terra cotta or copper colored irises appear in late spring atop flower scapes typically growing 2-3\u2019 tall. Flowers are reportedly pollinated by hummingbirds. Sword-shaped, linear, bright green leaves. In New Orleans in March of 1821, John James Audubon painted a pair of parula warblers perching on the stem of a copper iris in a painting that became an entry inThe Birds of North America.Genus named for the Greek goddess of the rainbow.Specific epithet means tawny for the flower color."
     },
     "trumpet_honeysuckle": {
         "Scientific Name": "lonicera sempervirens ",
@@ -441,7 +463,8 @@ export const plantData = {
         "Attracts": "Birds, Hummingbirds, Butterflies",
         "Fruit": "Showy",
         "Tolerate": "Deer, Clay Soil, Black Walnut",
-        "Invasive": "Where is this species invasive in the US?"
+        "Invasive": "Where is this species invasive in the US?",
+        "Noteworthy Characteristics": "Lonicera sempervirens, commonly called trumpet honeysuckle, is a vigorous, deciduous, twining vine which typically grows 10-15' (less frequently to 20') and is one of the showiest of the vining honeysuckles. It is primarily native to the southeastern U.S., but has escaped from gardens and naturalized in many other areas of the eastern U.S. including several counties in central and southern Missouri where it typically occurs along roadsides, along stream banks and in thickets (see Steyermark).Large, non-fragrant, narrow, trumpet-shaped flowers are scarlet to orangish red on the outside and yellowish inside. Flowers appear in late spring at stem ends in whorled clusters. They are attractive to hummingbirds, butterflies and bees. Inedible red berries form in late summer to early fall and can be ornamentally attractive.  The small red berries are attractive to birds. Oval, bluish-green leaves are glaucous beneath. This vine is evergreen in the warm winter climates of the deep South.Genus name honors Adam Lonitzer (1528-1586), German botanist, the author of an herbal (Kreuterbuch) many times reprinted between 1557 and 1783.Specific epithet means evergreen. Large, non-fragrant, narrow, trumpet-shaped flowers are scarlet to orangish red on the outside and yellowish inside. Flowers appear in late spring at stem ends in whorled clusters. They are attractive to hummingbirds, butterflies and bees. Inedible red berries form in late summer to early fall and can be ornamentally attractive.  The small red berries are attractive to birds. Oval, bluish-green leaves are glaucous beneath. This vine is evergreen in the warm winter climates of the deep South.Genus name honors Adam Lonitzer (1528-1586), German botanist, the author of an herbal (Kreuterbuch) many times reprinted between 1557 and 1783.Specific epithet means evergreen."
     },
     "cross_vine": {
         "Scientific Name": "bignonia capreolata ",
@@ -459,7 +482,8 @@ export const plantData = {
         "Maintenance": "Medium",
         "Flower": "Showy, Fragrant",
         "Attracts": "Hummingbirds",
-        "Tolerate": "Heavy Shade"
+        "Tolerate": "Heavy Shade",
+        "Noteworthy Characteristics": "Bignonia capreolata, known as cross-vine, is a vigorous, woody vine that climbs by branched tendrils with adhesive disks.  It is grown primarily for its attractive flowers and its ability to rapidly cover structures with attractive foliage.  Opposite, compound leaves are bifoliate.  Each leaf consists of a pair of lanceolate to oblong dark green leaflets (to 6\u201d long) and a branched tendril between them.  Tendril branches terminate in adhesive disks that easily attach to walls.  Foliage remains evergreen in the South, but turns reddish-purple in fall with subsequent leaf drop in the colder winter areas of its range.  Axillary clusters (2-5 flowered cymes) of fragrant, trumpet-shaped, orange-red flowers (to 2\u201d long) appear in spring.  Flowers are followed by greenish, pod-like seed capsules (to 7\u201d long) which mature in late summer and persist into fall.This vine is in the same family as and closely related toCampsis radicanswhich is commonly known as trumpet vine.Genus name honors of Abbe Jean Paul Bignon (1662-1743), Librarian to Louis XIV.Specific epithet means having tendrils.A cross section of stem reveals a marking resembling the Greek cross, hence the common name. This vine is in the same family as and closely related toCampsis radicanswhich is commonly known as trumpet vine.Genus name honors of Abbe Jean Paul Bignon (1662-1743), Librarian to Louis XIV.Specific epithet means having tendrils.A cross section of stem reveals a marking resembling the Greek cross, hence the common name."
     },
     "common_dittany": {
         "Scientific Name": "cunila origanoides ",
@@ -479,7 +503,8 @@ export const plantData = {
         "Flower": "Showy",
         "Leaf": "Fragrant",
         "Attracts": "Butterflies",
-        "Tolerate": "Drought, Dry Soil, Shallow-Rocky Soil"
+        "Tolerate": "Drought, Dry Soil, Shallow-Rocky Soil",
+        "Noteworthy Characteristics": "Cunila origanoides, commonly called dittany, is a Missouri native plant which grows 8-16\" tall and typically occurs in dry, rocky, or open woods, clearings, slopes and prairies. A mint family member which features many-branched, square, wiry stems and clusters of small, purplish (rarely white), two-lipped flowers (note the 2 long protruding stamens and pistil) arising from the leaf axils in mid-summer to fall. Oval, serrated, stalkless leaves are pleasantly aromatic. Leaves can be used in teas and have in the past been used as folk medicine remedies for fever and headaches. At first frost, a phenomenon popularly known as \"frost flowers\" may occur wherein watery sap which is pushed out of stem cracks near the base becomes frozen in ribbon-like, 2\" projections.Genus name comes from the Latin name for a mint.Specific epithet means resembling oregano."
     },
     "serviceberry": {
         "Scientific Name": "amelanchier arborea ",
@@ -500,7 +525,8 @@ export const plantData = {
         "Leaf": "Good Fall",
         "Attracts": "Birds, Butterflies",
         "Fruit": "Showy, Edible",
-        "Tolerate": "Clay Soil, Air Pollution"
+        "Tolerate": "Clay Soil, Air Pollution",
+        "Noteworthy Characteristics": "Amelanchier arborea, commonly called downy serviceberry, is a deciduous, early-flowering, large shrub or small tree which typically grows 15-25' tall in cultivation but can reach 40' in the wild. A Missouri native plant that occurs most often in open rocky woods, wooded slopes, and bluffs. Features 5-petaled, showy, slightly fragrant, white flowers in drooping clusters which appear before the leaves emerge in early spring. The finely-toothed, obovate leaves exhibit good fall color. Flowers give way to small, round green berries which turn red and finally mature to a dark purplish-black in early summer. Edible berries resemble blueberries in size and color and are often used in jams, jellies and pies. Amelanchiers are commonly called Juneberries.Genus name comes from a French provincial name forAmelanchier ovalisa European plant in this genus.Specific epithet means growing in a tree-like manner."
     },
     "dutchman's_pipe": {
         "Scientific Name": "aristolochia tomentosa ",
@@ -517,7 +543,8 @@ export const plantData = {
         "Water": "Medium",
         "Maintenance": "Low",
         "Flower": "Showy",
-        "Attracts": "Butterflies"
+        "Attracts": "Butterflies",
+        "Noteworthy Characteristics": "Aristolochia tomentosa, commonly called Dutchman's pipe, is a woody, deciduous, twining vine which is native to Missouri where it typically occurs along streams and in moist woods primarily in counties south of the Missouri River. It is typically seen in the wild climbing trees or shrubs and can rapidly grow to 20-30' tall. Features large, heart-shaped, densely-overlapping leaves (4-8\" long) which can quickly cover an arbor or trellis with deep green foliage. Blooms in mid to late spring in the St. Louis area. Although the flowers make interesting conversation pieces, they are usually hidden by the dense foliage and are somewhat inconspicuous. Flowers give way to ribbed, tubular seed capsules (to 3\" long) which mature to a grayish-brown in September. The leaves, young stems and flowers of this species are hairy (tomentose as the species name suggests). Very similar toA. macrophyllawhich is native to eastern North America, exceptA. macrophyllais basically glabrous (smooth).Aristolochiais a larval plant for the pipe vine swallowtail butterfly.Genus name comes from the Greek wordsaristosmeaning best andlocheiameaning childbirth or delivery in reference to the fact that plants of some species within this genus (1) have a flower structure which more closely resembles a human fetus in the womb than a pipe, and (2) served in the past as the source of ancient plant preparations used for treatment of pain and infections incident to childbirth.Specific epithet means hairy.Commonly called Dutchman's pipe because the unusual, 2\" long, yellowish-green, curved-trumpet flowers (each flaring at the calyx mouth to form three brownish-purple lobes) superficially resemble Dutch smoking pipes."
     },
     "dwarf_crested_iris": {
         "Scientific Name": "iris cristata ",
@@ -535,7 +562,8 @@ export const plantData = {
         "Maintenance": "Medium",
         "Suggested Use": "Ground Cover, Naturalize",
         "Flower": "Showy",
-        "Tolerate": "Deer, Drought"
+        "Tolerate": "Deer, Drought",
+        "Noteworthy Characteristics": "Iris cristata, commonly called dwarf crested iris, is a low-growing, rapidly spreading plant that typically grows to 3-6\u201d tall. Found growing in rich soil on wooded ravines or bluffs in portions of the eastern and southern United States. In Missouri, it typically occurs on rocky, wooded slopes, on bluffs and along streams in the southeastern Ozark region. It features pale blue, lilac or lavender iris flowers with three parallel, golden, crested ridges on the falls (sepals). Flowers are borne on very short stems, often appearing nearly stemless. Narrow, sword-shaped, yellowish-green to medium green leaves (to 6\u201d long) arise from a network of branching rhizomes. Spreads quickly and forms dense colonies in optimum growing conditions. When in flower, a well-developed bed can produce a spectacular drift of blue color.Genus named for the Greek goddess of the rainbow.Specific epithet means crested, in reference to the crested ridges on the sepals of this species."
     },
     "blazing_star": {
         "Scientific Name": "liatris aspera ",
@@ -553,7 +581,8 @@ export const plantData = {
         "Maintenance": "Medium",
         "Flower": "Showy, Good Cut",
         "Attracts": "Birds, Hummingbirds, Butterflies",
-        "Tolerate": "Drought, Dry Soil, Shallow-Rocky Soil"
+        "Tolerate": "Drought, Dry Soil, Shallow-Rocky Soil",
+        "Noteworthy Characteristics": "Liatris aspera, commonly called rough blazing star, is an upright, clump-forming, Missouri native perennial which typically grows 2-3' tall (less frequently to 5') and which commonly occurs in dryish soils on prairies, open woods, glades, meadows and along roads and railroad tracks. Features rounded, fluffy, deep rose-purple flower heads (each 3/4\" across) which are crowded into long, terminal flower spikes atop erect, rigid, leafy flower stalks. Stalks arise from basal tufts of rough, very narrow, lance-shaped leaves (to 12\" long). Flowers open somewhat at the same time, which makes this species a particularly good fresh cut flower for floral arrangements. Blooms later (late summer to fall) than most otherLiatrisspecies. The flowers are attractive to hummingbirds, butterflies, and other pollinators, and the small seeds are attractive to songbirds.Genus name of unknown origin.Specific epithet means rough.Liatrisbelongs to the aster family, with each flower head having only fluffy disk flowers (resembling \"blazing stars\") and no rays. The feathery flower heads of liatris give rise to another common name of gayfeather."
     },
     "blue_star": {
         "Scientific Name": "amsonia ciliata ",
@@ -572,7 +601,8 @@ export const plantData = {
         "Flower": "Showy",
         "Leaf": "Good Fall",
         "Attracts": "Butterflies",
-        "Tolerate": "Deer"
+        "Tolerate": "Deer",
+        "Noteworthy Characteristics": "Amsonia ciliatais a clump-forming perennial that is native from North Carolina to Florida west to Missouri, Arkansas and Texas. It is generally found in sandy soils. It typically grows to 2-3\u2019 tall. Terminal clusters of star-like, light blue flowers bloom in mid spring (May) atop generally erect stems clad with narrow, almost needle-like, green leaves. Foliage turns attractive shades of yellow in fall. This plant is commonly called bluestar or fringed bluestar or downy amsonia.Genus name honors Dr. John Amson (1698-1765?), an English physician and amateur botanist who lived and worked in Williamsburg, Virginia during the colonial period.Specific epithet means hairy-margined in reference to the fringe of hairs found on new leaves and plant stems (hence the sometimes use of fringed or downy in the common name)."
     },
     "eastern_redbud": {
         "Scientific Name": "cercis canadensis ",
@@ -592,7 +622,8 @@ export const plantData = {
         "Flower": "Showy, Good Cut",
         "Leaf": "Good Fall",
         "Attracts": "Birds, Hummingbirds, Butterflies",
-        "Tolerate": "Deer, Clay Soil, Black Walnut"
+        "Tolerate": "Deer, Clay Soil, Black Walnut",
+        "Noteworthy Characteristics": "Cercis canadensis, commonly called eastern redbud, is a deciduous, often multi-trunked understory tree with a rounded crown that typically matures to 20-30\u2019 tall with a slightly larger spread.  It is particularly noted for its stunning pea-like rose-purple flowers which bloom profusely on bare branches in early spring (March-April) before the foliage emerges.  This tree is native to eastern and central North America from Connecticut to New York to southern Ontario and the Great Lakes south to Western Texas and Florida.  It is found in open woodlands, thickets, woodland margins, limestone glades and along rocky streams and bluffs throughout Missouri (Steyermark).  Flowers (to \u00bd\u201d wide) bloom in clusters of 4-10.  Flowers are followed by flattened leguminous bean-like dry seedpods (to 2-4\u201d long) that mature to brown in summer. Each pod has 6-12 seeds.  Pods may remain on the tree into winter.  Alternate, simple, cordate, broadly ovate to nearly orbicular, dull green to blue-green leaves (3-5\u201d across) have a papery texture and are short pointed at the tip.  Leaves turn pale yellow to greenish-yellow in fall. The flowers provide an early-season nectar source for hummingbirds. The seeds and flowerbuds are eaten by songbirds. Caterpillars and other insects which feed on redbeds are also a source of food for birds.Genus name comes from the Greek wordkerkismeaning \"weaver's shuttle\" in reference to the resemblance of each seed pod to a weaver's shuttle.Specific epithet is in reference to Canada (southern Ontario) being part of the native range of this tree."
     },
     "common_witch_hazel": {
         "Scientific Name": "hamamelis virginiana ",
@@ -613,7 +644,8 @@ export const plantData = {
         "Leaf": "Good Fall",
         "Attracts": "Birds",
         "Other": "Winter Interest",
-        "Tolerate": "Deer, Erosion, Clay Soil"
+        "Tolerate": "Deer, Erosion, Clay Soil",
+        "Noteworthy Characteristics": "Hamamelis virginiana, known as common witch hazel, is a fall-blooming, deciduous shrub or small tree that is native to woodlands, forest margins and stream banks in eastern North America.  It typically grows 15-20\u2019 tall with a similar spread in cultivation, but can reach 30\u2019 tall in its native habitat.  Stem-hugging clusters of fragrant bright yellow flowers, each with four crinkly, ribbon-shaped petals, appear along the branches from October to December, usually after leaf drop but sometimes at the time of fall color.  Fertilized flowers will form fruit over a long period extending through winter and into the following growing season.  Fruits are greenish seed capsules that become woody with age and mature to light brown.  Each seed capsule splits open in fall of the following year, exploding the 1-2 black seeds within for up to 30 feet.  Oval to obovate, medium to dark green leaves (to 6\u201d long) with dentate to wavy margins turn quality shades of yellow in fall. Plants of this species are usually the last native flowering plants to bloom in Missouri each year.Genus name comes from the Greek wordshamameaning at same time andmelonmeaning apple or fruit in reference to the occurrence of both fruit and flowers at the same time on this shrub (particularly in the case of fall flowering members of the genus).Specific epithet means from Virginia."
     },
     "prairie_onion": {
         "Scientific Name": "allium stellatum ",
@@ -632,7 +664,8 @@ export const plantData = {
         "Suggested Use": "Naturalize",
         "Flower": "Showy",
         "Leaf": "Fragrant",
-        "Tolerate": "Deer, Drought, Dry Soil, Shallow-Rocky Soil, Black Walnut"
+        "Tolerate": "Deer, Drought, Dry Soil, Shallow-Rocky Soil, Black Walnut",
+        "Noteworthy Characteristics": "Allium stellatum, commonly called prairie onion, is a Missouri native plant that occurs primarily in rocky soils on limestone glades and bluff ledges in the Ozark region of the State (Steyermark). It is also found on rocky prairies in parts of the Midwest and Great Plains. It is a bulbous perennial which typically grows 12-18\" tall. Features clumps of flat, narrow, grass-like leaves (to 12\" tall) and tiny, starry, bell-shaped, reddish-pink flowers which appear in rounded clusters (umbels) atop erect, leafless scapes rising slightly above the foliage. Blooms in mid to late summer. Leaves often die back by the time of flowering. Leaves and flower scapes rise directly from the bulbs. All parts of this plant have an oniony smell when cut or bruised. Although the bulbs and leaves of this plant were once used in cooking (stews) or eaten raw, this species of allium is not generally considered to be of culinary value today. Bulbs were also used by early Americans as cough/cold remedies and as insect repellants. Nodding wild onion (Allium cernuum) is similar to this plant in size, culture and general appearance, except, as the common name suggests, the flower umbel nods rather than stands erect.Genus name comes from the classical Latin name for garlic.Specific epithet means star-like in reference to the flower shape."
     },
     "american_agave": {
         "Scientific Name": "manfreda virginica ",
@@ -649,7 +682,8 @@ export const plantData = {
         "Water": "Dry to medium",
         "Maintenance": "Low",
         "Flower": "Showy, Fragrant",
-        "Tolerate": "Drought, Dry Soil, Shallow-Rocky Soil"
+        "Tolerate": "Drought, Dry Soil, Shallow-Rocky Soil",
+        "Noteworthy Characteristics": "Manfreda virginica, commonly called American aloe, false aloe, Virginia agave, or rattlesnake master, is a Missouri native plant which occurs most often in alkaline soils on rocky glades and in sandy open woods in the Ozark region. A rhizomatous perennial which forms large, basal rosettes of nearly flat, soft, fleshy, sword-shaped, dark green leaves (6\" to 20\" long and 2\" wide). Leaves may be flecked with red. From the center of each rosette rises an erect flower stalk to 4-5' tall (less frequently to 6'). Up to 30 solitary, fragrant, pale yellowish-green, tube-shaped, three-lobed flowers (1\" long) are loosely arranged on the flower spike. Long summer bloom occasionally extends into fall. Flowers give way to capsule-like fruit. This plant is also sometimes sold asAgave virginica.Genus name honors Manfredus de Monte Imperiali, an ancient writer.Specific epithet means of Virginia."
     },
     "flowering_dogwood": {
         "Scientific Name": "cornus florida ",
@@ -670,7 +704,8 @@ export const plantData = {
         "Leaf": "Good Fall",
         "Attracts": "Birds, Butterflies",
         "Fruit": "Showy",
-        "Tolerate": "Deer, Clay Soil, Black Walnut"
+        "Tolerate": "Deer, Clay Soil, Black Walnut",
+        "Noteworthy Characteristics": "Cornus florida, commonly known as flowering dogwood, is a small deciduous tree that typically grows 15-30\u2019 tall with a low-branching, broadly-pyramidal but somewhat flat-topped habit.  It arguably may be the most beautiful of the native American flowering trees.  It is native from Maine to southern Ontario to Illinois to Kansas south to Florida, Texas and Mexico.  It is the state tree of Missouri and Virginia.  It blooms in early spring (April) shortly after, but usually overlapping, the bloom period of the redbuds.  The true dogwood flowers are actually tiny, yellowish green and insignificant, being compacted into button-like clusters.  However, each flower cluster is surrounded by four showy, white, petal-like bracts which open flat, giving the appearance of a single, large, 3-4\u201d diameter, 4-petaled, white flower.  Oval, dark green leaves (3-6\u201d long) turn attractive shades of red in fall.  Bright red fruits are bitter and inedible to humans (some authors say poisonous) but are loved by birds. Fruits mature in late summer to early fall and may persist until late in the year.Genus name comes from the Latin wordcornusmeaning \"horn\", possibly in reference to the strength and density of the wood.Cornusis also the Latin name for cornelian cherry (Cornus mas). May also be related to the Greekkerasosmeaning \"cherry\".Specific epithet comes from the Latin wordflosflower in reference to its attractive spring flowers.Common name of dogwood is in probable reference to an old-time use of hard slender stems from this tree for making skewers once known as dags or dogs."
     },
     "fringe_tree": {
         "Scientific Name": "chionanthus virginicus ",
@@ -691,7 +726,8 @@ export const plantData = {
         "Leaf": "Good Fall",
         "Attracts": "Birds",
         "Fruit": "Showy",
-        "Tolerate": "Clay Soil, Black Walnut, Air Pollution"
+        "Tolerate": "Clay Soil, Black Walnut, Air Pollution",
+        "Noteworthy Characteristics": "Chionanthus virginicus, commonly called fringetree, is a deciduous, Missouri native shrub or small tree with a spreading, rounded habit that typically grows 12-20' tall (to 35' in the wild, however) and most often occurs in rich, moist woods and hillsides, moist stream banks, limestone glade margins and rocky bluffs and ledges. Common name refers to the slightly fragrant, spring-blooming flowers which feature airy, terminal, drooping clusters (4-6\" long) of fringe-like, creamy white petals. Dioecious (separate male and female plants), but also may have perfect flowers on each plant. Male flowers are showier than female flowers. Fertilized perfect or female flowers give way to clusters of olive-like fruits which ripen to a dark, bluish black in late summer and are a food source for birds and wildlife. Wide, spear-shaped leaves (to 8\" long) turn yellow in autumn.Genus name comes from the Greek wordschionmeaning snow andanthosmeaning a flower for the snow white flowers ofC. virginicus.Specific epithet means of Virginia."
     },
     "wavyleaf_purple_coneflower": {
         "Scientific Name": "echinacea simulata ",
@@ -709,7 +745,8 @@ export const plantData = {
         "Maintenance": "Low",
         "Flower": "Showy",
         "Attracts": "Birds, Butterflies",
-        "Tolerate": "Deer, Drought, Clay Soil, Dry Soil, Shallow-Rocky Soil"
+        "Tolerate": "Deer, Drought, Clay Soil, Dry Soil, Shallow-Rocky Soil",
+        "Noteworthy Characteristics": "Echinacea simulata, commonly called wavyleaf purple coneflower or glade coneflower, is native to rocky, woodland openings, prairies, and glades primarily in the Ozarks with disjunct populations from Illinois and Indiana south through Kentucky and Tennessee to northern Alabama and Georgia. It is very similar to the more wide-spreadEchinacea pallida, except for the pollen color on the anthers:E. simulatais yellow, butE. pallidais white. Features very narrow, parallel-veined, toothless, dark green leaves (4-10\" long) and large, daisy-like flowers with drooping, pale pinkish-purple petals (ray flowers) and spiny, flattened-knob-like, coppery-orange center cones. Flowers appear on rigid stems to 3' tall over a long summer bloom. Best flower display is in late June to late July, with sporadic continued bloom into autumn. Good fresh cut or dried flower. The dead flower stems will remain erect well into the winter and, if flower heads are not removed, are often visited by goldfinches who perch on or just below the blackened cones to feed on the seeds.Genus name ofEchinaceacomes from the Greek wordechinosmeaning hedgehog or sea-urchin in reference to the spiny center cone found on most flowers in the genus.Specific epithet appears to refer to the plant's resemblance to or simulation ofE. pallida."
     },
     "meadow_zizia": {
         "Scientific Name": "zizia aptera ",
@@ -727,7 +764,8 @@ export const plantData = {
         "Maintenance": "Medium",
         "Suggested Use": "Naturalize",
         "Flower": "Showy, Good Cut",
-        "Tolerate": "Dry Soil"
+        "Tolerate": "Dry Soil",
+        "Noteworthy Characteristics": "Zizia aptera, commonly called heart-leaved meadow parsnip, is a Missouri native perennial which occurs most often in small colonies in woods, thickets, glades and prairies. Features flat-topped clusters (compound umbels) of tiny yellow flowers in late spring to early summer atop stems growing to 3' tall. Distinguished from other carrot family members by the absence of a flower stalk on the central flower of each umbel. Tripartite, toothed stem leaves. However, the simple, heart-shaped basal leaves best distinguish this species from the similarZizia aureaand give rise to the common name.Genus name honors German botanist Johann Baptist Ziz (d. 1829).Specific epithet means wingless."
     },
     "clove_currant": {
         "Scientific Name": "ribes odoratum ",
@@ -747,7 +785,8 @@ export const plantData = {
         "Flower": "Showy, Fragrant",
         "Attracts": "Birds, Butterflies",
         "Fruit": "Showy, Edible",
-        "Tolerate": "Rabbit, Drought, Erosion, Clay Soil"
+        "Tolerate": "Rabbit, Drought, Erosion, Clay Soil",
+        "Noteworthy Characteristics": "Ribes odoratum, commonly called clove currant, is a thornless, loosely-branched, irregularly-shaped, deciduous shrub that typically grows to 6-8\u2019 tall and as wide.  It is native to slopes, rocky bluffs and streambanks from Minnesota and South Dakota south to Missouri, Arkansas, Oklahoma and Texas.  In Missouri, it is primarily found on limestone bluffs along the Current and White Rivers.  It has been widely planted in the eastern U.S. where it has escaped gardens and naturalized.Ovate to rounded, medium green to bluish-green, 3-5 lobed leaves turn dull yellow in fall.  Golden yellow trumpet-shaped flowers appear in racemes in spring and emit a strong clove-like fragrance.  Flowers give way to drooping clusters of large, oval-rounded, shiny black currants which ripen in late season (July in St. Louis).  Fruit can be eaten raw from the shrub or made into juices, jams, jellies, tarts and pies.Ribes odoratumis very closely related toRibes aureum, and is now being listed in some references asRibes aureumvar.villosum.The genus nameRibesis derived from the Arabicribas, the name used forRheum ribes(Syrian rhubarb), an unrelated, wild rhubarb species. European herbalists possibly connected the two due to the acidic flavor of the flowering stem ofR. ribes, or the visually similar panicles of red fruits.Specific epithet comes from the Latin wordodoratusmeaning fragrant in reference to the clove-scented flowers. Ovate to rounded, medium green to bluish-green, 3-5 lobed leaves turn dull yellow in fall.  Golden yellow trumpet-shaped flowers appear in racemes in spring and emit a strong clove-like fragrance.  Flowers give way to drooping clusters of large, oval-rounded, shiny black currants which ripen in late season (July in St. Louis).  Fruit can be eaten raw from the shrub or made into juices, jams, jellies, tarts and pies.Ribes odoratumis very closely related toRibes aureum, and is now being listed in some references asRibes aureumvar.villosum.The genus nameRibesis derived from the Arabicribas, the name used forRheum ribes(Syrian rhubarb), an unrelated, wild rhubarb species. European herbalists possibly connected the two due to the acidic flavor of the flowering stem ofR. ribes, or the visually similar panicles of red fruits.Specific epithet comes from the Latin wordodoratusmeaning fragrant in reference to the clove-scented flowers. Ribes odoratumis very closely related toRibes aureum, and is now being listed in some references asRibes aureumvar.villosum.The genus nameRibesis derived from the Arabicribas, the name used forRheum ribes(Syrian rhubarb), an unrelated, wild rhubarb species. European herbalists possibly connected the two due to the acidic flavor of the flowering stem ofR. ribes, or the visually similar panicles of red fruits.Specific epithet comes from the Latin wordodoratusmeaning fragrant in reference to the clove-scented flowers."
     },
     "gray_sedge": {
         "Scientific Name": "carex grayi ",
@@ -767,7 +806,8 @@ export const plantData = {
         "Flower": "Showy, Good Cut, Good Dried",
         "Leaf": "Evergreen",
         "Fruit": "Showy",
-        "Tolerate": "Deer, Erosion, Wet Soil"
+        "Tolerate": "Deer, Erosion, Wet Soil",
+        "Noteworthy Characteristics": "Carex grayi, commonly called gray sedge, has greenish yellow to brown seed heads that look like spiked clubs and are attractive in both fresh and dried flower arrangements. The fruits remain on the plant in winter, adding an interesting accent when the shadows reflect on snow. The grass-like leaves, which are up to 1/2\" wide, are semi-evergreen.Genus name from Latin means cutter in reference to the sharp leaves and stem edges (rushes are round but sedges have edges) found on most species' plants.Specific epithet honors Asa Gray (1810-1888), a leading American botanist and author of such great works as the notableGray's Manual of Botany(1848; 8th edition 1950)."
     },
     "bluebell": {
         "Scientific Name": "campanula rotundifolia ",
@@ -785,7 +825,8 @@ export const plantData = {
         "Maintenance": "Low",
         "Suggested Use": "Naturalize",
         "Flower": "Showy",
-        "Tolerate": "Deer"
+        "Tolerate": "Deer",
+        "Noteworthy Characteristics": "Campanula rotundifolia, commonly called bluebell or harebell, is a rosette-forming, upright perennial that typically grows to 20\" tall. It is noted for producing attractive, bell-shaped, nodding blue flowers (each to 1/2\" long) that bloom singly or in small clusters from the stem tips throughout summer (June-September). This bluebell is native to a variety of different environments including meadows, grasslands, rocky slopes, crevices, alpine areas and sandy shores in the northern parts of North America, Europe and Asia. From a basal rosette of small, rounded, long-stalked, basal leaves (to 1\" wide) rise wiry, thread-like stems clad with narrow, alternate, linear leaves (each to 1-3\" long). Basal leaves usually wither early and disappear before the flowers form. This plant is also native to a small area in the Ozarks in Shannon County where it is found on north-facing limestone bluffs along the Jack's Fork River.Genus name comes from the Latincampanameaning bell in reference to the bell-shaped flowers.Specific epithet is in reference to the rounded basal leaves.This bluebell has a large number of common names. Harebell may relate to the fact that this plant is sometimes found in areas inhabited by rabbits (hares). This same plant grows in Scotland where it is popularly known as the bluebells of Scotland or Scotch bluebell."
     },
     "joe-pyeweed": {
         "Scientific Name": "eutrochium fistulosum ",
@@ -805,7 +846,8 @@ export const plantData = {
         "Flower": "Showy, Good Cut, Good Dried",
         "Leaf": "Good Fall",
         "Attracts": "Butterflies",
-        "Tolerate": "Deer, Wet Soil"
+        "Tolerate": "Deer, Wet Soil",
+        "Noteworthy Characteristics": "Eutrochium fistulosum, commonly called hollow Joe Pye weed, is a tall Missouri native perennial which uncommonly occurs in low moist ground, wet meadows, wet thickets and stream margins mostly in the far southeastern corner of the State. It is an erect, clump-forming perennial which typically grows 4-7' tall and features coarsely-serrated, lance-shaped, dark green leaves (to 12\" long) in whorls of 4-7 (frequently 6) on sturdy green stems which are hollow. Tiny, vanilla-scented, dull pinkish-purple flowers in large, terminal, domed, compound inflorescenses (12-18\" diameter) bloom in mid-summer to early fall. Flowers are very attractive to butterflies. Flowers give way to attractive seed heads which persist well into winter. Hollow Joe Pye weed is similar in appearance to both spotted Joe Pye weed (E. maculatum) and sweet Joe Pye weed (E. purpureum, but is primarily distinguished by its larger leaf whorls and hollow stems which usually lack spotting.Genus name is derived from the Greek wordseumeaning well andtrochemeaning wheel-like in reference to the whorled leaves.Specific epithet means hollow."
     },
     "indian_pink": {
         "Scientific Name": "spigelia marilandica ",
@@ -823,7 +865,8 @@ export const plantData = {
         "Maintenance": "Low",
         "Flower": "Showy",
         "Attracts": "Hummingbirds",
-        "Tolerate": "Wet Soil"
+        "Tolerate": "Wet Soil",
+        "Noteworthy Characteristics": "Spigelia marilandica, commonly called Indian pink, is a clump-forming, Missouri native perennial which occurs in moist woods and streambanks in the far southeastern part of the State. Features one-sided cymes of upward facing, trumpet-shaped, red flowers (to 2\" long) atop stiff stems growing to 18\" tall. Each flower is yellow inside and flares at the top to form five pointed lobes (a yellow star). Flowers bloom in June. Glossy green, ovate to lance-shaped leaves (to 4\" long). Highly attractive to hummingbirds, and makes an excellent cut flower for fresh arrangements.Genus name honors  Adrian van der Spiegel (1578-1625), professor of anatomy at Padua.Specific epithet means of Maryland."
     },
     "false_indigo": {
         "Scientific Name": "amorpha fruticosa ",
@@ -843,7 +886,8 @@ export const plantData = {
         "Attracts": "Butterflies",
         "Fruit": "Showy",
         "Tolerate": "Wet Soil",
-        "Invasive": "Where is this species invasive in the US?"
+        "Invasive": "Where is this species invasive in the US?",
+        "Noteworthy Characteristics": "False indigo is a deciduous shrub that typically grows to 4-12' (less frequently to 20') tall with a spread often in excess of its height.  It is native to moist open woodland areas, floodplains, stream banks and swamp margins from central to eastern Canada south throughout much of the U. S. into northern Mexico.  It features compound, odd-pinnate leaves (each to 12\" long).  Each leaf contains 11 to 35 spiny-tipped, oval to elliptic, dull gray-green leaflets (to 2\" long) with glandular dots and toothless margins.  Tubular scented flowers (each to 3/8\" long) bloom in May-June in dense, spike-shaped clusters (racemes) to 8\" long.  Each flower has a single-petaled purple corolla and 10 protruding stamens with showy orange-yellow anthers.  Flowers are followed by fruits in small, resinous-dotted, 1-2 seeded pods (to 1/2\" long) which mature in July and August.  This shrub grows much larger thanAmorpha canescens(lead plant).Genus name comes from the Greek wordamorphosmeaning shapeless or deformed in reference to the corolla of this pea family genus lacking wings and a keel.Specific epithet comes from the Latin wordfrutexmeaning shrub in reference to its shrubby form.Plants contain indigo pigment, but in quantities too small for commercial use (hence the common name of false indigo)."
     },
     "large-flowered_bellwort": {
         "Scientific Name": "uvularia grandiflora ",
@@ -860,7 +904,8 @@ export const plantData = {
         "Water": "Medium",
         "Maintenance": "Low",
         "Flower": "Showy, Good Cut",
-        "Tolerate": "Drought, Dry Soil"
+        "Tolerate": "Drought, Dry Soil",
+        "Noteworthy Characteristics": "Uvularia grandiflorais a Missouri native wildflower. It is a clump-forming, erect plant that grows to 2' tall and features 1.5\" long, pendulous, somewhat bell-shaped, yellow flowers with six, partially twisted tepals (petal and sepal look-alikes) and lance-shaped, perfoliate (leaf base encircles the stem), partially twisted, bright green leaves. Plant has overall droopy appearance. Occurs in the wild typically in rich woodlands, on wooded slopes and in alluvial valleys.Genus name comes from the anatomical termuvulareferring to the lobe hanging from the back of the soft palate in man in reference to the hanging blossoms.Specific epithet means large-flowered."
     },
     "lead_plant": {
         "Scientific Name": "amorpha canescens ",
@@ -879,7 +924,8 @@ export const plantData = {
         "Suggested Use": "Naturalize",
         "Flower": "Showy",
         "Attracts": "Birds, Butterflies",
-        "Tolerate": "Drought, Erosion, Dry Soil"
+        "Tolerate": "Drought, Erosion, Dry Soil",
+        "Noteworthy Characteristics": "Amorpha canescens, commonly called called lead plant, is a Missouri native that typically occurs in open woodlands, glades and prairies. This pea/bean family member is a somewhat ungainly, deciduous shrub growing 1-3' tall and featuring slender, dense, 4-8\" spike-like clusters of tiny, bluish-purple flowers with gold anthers which bloom in May-June. It also features alternate, pinnately compound leaves with grayish green leaflets and densely hairy twigs.Genus name comes from the Greek wordamorphosmeaning shapeless or deformed in reference to the corolla of this pea family genus lacking wings and a keel.Specific epithet means with off-white or ashy-grey hairs in reference to the leaves and twigs.The genusAmorphais often called false indigo because of its resemblance to plants of the genusIndigofera. Common name of lead plant refers to the once held belief that the plant was an indicator of the presence of lead in the ground."
     },
     "leatherwood": {
         "Scientific Name": "dirca palustris ",
@@ -898,7 +944,8 @@ export const plantData = {
         "Suggested Use": "Hedge, Rain Garden",
         "Flower": "Showy",
         "Leaf": "Good Fall",
-        "Tolerate": "Heavy Shade, Wet Soil"
+        "Tolerate": "Heavy Shade, Wet Soil",
+        "Noteworthy Characteristics": "Dirca palustris, commonly called leatherwood, is a small deciduous shrub that typically grows 4-6' (infrequently to 9') tall. It is native to the forest understory of eastern North America, but is uncommon in most of its range. In Missouri, it is most often found in the Ozarks in low bottom woods, rich wooded slopes, rocky wooded bluffs and along streambanks (Steyermark). Bell-shaped, pale lemon-yellow flowers (to 1/4\" long) with long yellow stamens bloom in axillary clusters along the branches in early spring (March-April) before the leaves emerge. Flowers give way to green drupes (to 1/2\" diameter) which mature in late spring to early summer. Elliptic to obovate leaves (to 3-4\" long) emerge yellow-green in spring, mature to medium green in summer and turn a pleasant bright yellow in fall. Bark is leathery, tough and strong. Twigs are extremely pliable. Native Americans used the twigs and bark for a number of purposes including making bow strings, baskets, fishing line and rope. Some people have allergic reactions to contact with the bark. The bark, fruits and roots of this shrub are toxic.Genus name comes from the Greek worddirkemeaning a fountain.Specific epithet means marsh-loving in reference to the moist-to-boggy habitat preferred by this shrub."
     },
     "little_bluestem": {
         "Scientific Name": "schizachyrium scoparium ",
@@ -919,7 +966,8 @@ export const plantData = {
         "Leaf": "Good Fall",
         "Attracts": "Birds",
         "Other": "Winter Interest",
-        "Tolerate": "Deer, Drought, Erosion, Dry Soil, Shallow-Rocky Soil, Black Walnut, Air Pollution"
+        "Tolerate": "Deer, Drought, Erosion, Dry Soil, Shallow-Rocky Soil, Black Walnut, Air Pollution",
+        "Noteworthy Characteristics": "Schizachyrium scoparium, commonly called little bluestem, is native to prairies, fields, clearings, hills, limestone glades, roadsides, waste areas and open woods from Alberta to Quebec south to Arizona and Florida.  It was one of the dominant grasses of the vast tallgrass prairie region which once covered rich and fertile soils in many parts of central North America.  It typically matures to 2-4\u2019 (less frequently to 5\u2019) tall, and features upright clumps of slender, flat, linear green leaves (to 1/4\u201c wide), with each leaf having a tinge of blue at the base. The foliage turns shades of bronze-orange in the fall. Purplish-bronze flowers appear in 3\u201d long racemes on branched stems rising above the foliage in August.  Flowers are followed by clusters of fluffy, silvery-white seed heads which are attractive and often persist into winter. The seeds are eaten by many species of birds.Genus name comes from the Latinschizeinmeaning to split andachyronmeaning chaff.Specific epithet means broomlike.Common name is in reference to the lavender-blue color on the stem  bases."
     },
     "littleflower_alumroot": {
         "Scientific Name": "heuchera parviflora ",
@@ -936,7 +984,8 @@ export const plantData = {
         "Water": "Dry to medium",
         "Maintenance": "Low",
         "Flower": "Showy",
-        "Tolerate": "Rabbit, Deer, Shallow-Rocky Soil"
+        "Tolerate": "Rabbit, Deer, Shallow-Rocky Soil",
+        "Noteworthy Characteristics": "Heuchera parviflora, commonly called littleflower alumroot or cave alumroot, is a herbaceous perennial native to the southern Appalachian Mountains and Appalachian Plateau from West Virginia south to Alabama, and west through the Ozark Mountains of Missouri and Arkansas. It can be found growing on shaded or north-facing rocky cliffs, ledges, and undercuts. Mature plants will have clumps of basal foliage reaching around 6-8\" tall with a 6-12\" spread. The more or less circular to reniform (kidney-shaped) leaves will reach 1-5\" wide, with 5-7 shallow lobes and scalloped margins. The lower leaf surfaces are often purplish in color. The inflorescences can reach 3.5-17.5\" long and are made up of open panicles of small, white to pink-tinted flowers with reflexed petals held on upright, leafless flowering stalks. Blooming begins in mid-summer and lasts to early fall. The leaves, petioles, and flowering stalks are covered in glandular hairs, giving them a sticky texture.Varietypuberulais found only in the Ozarks, southern Illinois, southern Indiana, and several sites in central Kentucky. It is distinguished from the species by having a denser covering of comparatively shorter glandular hairs.Genus name honors Johann Heinrich von Heucher (1677-1747), physician, botanist and medicinal plant expert at Wittenberg University, Germany.The specific epithetparviflorameans \"small flowered\", in reference to the size of the flowers of this species.\n\n\n\nThe infraspecific epithetpuberulameans \"having tiny hairs\", in reference to the pubescence of this variety which distinguishes it from the species.The common name littleflower alumroot refers to the size of the flowers and the common name cave alumroot refers to the preferred habitat of this species Varietypuberulais found only in the Ozarks, southern Illinois, southern Indiana, and several sites in central Kentucky. It is distinguished from the species by having a denser covering of comparatively shorter glandular hairs.Genus name honors Johann Heinrich von Heucher (1677-1747), physician, botanist and medicinal plant expert at Wittenberg University, Germany.The specific epithetparviflorameans \"small flowered\", in reference to the size of the flowers of this species.\n\n\n\nThe infraspecific epithetpuberulameans \"having tiny hairs\", in reference to the pubescence of this variety which distinguishes it from the species.The common name littleflower alumroot refers to the size of the flowers and the common name cave alumroot refers to the preferred habitat of this species"
     },
     "purple_lovegrass": {
         "Scientific Name": "eragrostis spectabilis ",
@@ -954,7 +1003,8 @@ export const plantData = {
         "Maintenance": "Low",
         "Suggested Use": "Naturalize",
         "Flower": "Showy, Good Cut, Good Dried",
-        "Tolerate": "Drought, Black Walnut, Air Pollution"
+        "Tolerate": "Drought, Black Walnut, Air Pollution",
+        "Noteworthy Characteristics": "Eragrostis spectabilis, commonly called purple love grass, is a warm season bunchgrass that is native to sandy soils from Maine to South Dakota south to Florida, Texas, Arizona and Mexico. In Missouri, it is found throughout the State, most commonly in sandy, rocky or open ground and along roads, fencerows and railroads (Steyermark). Flat, coarse, mostly basal, green leaves (to 10\" long and 3/8\" wide) form a somewhat disorganized clump of foliage that typically rises to 10\" tall. Soft reddish-purple flowers in a loose, open inflorescence appear in August, forming an airy cloud that covers the grass clump and raises the overall height of the plant to 24\" tall. Flowers lose color and turn brown by October. As the seeds mature, the inflorescence usually detaches from the plant and blows along the ground like a tumbleweed distributing seed as it goes.Genus name comes from the Greek wordserosmeaning love andagrostismeaning grass.Specific epithet means spectacular or showy."
     },
     "meadowsweet": {
         "Scientific Name": "spiraea alba ",
@@ -973,7 +1023,8 @@ export const plantData = {
         "Suggested Use": "Hedge, Rain Garden",
         "Flower": "Showy, Good Cut",
         "Attracts": "Butterflies",
-        "Tolerate": "Deer, Wet Soil"
+        "Tolerate": "Deer, Wet Soil",
+        "Noteworthy Characteristics": "Spiraea alba, commonly called meadowsweet, is an upright, deciduous shrub which grows up to 4' tall and features alternate, narrow, toothed, green leaves and terminal, cone-shaped clusters (3-4\" long) of tiny, white flowers that bloom in the summer. Fruits mature in September. Each fruit contains 5 pod-shaped follicles which dry out and split, thus allowing the seeds to disperse (somewhat like milkweed). Fruits do not have ornamental value. This species of spirea is a native of the eastern and midwestern U.S., but is currently endangered in the state of Missouri. Typically found in the wild on wet prairies, wet river bottom prairies and open ground along streams or lakes.Genus name comes from the Greek wordspeirameaning wreath in reference to the showy flower clusters seen on most shrubs in the genus.Specific epithet means white."
     },
     "missouri_evening_primrose": {
         "Scientific Name": "oenothera macrocarpa ",
@@ -991,7 +1042,8 @@ export const plantData = {
         "Maintenance": "Low",
         "Flower": "Showy, Fragrant",
         "Fruit": "Showy",
-        "Tolerate": "Drought, Clay Soil, Dry Soil, Shallow-Rocky Soil"
+        "Tolerate": "Drought, Clay Soil, Dry Soil, Shallow-Rocky Soil",
+        "Noteworthy Characteristics": "Oenothera macrocarpa, commonly called Missouri evening primrose, is a sprawling, Missouri native plant which occurs on limestone glades and bluffs and rocky prairies in the Ozark region south of the Missouri River. Typically grows 6-12\" tall and features very large (3-5\" across), solitary, 4-petaled, mildly fragrant, bright yellow flowers which open for only one day (usually open late afternoon and remain open until the following morning). Flowers arise from leaf axils and are generally upward-facing, but sometimes rest on or touch the ground. Long spring to summer bloom period. Flowers are followed by somewhat unique, winged seed pods (2-3\" long). Narrow, lance-shaped leaves. This species was formerly called (and is still often listed for sale as)Oenothera missouriensis.Genus name is unclear but may have come from the Greek wordsoinosandtherasmeaning wine-seeker in probable reference to an ancient use of the roots of genus plants in scenting wine.Specific epithet means large-fruited."
     },
     "new_jersey_tea": {
         "Scientific Name": "ceanothus americanus ",
@@ -1009,7 +1061,8 @@ export const plantData = {
         "Maintenance": "Low",
         "Flower": "Showy, Fragrant, Good Cut",
         "Attracts": "Hummingbirds, Butterflies",
-        "Tolerate": "Drought, Dry Soil, Shallow-Rocky Soil, Black Walnut"
+        "Tolerate": "Drought, Dry Soil, Shallow-Rocky Soil, Black Walnut",
+        "Noteworthy Characteristics": "Ceanothus americanus, commonly called New Jersey tea, is a compact, dense, rounded shrub which typically grows 2-3' tall (less frequently to 4'). It is native to Missouri where it occurs in prairies, glades, dry open woods and thickets throughout the state (Steyermark). Cylindrical clusters (1-2\" long) of tiny, fragrant, white flowers (1/8\") appear on long stalks at the stem ends or upper leaf axils in late spring. Toothed, broad-ovate, medium to dark green leaves (to 4\" long) are gray and hairy below. Young twigs are noticeably yellow and stand out in winter.Genus name comes fromkeanothoswhich is an ancient Greek name relating to some plants in the buckthorn family.Specific epithet means from America, North or South.Dried leaves were used as a tea substitute, albeit without caffeine, in American Revolutionary War times, hence the common name."
     },
     "ninebark": {
         "Scientific Name": "physocarpus opulifolius ",
@@ -1027,7 +1080,8 @@ export const plantData = {
         "Maintenance": "Medium",
         "Suggested Use": "Hedge",
         "Flower": "Showy",
-        "Tolerate": "Drought, Erosion, Clay Soil, Dry Soil, Wet Soil, Shallow-Rocky Soil, Black Walnut"
+        "Tolerate": "Drought, Erosion, Clay Soil, Dry Soil, Wet Soil, Shallow-Rocky Soil, Black Walnut",
+        "Noteworthy Characteristics": "Physocarpus opulifolius, commonly called ninebark, is an upright, spreading, somewhat coarse, deciduous, Missouri-native shrub which is closely related to the genusSpiraea.  In Missouri, it typically occurs along streams, rocky banks, gravel bars and in moist thickets, especially in counties south of the Missouri River (Steyermark).  Grows 5-9\u2019 tall (less frequently to 10\u2019).  Noted for its exfoliating bark (on mature branches) which peels in strips to reveal several layers of reddish to light brown inner bark (hence the common name of ninebark).  Bark provides winter interest, but is usually hidden by the foliage during the growing season.  Features small pink or white, five-petaled flowers appearing in dense, flat, rounded, 1-2\u201d diameter, spirea-like clusters (corymbs) in late spring.  Flowers give way to drooping clusters of reddish fruit (inflated seed capsules).  Ovate to rounded, usually 3-5 lobed leaves (to 4\u201d long) are dull green in summer changing to an undistinguished yellow in fall.Genus name comes from the Greekphysameaning a bladder andkarposmeaning fruit, referring to the inflated dry fruits of the plant.Specific epithet refers to the leaves that resemble those ofViburnum opulus.Common name of ninebark is in reference to its ornamental attractive exfoliating bark."
     },
     "nodding_onion": {
         "Scientific Name": "allium cernuum ",
@@ -1047,7 +1101,8 @@ export const plantData = {
         "Flower": "Showy",
         "Leaf": "Fragrant",
         "Attracts": "Butterflies",
-        "Tolerate": "Deer, Drought, Dry Soil, Shallow-Rocky Soil, Black Walnut"
+        "Tolerate": "Deer, Drought, Dry Soil, Shallow-Rocky Soil, Black Walnut",
+        "Noteworthy Characteristics": "Allium cernuum, commonly called nodding wild onion, is a Missouri native plant which occurs primarily in rocky soils on glades, bluff edges, open woods and slopes in the Ozark region of the State. Plants typically grow 12-18\u201d (less frequently to 24\u201d) tall. Features clumps of flat, narrow, grass-like leaves (to 12\u201d tall) and tiny bell-shaped, pink to lilac pink (occasionally white) flowers which appear in loose, nodding clusters (umbels) atop erect, leafless scapes rising slightly above the foliage. Wild nodding onion is distinguished from most other native alliums by the fact that its scapes crook sharply downward at the top just below the flower so that the flower umbel nods (hence the common name). Blooms in summer. All parts of this plant have an oniony smell when cut or bruised. Although the bulbs and leaves of this plant were once used in cooking (stews) or eaten raw, nodding onion is not generally considered to be of culinary value today.Specific epithet means nodding.Genus name comes from the classical Latin name for garlic.Specific epithet means nodding. Specific epithet means nodding.Genus name comes from the classical Latin name for garlic.Specific epithet means nodding."
     },
     "white-tinged_sedge": {
         "Scientific Name": "carex albicans ",
@@ -1064,7 +1119,8 @@ export const plantData = {
         "Maintenance": "Low",
         "Suggested Use": "Naturalize",
         "Flower": "Showy",
-        "Tolerate": "Drought, Dry Soil"
+        "Tolerate": "Drought, Dry Soil",
+        "Noteworthy Characteristics": "Carex albicans, sometimes commonly called white tinged sedge or oak sedge, is a rhizomatous perennial sedge (section Acrocystis) that grows in a clump to 15-20\" tall. It is native to North America from Quebec and Ontario south to Florida and Texas. In Missouri, it is found throughout the State, but most frequently in messic to dry upland forests and shaded ledges and less frequently in sandy bottomland forests (Steyermark). Narrow, grass-like, upright-arching, bright green leaf blades (to 16\" long and 1/10\" wide) grow in either dense tufts or loose colonies of tufts. Flowers bloom in late spring (May) on flowering stems rising to as much as 20\" tall. Inflorescence has a staminate terminal spike and pistillate lateral spikes. Staminate scales are green to straw-colored, often tinged with reddish purple and white-margined. Pistillate scales are usually dark brown to black with green midribs and white margins. Fruits are trigonous, one-seeded achenes enclosed in sac-like bracts (perigynia). Over 1500 species ofCarexgrow in a variety of habitats (often moist to wet areas) throughout the world. Identification of individual species can be very difficult.Genus name from Latin means cutter in reference to the sharp leaves and stem edges (rushes are round but sedges have edges) found on most species' plants.Specific epithet comes from Latin meaning whitish."
     },
     "overcup_oak": {
         "Scientific Name": "quercus lyrata ",
@@ -1084,7 +1140,8 @@ export const plantData = {
         "Flower": "Insignificant",
         "Leaf": "Good Fall",
         "Fruit": "Showy",
-        "Tolerate": "Erosion, Clay Soil, Wet Soil"
+        "Tolerate": "Erosion, Clay Soil, Wet Soil",
+        "Noteworthy Characteristics": "Quercus lyrata, commonly called overcup oak, gets its common name from the distinctive bur-like acorn cup that typically encloses 2/3 to almost all of the nut.  It is a medium sized deciduous oak (part of the white oak group) that typically grows to 40-60' tall with a straight trunk and broad rounded crown.  This is a bottomland tree that is native to floodplain forests, lowlands, and along swamps and bayous in the southeastern U.S.  It is particularly prevalent in coastal plain swamp forests from Texas to Florida north to New Jersey and up the Mississippi River valley to Missouri, southern Illinois and Indiana. Ornamentally insignificant flowers bloom in March or April (males in slender yellow catkins to 4-6\" long and females in short few-flowered reddish spikes).  Deep green leaves (6-10\u201d long and to 4\" wide) with fuzzy white undersides each have 5-9  deep rounded lobes.  Leaves turn shades of yellow-brown (sometimes with orange and red) in fall.  Female flowers give way to acorns (to 1\" long) which mature in September to October. Overcup oaks usually do not begin bearing acorns until 25-30 years old.   Slightly shaggy gray to grayish-brown bark on mature trees is reminiscent of white oak.Genus name comes from the classical Latin name for oak trees.Specific epithet comes from the Latin wordlyrea stringed instrument in reference to the lyre-shaped leaves."
     },
     "pagoda_dogwood": {
         "Scientific Name": "cornus alternifolia ",
@@ -1105,7 +1162,8 @@ export const plantData = {
         "Leaf": "Good Fall",
         "Attracts": "Birds, Butterflies",
         "Fruit": "Showy",
-        "Tolerate": "Deer, Black Walnut"
+        "Tolerate": "Deer, Black Walnut",
+        "Noteworthy Characteristics": "Cornus alternifoliais a small deciduous tree or large multi-stemmed shrub that typically grows 15-25\u2019 tall with distinctive tiered/layered horizontal branching which is upward-turned at the tips.  It is native to both moist and dry forests, forest margins, stream banks and fields from Newfoundland to Minnesota south to northern Arkansas and through the Appalachians to Georgia and Alabama.  Small, fragrant, yellowish-white flowers bloom in flattened cymes (each to 2 1/2\" across) in late spring (May-June).  Flowers give way to bluish-black fruits (drupes) on red stalks.  Fruits mature in late summer.  Elliptic-ovate, medium green leaves (to 3-5\u201d long) turn reddish-purple often tinted yellow or green in fall.  Although the leaves of most species of dogwood are opposite, those of pagoda dogwood are alternate, hence the specific epithet and often used common name of alternate-leaf dogwood.Genus name comes from the Latin wordcornusmeaning \"horn\", possibly in reference to the strength and density of the wood.Cornusis also the Latin name for cornelian cherry (Cornus mas). May also be related to the Greekkerasosmeaning \"cherry\".Specific epithet refers to the alternate arrangement of the leaves.Common name of pagoda dogwood is in reference to the tiered horizontal branching."
     },
     "pale_beardtongue": {
         "Scientific Name": "penstemon pallidus ",
@@ -1123,7 +1181,8 @@ export const plantData = {
         "Maintenance": "Low",
         "Flower": "Showy",
         "Attracts": "Butterflies",
-        "Tolerate": "Deer, Drought, Dry Soil, Shallow-Rocky Soil"
+        "Tolerate": "Deer, Drought, Dry Soil, Shallow-Rocky Soil",
+        "Noteworthy Characteristics": "Penstemon pallidus, commonly known as pale beardtongue, is an herbaceous perennial that grows to 2 1/2\u2019 tall.  It is native to a variety of habitats including dry or rocky open woods, glades, sandy soils on prairies, bluffs, rocky cliffs, abandoned fields and along railroads in the eastern and central U.S. from Maine to Michigan and Minnesota south to Georgia, Mississippi, Arkansas and Kansas.This penstemon is a downy perennial.  Stems, leaves, flowers, flower stalks and flower pedicels have pubescence of variable density.  Basal leaves form a rosette from which rises a central stem clad with narrow, lanceolate, partially-clasping, medium green stem leaves (to 2\u201d long and to 3/4\u201d wide).  The central stem is topped from mid spring to early summer (May-June) by a showy upright panicle (4-10\u201d long) of two-lipped, tubular, white flowers (often with a pink tinge).  The upper lip of each flower has two lobes and the lower lip has three lobes.  Flowers are followed by ovoid seed capsules (to 1/4\u201d long) which split open when ripe releasing numerous tiny seeds.The genus namePenstemonlikely comes from the Latinpaenemeaning \"almost\" or \"nearly\" and the Greekstemonmeaning \"stamen\". The name may also comes from the Greekpentameaning \"five\" andstemonmeaning \"stamen\". Both refer to the fifth, sterile stamen (staminode) that characterizes members of this genus.Specific epithet comes from Latin meaning pale in reference to the pale white flowers and pale green foliage.Penstemons are sometimes commonly called beardtongues because the unusual sterile stamen contained in each flower has a tuft of small hairs. This penstemon is a downy perennial.  Stems, leaves, flowers, flower stalks and flower pedicels have pubescence of variable density.  Basal leaves form a rosette from which rises a central stem clad with narrow, lanceolate, partially-clasping, medium green stem leaves (to 2\u201d long and to 3/4\u201d wide).  The central stem is topped from mid spring to early summer (May-June) by a showy upright panicle (4-10\u201d long) of two-lipped, tubular, white flowers (often with a pink tinge).  The upper lip of each flower has two lobes and the lower lip has three lobes.  Flowers are followed by ovoid seed capsules (to 1/4\u201d long) which split open when ripe releasing numerous tiny seeds.The genus namePenstemonlikely comes from the Latinpaenemeaning \"almost\" or \"nearly\" and the Greekstemonmeaning \"stamen\". The name may also comes from the Greekpentameaning \"five\" andstemonmeaning \"stamen\". Both refer to the fifth, sterile stamen (staminode) that characterizes members of this genus.Specific epithet comes from Latin meaning pale in reference to the pale white flowers and pale green foliage.Penstemons are sometimes commonly called beardtongues because the unusual sterile stamen contained in each flower has a tuft of small hairs."
     },
     "pale_purple_coneflower": {
         "Scientific Name": "echinacea pallida ",
@@ -1142,7 +1201,8 @@ export const plantData = {
         "Suggested Use": "Naturalize",
         "Flower": "Showy, Fragrant, Good Cut",
         "Attracts": "Butterflies",
-        "Tolerate": "Deer, Drought, Clay Soil, Dry Soil, Shallow-Rocky Soil"
+        "Tolerate": "Deer, Drought, Clay Soil, Dry Soil, Shallow-Rocky Soil",
+        "Noteworthy Characteristics": "Echinacea pallida, commonly known as pale purple coneflower,  is a coarse, hairy perennial of prairies, savannahs, glades and open dry rocky woods from Nebraska to Michigan south to Georgia and Texas.  It features narrow, parallel-veined, toothless, dark green leaves (4-10\u201d long) and large, daisy-like flowers with drooping, pale pinkish-purple petals (ray flowers) and spiny, knob-like, coppery-orange center cones.  Flowers appear on rigid stems to 2-3\u2019 (less frequently to 4\u2019) tall over a long summer bloom.  This species is distinguished by (a) thin, extremely-reflexed rays which almost droop straight down and (b) very narrow, parallel-veined leaves which have no teeth. Best flower display is in late June to late July, with sporadic continued bloom into autumn.Genus name ofEchinaceacomes from the Greek wordechinosmeaning hedgehog or sea-urchin in reference to the spiny center cone found on most flowers in the genus.Specific epithet means pale in probable reference to the pale pinkish-purple petals."
     },
     "palm_sedge": {
         "Scientific Name": "carex muskingumensis ",
@@ -1160,7 +1220,8 @@ export const plantData = {
         "Maintenance": "Low",
         "Suggested Use": "Water Plant, Naturalize, Rain Garden",
         "Flower": "Insignificant",
-        "Tolerate": "Deer, Drought"
+        "Tolerate": "Deer, Drought",
+        "Noteworthy Characteristics": "Carex muskingumensis, commonly called palm sedge, is a dense, clump-forming sedge which is grown for its foliage effect. Produces rigid, erect stems to 20\" tall with 8\" long, pointed, grass-like, light green leaves radiating from the stem tops. Commonly called palm sedge since the leaves somewhat superficially resemble miniature palm fronds. A Missouri native which is found most often in wooded swamps and on wooded flood plains of rivers. Spread by rhizomes and self-seeding. Insignificant flowers appear in May on terminal spikes which are not showy but are noticeable and of some interest and persist throughout the summer. Foliage promptly turns yellow after frost.Genus name from Latin means cutter in reference to the sharp leaves and stem edges (rushes are round but sedges have edges) found on most species' plants.Species is named for the Muskingum River in Ohio."
     },
     "sedge": {
         "Scientific Name": "carex pensylvanica ",
@@ -1178,7 +1239,8 @@ export const plantData = {
         "Maintenance": "Low",
         "Suggested Use": "Ground Cover, Naturalize, Rain Garden",
         "Flower": "Insignificant",
-        "Tolerate": "Heavy Shade, Wet Soil"
+        "Tolerate": "Heavy Shade, Wet Soil",
+        "Noteworthy Characteristics": "Carex pensylvanica, commonly called Pennsylvania sedge, is a shade-loving perennial sedge that is native to thickets and dry woodland areas in Eastern and Central North America from Quebec to Manitoba south to Mississippi and Georgia.  In Missouri, it is found mostly north of the Missouri River in dry to mesic upland forests and shaded bluff ledges (Steyermark).  It typically grows in loose colonies with a creeping habit.  Roots are reddish brown.  It is often found in areas with oak trees, hence the additional common name of oak sedge.  This is a low sedge with soft, delicate, arching, semi-evergreen leaves (each to 1/8\"  wide).  It typically grows in a clump to 8\" tall.  It is semi-evergreen in moderately cold winter climates.  Narrow, grass-like, medium green leaves (to 8-12\" long) are typically shorter than the flowering stems.  Plants are monoecious (spikelets of male flowers above female flowers).  Flowers bloom in late spring (May) in inflorescences atop rough, sharply triangular culms (stems) which rise up singly from the rhizomes.  Staminate scales are green often tinged with reddish-purple with white margins.  Pistillate scales are dark brown to purplish black with green midribs and white margins.  Female flowers are followed by tiny fruits (achenes) enclosed in sac-like bracts (perigynia).Over 1500 species ofCarexgrow in a variety of habitats (often moist to wet areas) throughout the world.  Identification of individual species can be very difficult.Genus name from Latin means cutter in reference to the sharp leaves and stem edges (rushes are round but sedges have edges) found on most species' plants.Specific epithet means of Pennsylvania, USA. Over 1500 species ofCarexgrow in a variety of habitats (often moist to wet areas) throughout the world.  Identification of individual species can be very difficult.Genus name from Latin means cutter in reference to the sharp leaves and stem edges (rushes are round but sedges have edges) found on most species' plants.Specific epithet means of Pennsylvania, USA."
     },
     "pink_muhlygrass": {
         "Scientific Name": "muhlenbergia capillaris ",
@@ -1197,7 +1259,8 @@ export const plantData = {
         "Suggested Use": "Naturalize",
         "Flower": "Showy",
         "Other": "Winter Interest",
-        "Tolerate": "Drought, Black Walnut, Air Pollution"
+        "Tolerate": "Drought, Black Walnut, Air Pollution",
+        "Noteworthy Characteristics": "Muhlenbergia capillaris, commonly called pink muhlygrass or pink hair grass, is a clump-forming, warm season, perennial grass that is noted for its attractive summer foliage and spectacular clouds of fall flowers. It is native to prairies, pine barrens, and open woodlands from Massachusetts to Kansas south to Florida and Texas. In Missouri, it most frequently occurs in acidic soils in open woods, glades or openings along roads primarily in central Ozark and western areas south of the Missouri River (Steyermark). Glossy, wiry, thread-like, dark green leaves and stems form an attractive basal clump to 2\u2019 tall. It is the fall flowering, however, that most distinguishes this grass. Masses of airy, open, loosely branched inflorescences (each to 12\u201d long) in pink to pinkish-red float above the foliage in a lengthy fall bloom. Tan seed plumes remain attractive in winter. Plants typically grow to 3\u2019 tall x 3\u2019 wide when in flower.Genus name honors Gotthilf Henry Ernest Muhlenberg (1753-1815), Lutheran pastor in Pennsylvania, U.S.A., distinguished amateur botanist.Specific epithet means fine or hair-like."
     },
     "alum_root": {
         "Scientific Name": "heuchera richardsonii ",
@@ -1215,7 +1278,8 @@ export const plantData = {
         "Maintenance": "Low",
         "Flower": "Showy",
         "Leaf": "Colorful",
-        "Tolerate": "Drought"
+        "Tolerate": "Drought",
+        "Noteworthy Characteristics": "Heuchera richardsonii, commonly called prairie alumroot or Richardson's alumroot, is a clump-forming, herbaceous perennial native to portions of the north-central United States and south-central Canada. It can be found growing on prairies, open woodlands, glades, slopes, bluffs, and uplands, often in rocky or sandy soils. Typically features a 12-18\" tall basal clump of heart-shaped, shallow-lobed, long-petioled, green leaves (2-3\" wide) which show some white mottling or purple blush when young, maturing to a more uniform green. Tiny, greenish, bell-shaped flowers in open, airy panicles are borne on slender, wiry stems extending well above the mound of leaves, typically to a height of 18-24\" (infrequently to 3') in spring to early summer. Flower stems and leaf undersides are distinctively hairy.Genus name honors Johann Heinrich von Heucher (1677-1747), physician, botanist and medicinal plant expert at Wittenberg University, Germany.The specific epithetrichardsoniihonors John Richardson (1787-1865), a Scottish naturalist, explorer, and surgeon in the Royal Navy."
     },
     "prairie_blazing_star": {
         "Scientific Name": "liatris pycnostachya ",
@@ -1234,7 +1298,8 @@ export const plantData = {
         "Suggested Use": "Rain Garden",
         "Flower": "Showy, Good Cut",
         "Attracts": "Birds, Hummingbirds, Butterflies",
-        "Tolerate": "Drought, Clay Soil, Dry Soil"
+        "Tolerate": "Drought, Clay Soil, Dry Soil",
+        "Noteworthy Characteristics": "Liatris pycnostachya, commonly called prairie blazing star, is perhaps the tallestLiatrisspecies in cultivation, typically growing 2-4' tall (infrequently to 5'). It is an upright, clump-forming, Missouri native perennial which commonly occurs in prairies, open woods, meadows and along railroad tracks and roads. Features rounded, fluffy, deep rose-purple flower heads (each to 3/4\" across) which are crowded into terminal spikes (to 20\" long) atop thickly-leafed, rigid flower stalks. Stalks arise from basal tufts of narrow, lance-shaped leaves (to 12\" long). Flowers generally open top to bottom on the spikes. Blooms in summer. The flowers are attractive to hummingbirds, butterflies, and other pollinators, and the small seeds are attractive to songbirds. This species is distinguished from otherLiatrisspecies by its reflexed, long-tipped involucral bracts.Genus name of unknown origin.Specific epithet means crowded in Greek, in probable reference to the arrangement of both flower heads and leaves.Liatrisbelongs to the aster family, with each flower head having only fluffy disk flowers (resembling \u201cblazing stars\u201d) and no ray flowers. The feathery flower heads of liatris give rise to another common name of gayfeather."
     },
     "prairie_dropseed": {
         "Scientific Name": "sporobolus heterolepis ",
@@ -1255,7 +1320,8 @@ export const plantData = {
         "Leaf": "Good Fall",
         "Attracts": "Birds",
         "Other": "Winter Interest",
-        "Tolerate": "Deer, Drought, Erosion, Dry Soil, Shallow-Rocky Soil, Black Walnut, Air Pollution"
+        "Tolerate": "Deer, Drought, Erosion, Dry Soil, Shallow-Rocky Soil, Black Walnut, Air Pollution",
+        "Noteworthy Characteristics": "Sporobolus heterolepis, called prairie dropseed, is a clump-forming, warm season, perennial grass which typically occurs in prairies, glades, open ground and along railroads in parts of the central and western United States and southern Canada.  Fine-textured, hair-like, medium green leaves (to 20\u201d long and 1/16\u201d wide) typically form an arching foliage mound to 15\u201d tall and 18\u201d wide.  Foliage turns golden with orange hues in fall, fading to light bronze in winter.  Open, branching flower panicles appear on slender stems which rise well above the foliage clump in late summer to 30-36\" tall.  Flowers have pink and brown coloration but are perhaps most noted for their unique and noticeable (some may say pungent) scent that has variously been described as resembling a combination of coriander, popcorn, honey, sunflower seeds, and melted wax.  Tiny rounded mature seeds drop to the ground from their hulls in autumn giving rise to the descriptive common name.The genus nameSporoboluscomes from the Ancient Greeksporosmeaning \"seed\" andballomeaning \"to throw\", in reference to how the seeds are dispersed.Specific epithet means diversely scaled."
     },
     "prairie_everlasting": {
         "Scientific Name": "antennaria neglecta ",
@@ -1275,7 +1341,8 @@ export const plantData = {
         "Flower": "Showy",
         "Attracts": "Butterflies",
         "Fruit": "Showy",
-        "Tolerate": "Drought, Dry Soil, Shallow-Rocky Soil"
+        "Tolerate": "Drought, Dry Soil, Shallow-Rocky Soil",
+        "Noteworthy Characteristics": "Antennaria neglecta, commonly known as field pussytoes, is a small stoloniferous, mat-forming, herbaceous perennial of the composite family.  It is native to dry fields, plains, slopes, grasslands, and open woodlands from Maine to Montana south to Colorado, Oklahoma, Arkansas, Tennessee and North Carolina.  It is found in all Canadian provinces plus the Northwest Territories, but is absent from the Yukon and Nunavut Territories.Stems, leaves and clustered flower heads are woolly.  Leaves are of two kinds: (1) basal leaves (each leaf to 2\u201d long and 1/2\u201d wide) in rosettes, with each leaf having a pointed tip, curved edges, a narrow tapered base and a single vein underneath, and (2) much smaller linear leaves arranged alternately along each flower stalk.  In spring, a flower stalk rises from the center of each basal rosette to 8-12\u201d tall bearing crowded terminal clusters of fuzzy, 1/4-inch wide, white disk flowers (petal-like rays absent) in flower heads which purportedly resemble pussy toes.  Each flower cluster has over 20 small unscented flower heads.  Plants are dioecious (male and female flowers on separate plants).  Fruits on female plants are seed-like achenes, with the fruiting heads resembling the fruiting heads of miniature dandelions.This plant is very similar in appearance toAntennaria plantaginifoliaexcept for being somewhat smaller and sporting narrower single-ribbed basal leaves.Field pussytoes is a host for the American painted lady butterfly caterpillar.Genus name comes from the Latin wordantennawhich means yard of a sailing ship in apparent reference to the bristle-like hairs on the flower heads purportedly resembling the antennae of some insects.Specific epithet from Latin means overlooked or slighted in probable reference to the manner which these plants blend into the landscape.Common name of field pussytoes refers to the common native plant habitat of fields and the purported resemblance of flower clusters to the soft pads of a cat\u2019s paw. Stems, leaves and clustered flower heads are woolly.  Leaves are of two kinds: (1) basal leaves (each leaf to 2\u201d long and 1/2\u201d wide) in rosettes, with each leaf having a pointed tip, curved edges, a narrow tapered base and a single vein underneath, and (2) much smaller linear leaves arranged alternately along each flower stalk.  In spring, a flower stalk rises from the center of each basal rosette to 8-12\u201d tall bearing crowded terminal clusters of fuzzy, 1/4-inch wide, white disk flowers (petal-like rays absent) in flower heads which purportedly resemble pussy toes.  Each flower cluster has over 20 small unscented flower heads.  Plants are dioecious (male and female flowers on separate plants).  Fruits on female plants are seed-like achenes, with the fruiting heads resembling the fruiting heads of miniature dandelions.This plant is very similar in appearance toAntennaria plantaginifoliaexcept for being somewhat smaller and sporting narrower single-ribbed basal leaves.Field pussytoes is a host for the American painted lady butterfly caterpillar.Genus name comes from the Latin wordantennawhich means yard of a sailing ship in apparent reference to the bristle-like hairs on the flower heads purportedly resembling the antennae of some insects.Specific epithet from Latin means overlooked or slighted in probable reference to the manner which these plants blend into the landscape.Common name of field pussytoes refers to the common native plant habitat of fields and the purported resemblance of flower clusters to the soft pads of a cat\u2019s paw. This plant is very similar in appearance toAntennaria plantaginifoliaexcept for being somewhat smaller and sporting narrower single-ribbed basal leaves.Field pussytoes is a host for the American painted lady butterfly caterpillar.Genus name comes from the Latin wordantennawhich means yard of a sailing ship in apparent reference to the bristle-like hairs on the flower heads purportedly resembling the antennae of some insects.Specific epithet from Latin means overlooked or slighted in probable reference to the manner which these plants blend into the landscape.Common name of field pussytoes refers to the common native plant habitat of fields and the purported resemblance of flower clusters to the soft pads of a cat\u2019s paw. Field pussytoes is a host for the American painted lady butterfly caterpillar.Genus name comes from the Latin wordantennawhich means yard of a sailing ship in apparent reference to the bristle-like hairs on the flower heads purportedly resembling the antennae of some insects.Specific epithet from Latin means overlooked or slighted in probable reference to the manner which these plants blend into the landscape.Common name of field pussytoes refers to the common native plant habitat of fields and the purported resemblance of flower clusters to the soft pads of a cat\u2019s paw."
     },
     "dew_flower": {
         "Scientific Name": "penstemon cobaea ",
@@ -1293,7 +1360,8 @@ export const plantData = {
         "Maintenance": "Low",
         "Flower": "Showy",
         "Attracts": "Butterflies",
-        "Tolerate": "Deer, Drought, Dry Soil, Shallow-Rocky Soil"
+        "Tolerate": "Deer, Drought, Dry Soil, Shallow-Rocky Soil",
+        "Noteworthy Characteristics": "Penstemon cobaea, commonly called purple beardtongue, prairie beardtongue, or dew flower, is a clump-forming, herbaceous perennial which occurs on prairies, limestone glades and rocky bluffs in the Great Plains and the Ozark Plateau regions of the south-central United States (including Missouri). Mature plants will typically grow 1-2.5' tall. Features showy, loose, terminal panicles of white to violet to deep purple, 2\" long, tubular flowers atop erect, rigid, downy stems. Flowers bloom in mid-spring and are somewhat larger than most penstemons. The leaves are primarily clasping, lanceolate to elliptic in shape, and will reach up to roughly 4.75\" long and 2\" wide.The genus namePenstemonlikely comes from the Latinpaenemeaning \"almost\" or \"nearly\" and the Greekstemonmeaning \"stamen\". The name may also comes from the Greekpentameaning \"five\" andstemonmeaning \"stamen\". Both refer to the fifth, sterile stamen (staminode) that characterizes members of this genus.The common names of this species refer to the color of the blooms or its native habitat. Dew flower may refer the appearance of the glandular hairs covering the stem and emerging flower buds. Penstemons are sometimes commonly called beardtongues because the sterile stamen (staminode) can be hairy."
     },
     "purple_coneflower": {
         "Scientific Name": "echinacea purpurea ",
@@ -1312,7 +1380,8 @@ export const plantData = {
         "Suggested Use": "Naturalize",
         "Flower": "Showy, Good Cut",
         "Attracts": "Birds, Butterflies",
-        "Tolerate": "Deer, Drought, Clay Soil, Dry Soil, Shallow-Rocky Soil"
+        "Tolerate": "Deer, Drought, Clay Soil, Dry Soil, Shallow-Rocky Soil",
+        "Noteworthy Characteristics": "Echinacea purpurea, commonly called purple coneflower, is a coarse, rough-hairy, herbaceous perennial that is native to moist prairies, meadows and open woods of the central to southeastern United States  (Ohio to Michigan to Iowa south to Louisiana and Georgia).  It typically grows to 2-4' tall.  Showy daisy-like purple coneflowers (to 5\" diameter) bloom throughout summer atop stiff stems clad with coarse, ovate to broad-lanceolate, dark green leaves. Good fresh cut or dried flower.  The dead flower stems will remain erect well into the winter, and if flower heads are not removed, the blackened cones may be visited by goldfinches or other birds that feed on the seeds.Genus name ofEchinaceacomes from the Greek wordechinosmeaning hedgehog or sea-urchin in reference to the spiny center cone found on most flowers in the genus.Specific epithet means purple."
     },
     "purple_prairie_clover": {
         "Scientific Name": "dalea purpurea ",
@@ -1331,7 +1400,8 @@ export const plantData = {
         "Suggested Use": "Naturalize",
         "Flower": "Showy",
         "Attracts": "Butterflies",
-        "Tolerate": "Drought, Dry Soil, Shallow-Rocky Soil"
+        "Tolerate": "Drought, Dry Soil, Shallow-Rocky Soil",
+        "Noteworthy Characteristics": "Dalea purpurea, commonly called purple prairie clover, is a native Missouri prairie clover which occurs in glades, rocky open woods and prairies throughout the State except for the far southeastern counties. Typically grows 1-3' tall. Features tiny purple flowers in dense, cone-like heads (to 2\" long) atop erect, wiry stems in summer. Compound, odd-pinnate leaves, with 3-5 narrow linear leaflets. A nitrogen-fixing plant that is an important component of Midwestern prairie restorations. Formerly known asPetalostemon purpureum.Genus name honors 17-18th century English botanist, Samuel Dale.Specific epithet means purple."
     },
     "ladies'_tobacco": {
         "Scientific Name": "antennaria parlinii ",
@@ -1350,7 +1420,8 @@ export const plantData = {
         "Suggested Use": "Ground Cover, Naturalize",
         "Flower": "Showy",
         "Attracts": "Butterflies",
-        "Tolerate": "Drought, Dry Soil, Shallow-Rocky Soil"
+        "Tolerate": "Drought, Dry Soil, Shallow-Rocky Soil",
+        "Noteworthy Characteristics": "Antennaria parlinii, commonly known as pussytoes, is a herbaceous perennial native to eastern and central North America.  It is very similar in appearance toAntennaria plantaginifolia, with the main difference being larger flower heads.  It is a stoloniferous, mat-forming plant, with the leaves and flower stalks being woolly and grayish.  Somewhat non-showy, fuzzy, whitish flower heads bloom in spring.  Flowers are crowded into terminal clusters (corymbs) atop downy, small-leaved flowering stems rising to 10\u201d high from a basal rosette of paddle-shaped leaves (to 3\u201d long).  Plants are dioecious (male and female flowers on separate plants), with male flowers (yellow stamens) typically appearing on shorter flower stalks than the female flowers (pink stamens).Genus name comes from the Latin wordantennawhich means yard of a sailing ship in apparent reference to the bristle-like hairs on the flower heads purportedly resembling the antennae of some insects.Commonly called pussytoes because of the supposed resemblance of each tight flower cluster to the soft pads of a cat\u2019s paw."
     },
     "queen_of_the_prairie": {
         "Scientific Name": "filipendula rubra ",
@@ -1369,7 +1440,8 @@ export const plantData = {
         "Suggested Use": "Naturalize, Rain Garden",
         "Flower": "Showy, Fragrant",
         "Leaf": "Fragrant",
-        "Tolerate": "Deer, Clay Soil"
+        "Tolerate": "Deer, Clay Soil",
+        "Noteworthy Characteristics": "Filipendula rubra, commonly called queen of the prairie, is a U.S. native perennial which ranges from Pennsylvania to Georgia and west to Iowa and Missouri. In Missouri, it is only found in several swampy, calcareous meadows in Reynolds County (Steyermark). It is a very tall, upright, clump-forming perennial that typically grows 6-8' tall and features branched, terminal, astilbe-like, 6-9\" wide panicles (corymbs) of tiny, fragrant, pale pink flowers in early to mid summer. Deeply cut, compound-pinnate, bright green leaves have 7-9 lance-shaped leaflets each, with an unusually large, 7-9 lobed, terminal leaflet (4-8\" long). Leaves are fragrant. A good foliage plant that is valued for both its leaves and its flowers.Genus name comes from the Latin wordsfilummeaning a thread andpendulusmeaning hanging for the root tubers in some species that hang together with threads.Specific epithet means red."
     },
     "rattlesnake_master": {
         "Scientific Name": "eryngium yuccifolium ",
@@ -1387,7 +1459,8 @@ export const plantData = {
         "Maintenance": "Low",
         "Flower": "Showy",
         "Attracts": "Butterflies",
-        "Tolerate": "Drought, Erosion, Clay Soil, Dry Soil, Shallow-Rocky Soil"
+        "Tolerate": "Drought, Erosion, Clay Soil, Dry Soil, Shallow-Rocky Soil",
+        "Noteworthy Characteristics": "Eryngium yuccifolium, commonly called rattlesnake-master or button snake-root, is a Missouri native plant which occurs in rocky woods, prairies and glades throughout the State and was a common plant of the tallgrass prairie. Most members of the parsley/carrot family (Apiaceae) have finely cut foliage and flowers in domed umbels. Not so with rattlesnake-master which features basal rosettes of parallel-veined, bristly-edged, sword-shaped, medium green leaves (to 3' long) resembling those of yucca (lily family) and tiny, stemless, greenish-white flowers tightly packed into globular, 1\" diameter heads resembling thistles (composite family). Flower heads appear in branched clusters at the top of smooth stiff stems typically rising to 3-4' (less frequently to 5-6') tall from the centers of the rosettes. Flower heads are subtended by whitish, pointed bracts. The blooms are attractive to butterflies and other insect pollinators.Genus name comes from an ancient Greek name used by Theophrastus for a plant which grew in Greece (probablyEryngium campestre) or is a Greek reference to the prickly or spiny nature of plants in this genus.Specific epithet is in reference to leaves that look likeYucca.Common name is in reference to a former use of this plant as a treatment for rattlesnake bite."
     },
     "red_maple": {
         "Scientific Name": "acer rubrum ",
@@ -1407,7 +1480,8 @@ export const plantData = {
         "Flower": "Showy",
         "Leaf": "Good Fall",
         "Attracts": "Birds",
-        "Tolerate": "Wet Soil, Black Walnut, Air Pollution"
+        "Tolerate": "Wet Soil, Black Walnut, Air Pollution",
+        "Noteworthy Characteristics": "Acer rubrum, commonly called red maple, is a medium-sized, deciduous tree that is native to Eastern North America from Quebec to Minnesota south to Florida and eastern Texas.  It typically grows 40-60\u2019 tall with a rounded to oval crown.  It grows faster than Norway and sugar maples, but slower than silver maple.  In northern states, red maple usually occurs in wet bottomland, river flood plains and wet woods, but in Missouri it typically frequents drier, rocky upland areas.  Emerging new growth leaves, leafstalks, twigs, flowers, fruit and fall color are red or tinged with red.  Quality of red fall color on species plants is variable.  Leaves (to 2-5\" long) have 3 principal triangular lobes (sometimes 5 lobes with the two lower lobes being largely suppressed).  Lobes have toothed margins and pointed tips.  Leaves are medium to dark green above and gray green below.  Flowers on a given tree are primarily male or female or monoecious and appear in late winter to early spring (March-April) before the leaves.  Fruit is a two-winged samara. The seeds and flower buds are eaten by many species of birds. Caterpillars and other insects which feed on red maples are also a source of food for birds.Genus name is the Latin name for a maple tree.Specific epithet ofrubrummeaning red is everywhere in evidence: red flowers in dense clusters in late March to early April (before the leaves appear), red fruit (initially reddish, two-winged samara), reddish stems and twigs, red buds, and, in the fall, excellent orange-red foliage color."
     },
     "river_birch": {
         "Scientific Name": "betula nigra ",
@@ -1427,7 +1501,8 @@ export const plantData = {
         "Flower": "Showy",
         "Attracts": "Birds",
         "Other": "Winter Interest",
-        "Tolerate": "Deer, Drought, Clay Soil, Wet Soil, Black Walnut, Air Pollution"
+        "Tolerate": "Deer, Drought, Clay Soil, Wet Soil, Black Walnut, Air Pollution",
+        "Noteworthy Characteristics": "Betula nigra, commonly called river birch, is a vigorous, fast-growing, medium-sized, Missouri native deciduous tree which occurs on floodplains, swampy bottomlands and along streams throughout the State. In cultivation, it can be trained as either a single trunk or multi-trunked tree. As a single trunk tree, it develops a pyramidal habit when young, but matures to a more rounded shape typically growing 40-70' tall. Multi-trunked trees form a more irregular crown and are generally considered to be the superior growth habit for this species. Salmon-pink to reddish brown bark exfoliates to reveal lighter inner bark. Leathery, diamond-shaped, medium to dark green leaves (1.5-3.5\" long) with doubly toothed margins turn yellow in fall. Monoecious flowers appear in drooping, brownish male catkins and smaller, upright, greenish female catkins.Genus name is the Latin name for birch.Specific epithet means black."
     },
     "robin's_plantain": {
         "Scientific Name": "erigeron pulchellus ",
@@ -1446,7 +1521,8 @@ export const plantData = {
         "Suggested Use": "Ground Cover, Naturalize",
         "Flower": "Showy",
         "Attracts": "Butterflies",
-        "Tolerate": "Drought, Dry Soil"
+        "Tolerate": "Drought, Dry Soil",
+        "Noteworthy Characteristics": "Erigeron pulchellus, commonly known as robin\u2019s plantain, is an aster-like, stoloniferous, biennial to short-lived perennial that typically grows to 2\u2019 tall on soft, hairy, hollow, unbranched, sparsely-leaved flowering stems rising from a basal clump of paddle-shaped, scalloped to bluntly toothed, soft and hairy leaves (2-6\u201d long).  Stem leaves are shorter, stem-clasping, ovate to lanceolate and sparse.  This plant is native to rocky or open woods, thickets, fields, moist streambanks, disturbed areas and roadsides from Minnesota to Ontario, Quebec and Maine south to Florida, Louisiana and Texas.  In Missouri, it is commonly found in the eastern half of the State plus the Ozark region, but is absent from the northwestern part of the State.  Stems are topped in April to June with a profuse and showy bloom of small flowers (to 1 1/2\u201d wide) in loose clusters (2-6 flowers per cluster).  Each flowerhead has 50-100 densely packed, thread-like, white to pale violet ray florets surrounding a yellow center disk.  Flowers resemble asters but have rays that are much narrower and more numerous.Genus name comes from the Greek wordserimeaning early andgeronmeaning old man in reference to the early bloom time and downy plant appearance suggestive of the white beard of an old man.Specific epithet from Latin means beautiful.Plants in the genusErigeronare often commonly called fleabane as a result of a once widely held theory that these plants repel fleas."
     },
     "rose_mallow": {
         "Scientific Name": "hibiscus laevis ",
@@ -1464,7 +1540,8 @@ export const plantData = {
         "Suggested Use": "Water Plant, Rain Garden",
         "Flower": "Showy",
         "Attracts": "Butterflies",
-        "Tolerate": "Deer, Wet Soil"
+        "Tolerate": "Deer, Wet Soil",
+        "Noteworthy Characteristics": "Hibiscus laevis, commonly called smooth rose mallow or halberd-leaved rose mallow, is a Missouri native herbaceous perennial which typically occurs in wet soils along streams, rivers, ponds, sloughs, ditches and swampy areas throughout much of the State. Perhaps most easily distinguished by its three-lobed leaves (to 6\" long) which resemble the shape of the 15th-16th century halberd spear. Large, 5-petaled, hollyhock-like flowers (to 6\" diameter) with white to pink petals and maroon eyes appear from mid-summer into fall on smooth stout stems rising 4-6' tall. Each flower has a prominent and showy center staminal column. Synonymous with and formerly known asHibiscus militaris, the specific epithet being in reference to the leaf-shape resemblance to a military weapon.Genus name is the old Greek and Latin name for mallow.Specific epithet means smooth."
     },
     "turtlehead": {
         "Scientific Name": "chelone obliqua ",
@@ -1482,7 +1559,8 @@ export const plantData = {
         "Maintenance": "Medium",
         "Suggested Use": "Naturalize, Rain Garden",
         "Flower": "Showy",
-        "Tolerate": "Erosion, Clay Soil, Wet Soil"
+        "Tolerate": "Erosion, Clay Soil, Wet Soil",
+        "Noteworthy Characteristics": "Chelone oblique, commonly known as turtlehead, is a stiffly erect, clump-forming perennial that typically grows 2-3\u2019 tall.  It is native to moist woods, swampy areas, floodplains, alluvial forests and stream margins in parts of the Midwestern and Eastern U.S. from Minnesota to Virginia south to Mississippi and Florida.  Hooded, snapdragon-like, two-lipped flowers (each to 1.5\u201d long) ranging in color from red to pink to deep rose bloom in tight, spike-like terminal racemes from late summer into autumn (late July \u2013 September).  Each flower has a sparse pale yellow beard inside the lower lip.  Flowers purportedly resemble the heads of open-mouthed turtles.  Pairs of opposite, coarsely-toothed, lance-shaped, dark green leaves appear in pairs along the stem.Genus name comes from the Greek wordchelonemeaning tortoise in reference to the turtlehead shape of the flowers.Specific epithet means lopsided or oblique."
     },
     "rose_verbena": {
         "Scientific Name": "glandularia canadensis ",
@@ -1501,7 +1579,8 @@ export const plantData = {
         "Suggested Use": "Annual, Ground Cover, Naturalize",
         "Flower": "Showy",
         "Attracts": "Butterflies",
-        "Tolerate": "Drought, Dry Soil, Shallow-Rocky Soil"
+        "Tolerate": "Drought, Dry Soil, Shallow-Rocky Soil",
+        "Noteworthy Characteristics": "Glandularia canadensisis commonly called rose verbena, clump verbena or rose vervain.  It is a Missouri native perennial that typically occurs in prairies, fields, pastures, rocky glades, roadsides and waste areas in the central and southern parts of the State (Steyermark).  It is a clumping, sprawling plant that grows to 6-18\u201d tall, and can spread rather quickly by pubescent, decumbent stems, rooting at the nodes where they touch the ground, to form an attractive ground cover.  Flat-topped clusters of 5-petaled, rose-pink to rose-purple flowers appear atop ascending stems in a long, late spring to late summer bloom.  Deeply lobed dark green leaves (to 4\" long) have triangular bases.For many years,Glandularia canadensiswas known asVerbena canadensis.   Many prestigious authorities (e.g., The Royal Horticultural Society) still list the plant asVerbena canadensis.  The revised edition of Steyermark's Flora of Missouri (Yatskievych and Turner) now lists the plant asGlandularia canadensis.Glandulariais considered by many authorities to be a genus that is separate and distinct fromVerbenabased upon a number of factors including plant morphology, chromosome number, style length, reproductive modes and ploidal levels (see Umber, The GenusGlandularia(Verbenaceae) in North America, 1979).Genus name from Latin means acorn in probably reference to the shape of the seedpod.Specific epithet means of Canada. For many years,Glandularia canadensiswas known asVerbena canadensis.   Many prestigious authorities (e.g., The Royal Horticultural Society) still list the plant asVerbena canadensis.  The revised edition of Steyermark's Flora of Missouri (Yatskievych and Turner) now lists the plant asGlandularia canadensis.Glandulariais considered by many authorities to be a genus that is separate and distinct fromVerbenabased upon a number of factors including plant morphology, chromosome number, style length, reproductive modes and ploidal levels (see Umber, The GenusGlandularia(Verbenaceae) in North America, 1979).Genus name from Latin means acorn in probably reference to the shape of the seedpod.Specific epithet means of Canada."
     },
     "round-leaved_ragwort": {
         "Scientific Name": "packera obovata ",
@@ -1519,7 +1598,8 @@ export const plantData = {
         "Maintenance": "Medium",
         "Suggested Use": "Ground Cover, Naturalize, Rain Garden",
         "Flower": "Showy",
-        "Attracts": "Butterflies"
+        "Attracts": "Butterflies",
+        "Noteworthy Characteristics": "Packera obovata, commonly called roundleaf ragwort or roundleaf groundsel, is valued for its ability to thrive in shady locations, naturalize rapidly, and produce a long and profuse spring bloom of bright yellow flowers. It is native to rocky wooded hillsides, open rocky glades, limestone ledges, stream banks and moist meadows from Quebec and Ontario south to Texas and Florida. In Missouri it most often is found in the Ozark region in the southern and central part of the State (Steyermark). Flat-topped clusters (corymbs) of daisy-like flowers (3/4\" diameter) with yellow rays and yellow central disks bloom in spring (April-June) atop sparsely-leaved stems rising to 18\" tall. Flowering stems rise from a basal clump of serrate, rounded to spatulate leaves (to 2-4\" long) each of which tapers at the base into a long petiole. Upper stem leaves are much smaller, sessile and pinnately lobed. Synonymous withSenecio obovatus.Genus name honors 20th century North American botanist John G. Packer.Specific epithet means egg-shaped with the broadest end uppermost referring to leaf shape."
     },
     "shagbark_hickory": {
         "Scientific Name": "carya ovata ",
@@ -1540,7 +1620,8 @@ export const plantData = {
         "Leaf": "Good Fall",
         "Fruit": "Showy, Edible",
         "Other": "Winter Interest",
-        "Tolerate": "Clay Soil, Black Walnut"
+        "Tolerate": "Clay Soil, Black Walnut",
+        "Noteworthy Characteristics": "Carya ovata, commonly called shagbark hickory, is a large deciduous tree that typically grows 70-90\u2019 (infrequently to 120\u2019) tall with an irregular, oval-rounded crown. It is native from Quebec to Minnesota south to Georgia and Texas. In Missouri, it typically occurs on both dry upland wooded slopes and hills and in moist valleys and lowland woods throughout the state (Steyermark). Trunks mature to 2-3\u2019 in diameter. This tree features smooth, medium yellow-green, odd-pinnate, compound leaves, each leaf having 5 (less frequently 7 or 9) finely-toothed, broadly lance-shaped, pointed leaflets. Leaflets range from 3-7\u201d long. Leaves turn yellow to golden brown in fall. Non-showy, monoecious greenish yellow flowers appear in April-May, the male flowers in pendulous catkins (to 3-5\u201d long) and the female flowers in short spikes. Female flowers give way to edible oval-rounded nuts. Each nut is encased in a moderately thick husk which splits open in four sections when ripe in fall. Nuts were an important food source to Native Americans and early settlers, and are commercially sold today. Nuts are attractive to a variety of wildlife. Bark of young trees is gray and smooth, but exfoliates in long strips with age. The exfoliation is more recurved and pronounced than on the similar-in-appearance shellbark hickory (seeC. laciniosa). Hickory wood is often used to cure/smoke meats. It is also an excellent firewood/fuel. The wood is extremely hard and is used to make a variety of products including tool handles, ladders, gun stocks and furniture. Andrew Jackson, 7th president of the U.S., was affectionately known as Old Hickory in recognition of his tough character.Genus name comes from the Greek wordkaryaused for walnut trees.Specific epithet means egg-shaped."
     },
     "shining_blue_star": {
         "Scientific Name": "amsonia illustris ",
@@ -1560,7 +1641,8 @@ export const plantData = {
         "Flower": "Showy",
         "Leaf": "Good Fall",
         "Attracts": "Butterflies",
-        "Tolerate": "Deer"
+        "Tolerate": "Deer",
+        "Noteworthy Characteristics": "Amsonia illustris, commonly called Ozark bluestar or shining blue star, is a Missouri native perennial that most frequently occurs in sandy or rocky soils on gravel bars or along streams in the Ozark region of the state (Steyermark). This is an erect, clump-forming plant that features terminal, pyramidal clusters of 1/2-inch, star-like, soft light blue flowers in late spring atop erect, leafy stems growing 2-3\u2019 tall. Narrow, willow-shaped, leathery, shiny green leaves (to 6\u201d long) may turn an attractive yellow in fall. Very similar in appearance toAmsonia tabernaemontana, except the leaves of the within species are shinier, thicker and more leathery and the seed pods are pendant.Genus name honors Dr. John Amson (1698-1765?), an English physician and amateur botanist who lived and worked in Williamsburg, Virginia during the colonial period.Specific epithet means brilliant or lustrous."
     },
     "shooting_star": {
         "Scientific Name": "dodecatheon meadia ",
@@ -1577,7 +1659,8 @@ export const plantData = {
         "Water": "Medium",
         "Maintenance": "Medium",
         "Flower": "Showy",
-        "Tolerate": "Clay Soil"
+        "Tolerate": "Clay Soil",
+        "Noteworthy Characteristics": "Dodecatheon meadia, commonly called shooting star, is a much beloved, native Missouri wildflower that is indigenous to much of the eastern United States and typically occurs in open woods and glades, rocky wooded slopes, bluff ledges, meadows and prairies. From each basal rosette of lance-shaped leaves come 1-4 sturdy, leafless, center flower scapes rising to 20\" tall. Atop each flower scape is an umbel containing 8-20, nodding, 1\" long flowers. Each flower has five swept-back (reflexed) petals and a cluster of yellow stamens converging to a point, thus giving the flower the appearance of a shooting star plummeting to earth. Flower colors are quite variable, ranging from white to pink to light purple. Blooms in late spring.Genus name comes from the Greek wordsdodekameaning twelve andtheosmeaning god.Specific epithet honors English physician Richard Mead (1673-1754)."
     },
     "orange_coneflower": {
         "Scientific Name": "rudbeckia fulgida ",
@@ -1596,7 +1679,8 @@ export const plantData = {
         "Suggested Use": "Naturalize, Rain Garden",
         "Flower": "Showy, Good Cut, Good Dried",
         "Attracts": "Birds, Butterflies",
-        "Tolerate": "Deer, Drought, Clay Soil, Dry Soil, Shallow-Rocky Soil, Air Pollution"
+        "Tolerate": "Deer, Drought, Clay Soil, Dry Soil, Shallow-Rocky Soil, Air Pollution",
+        "Noteworthy Characteristics": "Rudbeckia fulgidais a herbaceous perennial native to the eastern United States which occurs in both dry and moist soils in open woods, glades and thickets. An upright, rhizomatous, clump-forming, free-blooming coneflower which typically grows to 3' tall, often forming colonies in the wild. Features daisy-like flowers (to 2.5\" across) with yellow rays and brownish-purple center disks. Prolific bloom production over a long mid-summer to fall bloom period. Oblong to lanceolate, medium green foliage. Good cut flower. The flowers are attractive to butterflies and other insect pollinators. Birds eat the seeds.Genus name honors Olof Rudbeck (1630-1702) Swedish botanist and founder of the Uppsala Botanic Garden in Sweden where Carl Linnaeus was professor of botany.The specific epithetfulgidameans \"shining\" or \"glistening\".The species is infrequently sold by nurseries because of the excellent varieties and cultivars available thereunder (e.g., see 'Goldsturm' and 'Viette's Little Suzy')."
     },
     "shrubby_st._john's_wort": {
         "Scientific Name": "hypericum prolificum ",
@@ -1615,7 +1699,8 @@ export const plantData = {
         "Suggested Use": "Hedge",
         "Flower": "Showy",
         "Attracts": "Birds",
-        "Tolerate": "Drought, Erosion, Clay Soil, Black Walnut"
+        "Tolerate": "Drought, Erosion, Clay Soil, Black Walnut",
+        "Noteworthy Characteristics": "Hypericum prolificum, commonly called  shrubby St. John's wort, is a Missouri native plant that occurs on rocky ground, dry wooded slopes, uncultivated fields, gravel bars along streams and in low, moist valleys. A compact, deciduous, rounded shrub with an erect habit that typically grows 1-4' (less frequently to 5') tall. Features 5-petaled, bright yellow flowers (to 1\" diameter) with numerous, yellow stamens. Stamens are bushy to the point of partially obscuring the petals (hence the species name ofprolificumwhich refers to the stamens). Flowers appear in terminal or axillary clusters (cymes) from early to mid summer. Dark green, narrow, oblanceolate leaves are 1-3\" long and 0.25-0.5\" wide. Cone-shaped seed capsules split in autumn to release black seeds. Bark of older stems exfoliates to reveal attractive, pale orange inner bark.Genus name comes from the Greek wordshypermeaning \"above\" andeikonmeaning \"picture\" in reference to the practice of hanging flowers from this genus above images, pictures or windows.Specific epithet means many or prolific in reference to the many stamens.Plants of the genusHypericum(some species have been used since ancient times in the treatment of wounds and inflammations) were apparently gathered and burned to ward off evil spirits on the eve of St. John's Day, thus giving rise to the genus common name of St. John's wort."
     },
     "sideoats_grass": {
         "Scientific Name": "bouteloua curtipendula ",
@@ -1635,7 +1720,8 @@ export const plantData = {
         "Flower": "Showy, Good Cut, Good Dried",
         "Leaf": "Good Fall",
         "Attracts": "Birds",
-        "Tolerate": "Drought, Erosion, Dry Soil, Shallow-Rocky Soil, Black Walnut, Air Pollution"
+        "Tolerate": "Drought, Erosion, Dry Soil, Shallow-Rocky Soil, Black Walnut, Air Pollution",
+        "Noteworthy Characteristics": "Bouteloua curtipendula, commonly called sideoats grama, is a Missouri native grass which is noted for the distinctive arrangement of oat-like seed spikes which hang from only one side of its flowering stems. Typically occurs in glades, prairies, open rocky woodlands and along railroad tracks throughout most of the State. Narrow, bluish-gray leaf blades (to 1/4\" wide) typically form a dense clump growing 1-1.5' tall. Foliage turns golden brown in autumn, sometimes also developing interesting hues of orange and red. Inflorescences of purplish-tinged flowers appear on arching stems above the foliage in early to mid summer, typically bringing the total height of the clump to 3' tall. Inflorescences fade to tan as the seeds mature.Genus name honors two Spanish brothers Claudius (d. 1842) and Exteban Boutelou (d. 1813) professors of botany and agriculture respectively."
     },
     "tickseed": {
         "Scientific Name": "coreopsis pubescens ",
@@ -1654,7 +1740,8 @@ export const plantData = {
         "Suggested Use": "Naturalize",
         "Flower": "Showy",
         "Attracts": "Butterflies",
-        "Tolerate": "Deer, Drought, Dry Soil, Shallow-Rocky Soil"
+        "Tolerate": "Deer, Drought, Dry Soil, Shallow-Rocky Soil",
+        "Noteworthy Characteristics": "Coreopsis pubescens, commonly called star tickseed or downy tickseed,  is native to rocky open woods, bluff bases, valleys, gravelly stream beds, rocky ledges along streams, alluvial thickets and railroad right-of-ways from Florida to Texas north to Virginia, Illinois, Missouri and Kansas.  It typically grows in a clump to 3-4' tall on slender downy stems clad with ovate-lanceolate leaves which are sometimes lobed at the base.  Daisy-like single flowers (2\" diameter) with star-like involucre bracts feature yellow rays (lobed or notched at the tips) surrounding a darker golden yellow center disk.  Flowers typically bloom from late spring to late summer and sometimes into fall, though bloom period can be much shorter if spent flowers are not regularly deadheaded.The genus name comes from the Greek wordskorismeaning \"bug\" andopsismeaning \"like\" in reference to the shape of the seed which resembles a bug or tick.Specific epithet from Latin means hairy in reference to the pubescent leaves and stems.Common name of star tickseed is in reference to the star-shaped involucre bracts and resemblance of the seeds to ticks."
     },
     "spice_bush": {
         "Scientific Name": "lindera benzoin ",
@@ -1675,7 +1762,8 @@ export const plantData = {
         "Leaf": "Fragrant, Good Fall",
         "Attracts": "Birds, Butterflies",
         "Fruit": "Showy",
-        "Tolerate": "Deer, Drought, Heavy Shade, Clay Soil, Wet Soil, Black Walnut"
+        "Tolerate": "Deer, Drought, Heavy Shade, Clay Soil, Wet Soil, Black Walnut",
+        "Noteworthy Characteristics": "Lindera benzoin, commonly called spicebush, is a Missouri native deciduous shrub with a broad, rounded habit which typically grows 6-12' (less frequently to 15') high in moist locations in bottomlands, woods, ravines, valleys and along streams. Clusters of tiny, apetalous, aromatic, greenish-yellow flowers bloom along the branches in early spring before the foliage emerges. Dioecious (male and female flowers on separate plants), with the male flowers being larger and showier than the female ones. Flowers of female plants give way to bright red drupes (to 1/2\" long) which mature in fall and are attractive to birds. Female plants need a male pollinator in order to set fruit, however. Drupes are very attractive, but may be hidden by the foliage until the leaves drop. Thick, oblong-obovate, light green leaves (to 5\" long) turn an attractive yellow in autumn. Leaves are aromatic when crushed. The larva (caterpillar) of the spicebush swallowtail butterfly feeds on the leaves of this shrub.Genus name honors Johann Linder (1676-1723), a Swedish botanist and physician.Specific epithet comes from the Arabic vernacular word meaning aromatic gum."
     },
     "sugar_maple": {
         "Scientific Name": "acer saccharum ",
@@ -1694,7 +1782,8 @@ export const plantData = {
         "Suggested Use": "Shade Tree",
         "Flower": "Insignificant",
         "Leaf": "Good Fall",
-        "Tolerate": "Heavy Shade"
+        "Tolerate": "Heavy Shade",
+        "Noteworthy Characteristics": "Acer saccharumcommonly known as sugar maple is a deciduous, Missouri native tree which will typically grow 40' to 80' tall (sometimes to 100') with a dense, rounded crown. This tree is a main component of the Eastern U.S. hardwood forest and is one of the trees which is most responsible for giving New England its reputation for spectacular fall color. Medium green leaves (3-6\" wide with 3-5 lobes) turn yellow-orange in autumn, sometimes with considerable color variations. Fruit is the familiar two-winged samara. Sugar maples are long-lived trees which grow relatively slowly (somewhat faster in the first 35 years). Native Americans taught the early colonists how to tap these trees to make maple syrup which has now become a multi-billion dollar industry in the U.S. and Canada. Excellent shade tree.  The sugar maple leaf is the national symbol of Canada.Genus name is the Latin name for a maple tree.Specific epithet means sugary in reference to the sweet sap.Saccharumis the genus name for sugarcane."
     },
     "alabama_supplejack": {
         "Scientific Name": "berchemia scandens ",
@@ -1712,7 +1801,8 @@ export const plantData = {
         "Maintenance": "Low",
         "Suggested Use": "Rain Garden",
         "Flower": "Showy",
-        "Tolerate": "Drought"
+        "Tolerate": "Drought",
+        "Noteworthy Characteristics": "Berchemia scandens, commonly known as supple-jack, is a woody vine of the buckthorn family that features tough stems, greenish-white flowers and blue fruits. It is native from Virginia to Missouri south to Florida and Texas. It is typically found in (1) bottomland forests and swampy woods as a twining vine that climbs high into trees and (2) much drier upland limestone glades as a sprawling vine that trails along the ground. Stems have smooth gray-green bark. Ovate to elliptic leaves (to 2.5\" long) have distinctive parallel pinnate veins. Small greenish-white flowers bloom in open terminal clusters in mid to late spring. Flowers give way to blue drupes (each 1/4\" across) which mature in autumn. The mature fruits are consumed by songbirds such as mockingbirds, warblers, and thrushes, game birds including turkey and northern bobwhite, and small mammals.Genus name honors M. Berchem, French botanist of the 17th century.Specific epithet means \"climbing upward\" in reference to the climbing habit of this vine.Supple-jack is the name for a strong pliant walking stick made from a plant such as this vine. Vine stems can also be used to make wicker products, hence the additional common name of rattan vine."
     },
     "blue_jasmine": {
         "Scientific Name": "clematis crispa ",
@@ -1729,7 +1819,8 @@ export const plantData = {
         "Water": "Medium to wet",
         "Maintenance": "Medium",
         "Flower": "Showy, Fragrant",
-        "Tolerate": "Deer, Clay Soil, Black Walnut"
+        "Tolerate": "Deer, Clay Soil, Black Walnut",
+        "Noteworthy Characteristics": "Clematis crispa, commonly called swamp leather flower, curly clematis or blue jasmine, is a semi-woody twining vine that is native to floodplain forests, marshes and swamps from Virginia to southern Illinois south to Florida and Texas. In Missouri, it is found only in certain swampy areas in the far southeastern corner of the state (Steyermark). Vines typically grow to 6-10\u2019 tall. Solitary, bell-shaped, pale blue to violet blue flowers with white interiors bloom at the branch ends in late spring to early summer. Flowers are slightly fragrant. Flowers are followed by attractive seedheads. Branches are clad with pinnate compound leaves with broadly ovate to lanceolate leaflets. The flowers of this species have flared, ridged and frilled sepals with strongly recurving tips.Genus name comes from the Greek wordklematiswhich is an old name applied to climbing plants.Specific epithet means closely curled."
     },
     "swamp_milkweed": {
         "Scientific Name": "asclepias incarnata ",
@@ -1748,7 +1839,8 @@ export const plantData = {
         "Suggested Use": "Naturalize, Rain Garden",
         "Flower": "Showy, Fragrant",
         "Attracts": "Hummingbirds, Butterflies",
-        "Tolerate": "Deer, Clay Soil, Wet Soil"
+        "Tolerate": "Deer, Clay Soil, Wet Soil",
+        "Noteworthy Characteristics": "Asclepias incarnata, commonly called swamp milkweed, is an erect, clump-forming, Missouri native plant which is commonly found in swamps, river bottomlands and wet meadows throughout the State. It typically grows 3-4' tall (less frequently to 5') on branching stems. Small, fragrant, pink to mauve flowers (1/4\" wide), each with five reflexed petals and an elevated central crown, appear in tight clusters (umbels) at the stem ends in summer. Flowers are uncommonly white. Narrow, lance-shaped, taper-pointed leaves are 3-6\" long. Stems exude a toxic milky sap when cut. Flowers are followed by attractive seed pods (to 4\" long) which split open when ripe releasing silky-haired seeds easily carried by the wind. Flowers are very attractive to butterflies and hummingbirds as a nectar source. In addition, swamp milkweed is a food source for the larval stage of monarch butterflies.Genus name honors the Greek god Asklepios the god of medicine.Specific epithet means flesh-colored."
     },
     "swamp_white_oak": {
         "Scientific Name": "quercus bicolor ",
@@ -1768,7 +1860,8 @@ export const plantData = {
         "Flower": "Insignificant",
         "Leaf": "Good Fall",
         "Attracts": "Birds",
-        "Tolerate": "Wet Soil"
+        "Tolerate": "Wet Soil",
+        "Noteworthy Characteristics": "Quercus bicolor, commonly called swamp white oak, is a medium sized, deciduous tree with a broad, rounded crown and a short trunk which typically grows at a moderate rate to a height of 50-60' (sometimes larger). Leaves are dark, shiny green above and silvery white beneath, with 5-10 rounded lobes or blunt teeth along the margins. Fall color is yellow, but sometimes reddish purple. Insignificant flowers in separate male and female catkins in spring. Fruits are acorns which mature in early fall. Indigenous to north, central and eastern Missouri in moist to swampy locations in bottomlands and lowlands, such as along streams and lakes, valleys, floodplains and at the edge of swamps. Also has surprisingly good drought resistance.Genus name comes from the classical Latin name for oak trees.Specific epithet refers to the leaves being shiny green above and silvery white beneath."
     },
     "thimbleweed": {
         "Scientific Name": "anemone virginiana ",
@@ -1785,7 +1878,8 @@ export const plantData = {
         "Water": "Dry to medium",
         "Maintenance": "Medium",
         "Flower": "Showy",
-        "Tolerate": "Deer, Drought, Heavy Shade, Dry Soil, Shallow-Rocky Soil"
+        "Tolerate": "Deer, Drought, Heavy Shade, Dry Soil, Shallow-Rocky Soil",
+        "Noteworthy Characteristics": "Anemone virginianais a spring-blooming anemone that is a Missouri native plant. It grows up to 2' tall (sometimes taller in the wild) and typically occurs in rocky or dry open woods or wooded slopes. One inch diameter flowers are borne on erect stems above the foliage and feature five, white, petal-like sepals and a thimble-like, center mound of yellowish stamens. Flowers give way to thimble-shaped seed heads which remain on the plants well into winter. Three-parted leaves may carry a reddish tinge late into the season.Genus name is often said to be derived from the Greek wordanemosmeaning wind.Specific epithet means of Virgina."
     },
     "tulip_tree": {
         "Scientific Name": "liriodendron tulipifera ",
@@ -1805,7 +1899,8 @@ export const plantData = {
         "Flower": "Showy",
         "Leaf": "Good Fall",
         "Attracts": "Birds, Hummingbirds",
-        "Tolerate": "Rabbit, Deer, Clay Soil, Wet Soil, Black Walnut"
+        "Tolerate": "Rabbit, Deer, Clay Soil, Wet Soil, Black Walnut",
+        "Noteworthy Characteristics": "Liriodendron tulipifera, commonly called tulip tree or yellow poplar, is a large, stately, deciduous tree of eastern North America that typically grows 60-90' (less frequently to 150\u2019) tall with a pyramidal to broad conical habit. Although widely planted throughout the state of Missouri, it is indigenous to rich woods in only a few counties in the far southeastern corner of the state. Trunks of mature trees may reach 4-6\u2019 in diameter, usually rising column-like with an absence of lower branching. It is named and noted for its cup-shaped, tulip-like flowers that bloom in spring. Flowers are yellow with an orange band at the base of each petal. Although the flowers are 2\u201d in length, they can go unnoticed on large trees because the flowers appear after the leaves are fully developed. Sometimes the flowers are first noticed when the attractive petals begin to fall below the tree. Flowers are followed by dry, scaly, oblong, cone-shaped brown fruits, each bearing numerous winged seeds. Four-lobed bright green leaves (to 8\u201d across) turn golden yellow in fall. Wood is used inter alia for furniture, plywood, boatbuilding, paper pulp and general lumber. Native Americans made dugout canoes from tuliptree trunks. This is the state tree of Kentucky, Tennessee and Indiana.Genus name comes from the Greek wordsleirionmeaning a lily anddendronmeaning a tree for the flowers.Specific epithet means tulip bearing for the form of the flowers."
     },
     "ozark_witch_hazel": {
         "Scientific Name": "hamamelis vernalis ",
@@ -1826,7 +1921,8 @@ export const plantData = {
         "Leaf": "Good Fall",
         "Attracts": "Birds",
         "Other": "Winter Interest",
-        "Tolerate": "Deer, Erosion, Clay Soil"
+        "Tolerate": "Deer, Erosion, Clay Soil",
+        "Noteworthy Characteristics": "Hamamelis vernalis, commonly called Ozark witch hazel, is native to the Ozark Plateau extending from southern Missouri through northwestern Arkansas to eastern Oklahoma.  In Missouri, it is typically found in gravelly stream beds, bases of rocky slopes along streams and less frequently in rocky wooded hillsides where it spreads by suckers to form large colonies (Steyermark).  It typically grows to 6' tall.  Flowers in axillary clusters appear in mid to late winter (January-March in St. Louis) prior to the emergence of the foliage in a variety of colors ranging from pale yellow to dark reddish purple.  Each flower has four, narrow, ribbon-like, curled and crinkled petals (each to only 1/3\" long) that are usually red at the base transitioning to copper orange at the tip.  Calyx cup is dull red.  Ovate-rounded leaves (to 3\u201d long) emerge light green with reddish-bronze tints in spring, but quickly mature to medium to dark green.  Golden yellow fall color.  Fruit is a non-showy dehiscent capsule which splits open in September-October to release its seeds.Genus name comes from the Greek wordshamameaning at same time andmelonmeaning apple or fruit in reference to the occurrence of both fruit and flowers at the same time on this shrub (particularly in the case of fall flowering members of the genus).Specific epithet from Latin means spring in reference to the flower bloom."
     },
     "virginia_creeper": {
         "Scientific Name": "parthenocissus quinquefolia ",
@@ -1846,7 +1942,8 @@ export const plantData = {
         "Leaf": "Good Fall",
         "Attracts": "Birds",
         "Fruit": "Showy",
-        "Tolerate": "Deer, Drought, Heavy Shade, Erosion, Clay Soil, Black Walnut"
+        "Tolerate": "Deer, Drought, Heavy Shade, Erosion, Clay Soil, Black Walnut",
+        "Noteworthy Characteristics": "Parthenocissus quinquefoliais a deciduous, woody vine that is commonly called Virginia creeper or woodbine.  It is native to eastern and central North America south to Mexico.  It occurs statewide in Missouri, typically being located in open areas of ravines, valleys, rich woods, thickets, rocky bluffs, hillsides and fencerows (Steyermark).  This is a vigorous tendril-climbing vine that will rapidly grow to 30-50\u2019 long or more.  It needs no support because it clings to surfaces (e.g., brick, stone or wood walls) by adhesive holdfasts (also called sucker disks) located at the tendril ends. It also will creep along the ground as suggested by the common name.  Compound-palmate leaves (usually 5 saw-toothed leaflets, each leaflet to 6\u201d long) emerge purplish in spring, mature to dull green in summer and change to attractive shades of purple and crimson red in fall.  Greenish white flowers in late spring to early summer appear in the upper leaf axils, but are generally hidden by the foliage and are ornamentally insignificant.  Flowers give way to blue-black berries (to 3/8\u201d diameter) which are also hidden by the foliage and are often not visible until autumn leaf drop.  Birds eat the berries.Genus name comes from the Greek wordsparthenosmeaning a virgin andkissosmeaning ivy.Specific epithet means five-leaved in reference to the palmate leaves.  \n\n."
     },
     "goat's_beard": {
         "Scientific Name": "aruncus dioicus ",
@@ -1864,7 +1961,8 @@ export const plantData = {
         "Maintenance": "Low",
         "Suggested Use": "Rain Garden",
         "Flower": "Showy",
-        "Tolerate": "Rabbit"
+        "Tolerate": "Rabbit",
+        "Noteworthy Characteristics": "Aruncus dioicus, commonly called goat's beard, is a Missouri native plant which occurs in moist woodlands and along bluffs in the central and southeast part of the State. A tall, erect, bushy, clump-forming plant typically growing 4-6' high which features pinnately compound, dark green foliage and showy, plume-like spikes of tiny, cream colored flowers which rise well above the foliage in early to mid summer, creating a bold effect. This rose family member is somewhat similar in appearance to astilbe. Dioecious (separate male and female plants) as the species name suggests. Plants with male flowers (numerous stamens per flower) produce a showier bloom than plants with female flowers (three pistils per flower).Genus name is the classical Greek name for these plants.Specific epithet means having separate male and female plants."
     },
     "whorled_milkweed": {
         "Scientific Name": "asclepias verticillata ",
@@ -1883,7 +1981,8 @@ export const plantData = {
         "Suggested Use": "Naturalize",
         "Flower": "Showy",
         "Attracts": "Hummingbirds, Butterflies",
-        "Tolerate": "Deer, Drought, Dry Soil"
+        "Tolerate": "Deer, Drought, Dry Soil",
+        "Noteworthy Characteristics": "Asclepias verticillata, commonly known as whorled milkweed, is an upright perennial that typically grows to 2.5\u2019 tall on simple, usually unbranched stems clad with long, narrow, sessile, needle-like, linear leaves (each 2-3\u201d long) with revolute margins arranged in whorls of 3 to 6 at each node along the length of the stems.  Stems ooze a milky sap when cut or broken.  This plant is native to glades, dry prairies, dry slopes, dry open woods, pastures, fields and roadsides in a large part of central and eastern North America extending from Massachusetts to Ontario and Saskatchewan south to Arizona and Florida.  In Missouri it is commonly found throughout the State except in the bootheel area.Flowers bloom in small clusters (umbellate cymes of 3-20 flowers) in the upper leaf axils and stem ends between June and September.  Flowers are fragrant.  Each tiny flower (to 1/4\u201d long) has a 5 lobed calyx, 5 greenish-white corolla lobes and 5 white hoods with incurved horns protruding from each hood.  Flowers give way to smooth, narrow seed pods (to 3\u201d long) which split open when ripe releasing numerous silky-tailed seeds for dispersal by the wind.Seed pods are valued in dried flower arrangements.Monarch butterflies need milkweed plants (Asclepiasgenus) in order to survive.  Monarchs lay their eggs on milkweed plants, caterpillars hatch from the eggs and consume the plant foliage as food for growth and development, and the flower nectar is consumed as a valuable source of food by adult monarchs.  Recent significant declines in monarch butterfly populations in North America are believed by many experts to be related to a corresponding significant decline in milkweed plants which in large part has been caused by an increased use of glyphosate herbicides around food crop areas where glyphosate-tolerant (Roundup Ready) crops are being grown.Genus name honors the Greek god Asklepios the god of medicine.Specific epithet comes from the Latin wordverticillatusmeaning whorled in reference to the leaves appearing in whorls.Common name suggests this plant is noted for its whorled leaves and milky sap.  Additional common names for this plant include horsetail milkweed. Flowers bloom in small clusters (umbellate cymes of 3-20 flowers) in the upper leaf axils and stem ends between June and September.  Flowers are fragrant.  Each tiny flower (to 1/4\u201d long) has a 5 lobed calyx, 5 greenish-white corolla lobes and 5 white hoods with incurved horns protruding from each hood.  Flowers give way to smooth, narrow seed pods (to 3\u201d long) which split open when ripe releasing numerous silky-tailed seeds for dispersal by the wind.Seed pods are valued in dried flower arrangements.Monarch butterflies need milkweed plants (Asclepiasgenus) in order to survive.  Monarchs lay their eggs on milkweed plants, caterpillars hatch from the eggs and consume the plant foliage as food for growth and development, and the flower nectar is consumed as a valuable source of food by adult monarchs.  Recent significant declines in monarch butterfly populations in North America are believed by many experts to be related to a corresponding significant decline in milkweed plants which in large part has been caused by an increased use of glyphosate herbicides around food crop areas where glyphosate-tolerant (Roundup Ready) crops are being grown.Genus name honors the Greek god Asklepios the god of medicine.Specific epithet comes from the Latin wordverticillatusmeaning whorled in reference to the leaves appearing in whorls.Common name suggests this plant is noted for its whorled leaves and milky sap.  Additional common names for this plant include horsetail milkweed. Seed pods are valued in dried flower arrangements.Monarch butterflies need milkweed plants (Asclepiasgenus) in order to survive.  Monarchs lay their eggs on milkweed plants, caterpillars hatch from the eggs and consume the plant foliage as food for growth and development, and the flower nectar is consumed as a valuable source of food by adult monarchs.  Recent significant declines in monarch butterfly populations in North America are believed by many experts to be related to a corresponding significant decline in milkweed plants which in large part has been caused by an increased use of glyphosate herbicides around food crop areas where glyphosate-tolerant (Roundup Ready) crops are being grown.Genus name honors the Greek god Asklepios the god of medicine.Specific epithet comes from the Latin wordverticillatusmeaning whorled in reference to the leaves appearing in whorls.Common name suggests this plant is noted for its whorled leaves and milky sap.  Additional common names for this plant include horsetail milkweed. Monarch butterflies need milkweed plants (Asclepiasgenus) in order to survive.  Monarchs lay their eggs on milkweed plants, caterpillars hatch from the eggs and consume the plant foliage as food for growth and development, and the flower nectar is consumed as a valuable source of food by adult monarchs.  Recent significant declines in monarch butterfly populations in North America are believed by many experts to be related to a corresponding significant decline in milkweed plants which in large part has been caused by an increased use of glyphosate herbicides around food crop areas where glyphosate-tolerant (Roundup Ready) crops are being grown.Genus name honors the Greek god Asklepios the god of medicine.Specific epithet comes from the Latin wordverticillatusmeaning whorled in reference to the leaves appearing in whorls.Common name suggests this plant is noted for its whorled leaves and milky sap.  Additional common names for this plant include horsetail milkweed."
     },
     "wild_ginger": {
         "Scientific Name": "asarumcanadense ",
@@ -1901,7 +2000,8 @@ export const plantData = {
         "Maintenance": "Low",
         "Suggested Use": "Ground Cover, Naturalize, Rain Garden",
         "Flower": "Insignificant",
-        "Tolerate": "Deer, Heavy Shade, Erosion, Wet Soil"
+        "Tolerate": "Deer, Heavy Shade, Erosion, Wet Soil",
+        "Noteworthy Characteristics": "Asarum canadense, commonly called wild ginger, is a Missouri native spring wildflower which occurs in rich woods and wooded slopes throughout the State. Basically a stemless plant which features two downy, heart-shaped to kidney-shaped, handsomely veined, dark green, basal leaves (to 6\" wide). Cup-shaped, purplish brown flowers (1\" wide) appear in spring on short, ground-level stems arising from the crotch between the two basal leaves. Flowers are quite attractive on close inspection, but bloom singly on or near the ground and are usually hidden from view by the foliage. Although not related to culinary ginger (Zingiber officinale), the roots of this plant produce a scent that is reminiscent thereof. Fresh or dried roots were used by early Americans as a ginger substitute, but the plant is not normally used today for culinary purposes.Genus name comes from the Latin and Greek name.Specific epithet means of Canada but also used to cover north-eastern U.S. by early writers."
     },
     "smooth_hydrangea": {
         "Scientific Name": "hydrangea arborescens ",
@@ -1919,7 +2019,8 @@ export const plantData = {
         "Maintenance": "Low",
         "Suggested Use": "Naturalize, Rain Garden",
         "Flower": "Showy, Good Cut, Good Dried",
-        "Tolerate": "Rabbit, Erosion, Clay Soil, Dry Soil, Wet Soil, Shallow-Rocky Soil, Black Walnut"
+        "Tolerate": "Rabbit, Erosion, Clay Soil, Dry Soil, Wet Soil, Shallow-Rocky Soil, Black Walnut",
+        "Noteworthy Characteristics": "Hydrangea arborescens, commonly known as smooth hydrangea or wild hydrangea, is a loosely and widely branched deciduous shrub that typically grows to 3-6\u2019 (less frequently to 10\u2019) tall.  It is native to moist or rocky wooded slopes, ravines, streambanks and bluff bases from New York to Florida west to Iowa, Missouri, Oklahoma and Louisiana.  Gray-brown stems are clad with opposite, broad egg-shaped to rounded, sharply toothed, dark green leaves (2-6\u201d long) with pale green undersides.  Leaves turn yellow in fall.  Tiny white fertile flowers bloom in May-July in flattened hairy clusters (corymbs to 2-6\u201dacross).  Scattered continuing flowering may occur throughout summer to September.  A few large sterile flowers usually appear at the cluster margins (usually not enough for a quality lacecap effect).  Flowers give way to dehiscent seed capsules which ripen in October-November.The genus nameHydrangeacomes fromhydormeaning \"water\" andaggeionmeaning \"vessel\", in reference to the cup-like capsular fruit.Specific epithet comes fromarbormeaning \"tree\" in reference to the similarity of this shrub to a small tree."
     },
     "wild_quinine": {
         "Scientific Name": "parthenium integrifolium ",
@@ -1937,7 +2038,8 @@ export const plantData = {
         "Maintenance": "Low",
         "Flower": "Showy, Good Cut, Good Dried",
         "Leaf": "Fragrant",
-        "Tolerate": "Drought, Erosion, Clay Soil, Dry Soil, Shallow-Rocky Soil"
+        "Tolerate": "Drought, Erosion, Clay Soil, Dry Soil, Shallow-Rocky Soil",
+        "Noteworthy Characteristics": "Parthenium integrifolium, commonly called American feverfew or wild quinine, is a clump-forming, Missouri native perennial which occurs in dry soils on prairies, glades and rocky woods. Grows 3-4' tall. Woolly-looking, white flower heads, each with 5 tiny ray flowers (1/12\" long), appear in broad, flat-topped, terminal corymbs from late spring to late summer. Leaves are glandular and aromatic with a rough texture to both surfaces. The leaf margins are toothed and mostly entire, although some may exhibit coarse lobes at the base. Long-petioled basal leaves are much larger than cauline leaves (leaves on the stem).The genus namePartheniumcomes from the Greek meaning \"virgin\", in reference to the fertile ray florets and infertile disk florets of species in this genus.The specific epithetintegrifoliummeans \"with entire or uncut leaves\"."
     },
     "three-leaved_stonecrop": {
         "Scientific Name": "sedum ternatum ",
@@ -1956,7 +2058,8 @@ export const plantData = {
         "Suggested Use": "Ground Cover, Naturalize",
         "Flower": "Showy",
         "Attracts": "Butterflies",
-        "Tolerate": "Rabbit, Deer, Drought, Shallow-Rocky Soil, Air Pollution"
+        "Tolerate": "Rabbit, Deer, Drought, Shallow-Rocky Soil, Air Pollution",
+        "Noteworthy Characteristics": "Sedum ternatum, commonly called three-leaved stonecrop (also commonly called whorled stonecrop), is a small, spreading, Missouri native perennial which typically occurs in damp locations along stream banks, bluff bases and stony ledges (as in stonecrop). Grows 3-6\" high and spreads by creeping stems which root at the nodes. Stems break away and die in winter, leaving newly rooted plants separated from the mother plant. Features small, rounded, fleshy, succulent-like leaves (to 3/4\" long) which appear in whorls of three, thus giving rise to the common names. Clusters of tiny white, star-like flowers (to 1/2\" wide) with purplish stamens appear on erect stems above the foliage in spring.Genus name comes from the Latin wordsedeomeaning to sit in reference to the general growing habit of many of the sedums (they sit and sprawl over rocks).Specific epithet means in threes and is in reference to the leaves which appear in whorls of three."
     },
     "spiderwort": {
         "Scientific Name": "tradescantia ernestiana ",
@@ -1973,7 +2076,8 @@ export const plantData = {
         "Water": "Medium to wet",
         "Maintenance": "Medium",
         "Suggested Use": "Naturalize",
-        "Flower": "Showy"
+        "Flower": "Showy",
+        "Noteworthy Characteristics": "Tradescantia ernestiana, sometimes commonly called woodland spiderwort, is a clump-forming perennial that is native to Missouri, Oklahoma, Arkansas, Mississippi, Alabama and Georgia. In Missouri it is typically found in moist woodland valleys, ravines and slopes in the southwestern corner of the state (Steyermark). It grows to 12-24\u201d tall. Dayflower-like green foliage emerges in spring. Foliage lacks the white coating found on some other spiderworts. Three-petaled flowers (to 1.5\u201d diameter), accented by contrasting yellow stamens, are borne in terminal clusters (umbels) atop stiff stems. Flower color varies from rose-red to blue to deep purple. Multiple flower buds form in each cluster, but individual flowers open up only a few at a time, each for only one day, blooming in succession in a relatively short April-May bloom period. This spiderwort is very similar in appearance toTradescantia ozarkana(lighter flower color) andT. virginiana(narrower leaf blade).Genus name honors John Tradescant (1570-1638) and his son John Tradescant (1608-1662), botanists and successive gardeners to Charles I of England."
     },
     "yellowwood": {
         "Scientific Name": "cladrastis kentukea ",
@@ -1991,7 +2095,8 @@ export const plantData = {
         "Maintenance": "Low",
         "Suggested Use": "Shade Tree, Flowering Tree",
         "Flower": "Showy, Fragrant",
-        "Leaf": "Good Fall"
+        "Leaf": "Good Fall",
+        "Noteworthy Characteristics": "Cladrastis kentukea, commonly called American yellowwood, is a medium-sized, deciduous tree of the legume family that typically grows 30-50\u2019 tall with upright branching and a broad, rounded crown. It is noted for its pinnately compound foliage, panicles of fragrant white spring flowers, autumn seed pods and yellow fall color. The species is native to the southeastern U.S. In Missouri, it typically occurs in several southwestern counties near the White River and its tributaries. Pinnately compound leaves (usually with 7-11 leaflets) open as yellowish green, turn bright green in summer and then turn yellow in fall. Intensely fragrant, wisteria-like, white flowers in large, drooping, terminal panicles (10-15\u201d long) will cover a mature tree in late spring. Profuse bloom may occur only once every 2 or 3 years however. New trees may not bloom for the first 8-10 years. Bloom is similar in appearance to that of black locust (Robinia). Flowers give way to flat seed pods (2.5-4\u201d long) that mature in September-October. Species was formerly calledCladrastus lutea.Genus name comes from the Greekkladosmeaning branch andthraustosmeaning fragile for the brittle twigs.Specific epithet means of Kentucky.The wood of this tree contains a yellow dye that distinctively colors the heartwood and gives rise to the common name of yellowwood."
     },
     "yellow_coneflower": {
         "Scientific Name": "echinacea paradoxa ",
@@ -2008,7 +2113,8 @@ export const plantData = {
         "Water": "Dry to medium",
         "Maintenance": "Low",
         "Flower": "Showy, Fragrant",
-        "Tolerate": "Deer, Drought, Clay Soil, Dry Soil, Shallow-Rocky Soil"
+        "Tolerate": "Deer, Drought, Clay Soil, Dry Soil, Shallow-Rocky Soil",
+        "Noteworthy Characteristics": "Echinacea paradoxa, sometimes called yellow coneflower, is the only species in the genusEchinaceato have yellow flowers instead of the usual purple flowers (this being the paradox suggested by the species name). It primarily occurs on glades and prairies in the Ozark regions of Missouri and Arkansas. Features large, daisy-like flowers with drooping yellow to orange-yellow petals (ray flowers) and very large, coppery-brown to chocolate-brown central cones. Best flower display is mid-June to mid-July, sometimes with sporadic continued bloom throughout the summer. Flowers grow on rigid, glabrous stems typically to 3' tall. Smooth, lance-shaped, dark green leaves (4-8\" long) with linear veining. The dead flower stems will remain erect well into the winter and, if flower heads are not removed, are often visited by goldfinches who perch on or just below the blackened cones to feed on the seeds. he Greek wordechinosmeaning hedgehog in reference to the spiny center cone.Genus name ofEchinaceacomes from the Greek wordechinosmeaning hedgehog or sea-urchin in reference to the spiny center cone found on most flowers in the genus.Specific epithet calls attention to the paradox of why this species ofEchinaceahas yellow flowers instead of the usual purple."
     },
     "yellow_trout-lily": {
         "Scientific Name": "erythronium americanum ",
@@ -2026,7 +2132,8 @@ export const plantData = {
         "Maintenance": "Medium",
         "Suggested Use": "Naturalize",
         "Flower": "Showy",
-        "Leaf": "Colorful"
+        "Leaf": "Colorful",
+        "Noteworthy Characteristics": "Erythronium americanum, commonly called yellow adder\u2019s tongue, yellow trout lily, yellow fawn lily and yellow dog-tooth violet, is a Missouri native spring wildflower that occurs in moist woods, on wooded slopes and bluffs, and along streams in the southern part of the State (Steyermark). A single, nodding, bell- or lily-shaped yellow flower blooms atop a naked scape sheathed by two glossy, tongue-shaped, tulip-like, basal leaves (to 6\u201d long) in early spring. Petal-like perianth segments are reflexed and often brushed with purple on the outside. Anthers are yellow to brown. Leaves are mottled with brown and purple. It typically grows 4-6\u201d (infrequently to 9\u201d) tall. Flowering plants always have two basal leaves, however colonies frequently have non-flowering plants with only a single leaf. The common name of adder\u2019s tongue is in reference to the tongue-like shape of the flowering shoot as it rises up in spring and the supposed resemblance of the flower to the open mouth of a snake. The common name of trout lily is in reference to the mottled leaves and the appearance of the flowers during trout fishing season. The common name of fawn lily is in reference to the spotted leaves and the supposed resemblance of the two-leaved plant to the upright ears of a fawn. The common name of dog-tooth violet (it grows from tiny corms that purportedly resemble dogteeth and its flowers somewhat resemble violets) is unfortunately quite misleading because this flower is not a member of the violet family.Genus name comes from the Greek worderythronionfromerythrosmeaning red, originally the name for another plant.Specific epithet means of North or South America."
     },
     "yellow_wild_indigo": {
         "Scientific Name": "baptisia sphaerocarpa ",
@@ -2046,6 +2153,7 @@ export const plantData = {
         "Flower": "Showy",
         "Attracts": "Butterflies",
         "Fruit": "Showy",
-        "Tolerate": "Drought, Erosion, Dry Soil"
+        "Tolerate": "Drought, Erosion, Dry Soil",
+        "Noteworthy Characteristics": "Baptisia sphaerocarpa, commonly called false indigo (or yellow wild indigo) is an upright, mounded perennial that typically grows 2-3\u2019 tall. It is native to open habitats along the Gulf Coasts of Texas, Louisiana, and Mississippi north through Oklahoma and Arkansas to Missouri. It features small, yellow, pea-like flowers (to 1/2\u201d long) in erect racemes (to 12-15\u201d) atop yellowish-green flower stems extending well above a foliage mound of clover-like, trifoliate, blue-green leaves (leaflets to 2\u201d long). Blooms in spring. Flowers give way to inflated spherical seed pods (to 3/4\u201d diameter) that turn tan to brown when ripe and have considerable ornamental interest. Stems with seed pods are valued additions to dried flower arrangements.The genus nameBaptisiacomes from the Greek wordbaptomeaning \"to dye\".Specific epithet means with rounded fruit."
     }
 }

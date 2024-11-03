@@ -39,8 +39,6 @@ export default function plant_locked() {
           <Image source={backButtonIcon} style={styles.backButton}/>
           </View>
         </Pressable>
-
-              {/* <Image source={backButtonIcon} style={styles.backButton}/> */}
               <View style={styles.pageHeader}>
                 <Text style={styles.plantNameText}>{String(plant)}</Text>
                 <Text style={styles.plantScientificNameText}>{dataObject["Scientific Name"]}</Text>
@@ -119,24 +117,16 @@ export default function plant_locked() {
     },
     imageWrapper: {
       display: 'flex',
-      //width: '100%',
       alignItems: 'center',
       justifyContent: 'center',
-      height: 200,
-      width: '100%',
-      // borderStyle: 'solid',
-      // borderWidth: 5,
-      // borderColor: 'red',
+      marginBottom: '20px',
     },
     plantImage: {
       resizeMode: 'contain',
-      aspectRatio: 1/1,
-      height: 200,
-      width: '100%',
-      borderStyle: 'solid',
-      borderWidth: 5,
-      borderColor: 'black',
-      //width: '88%',
+      // borderStyle: 'solid',
+      // borderWidth: 4,
+      // borderColor: 'black',
+      borderRadius: '10px',
     },
     backButton: {
       borderRadius: 50,
