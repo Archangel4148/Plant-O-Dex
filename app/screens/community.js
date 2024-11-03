@@ -1,6 +1,7 @@
 import { View, ScrollView, Text, Image } from "react-native";
 import { StyleSheet } from "react-native";
 import { iconPaths } from "../../assets/user_icons/icon_paths";
+import {ImageView} from '@/components/ImageView.js';
 
 // Function to get a random icon from the iconPaths
 const getRandomIcon = () => {
@@ -9,12 +10,28 @@ const getRandomIcon = () => {
   return iconPaths[randomKey];
 };
 
+function getRandomImagePath() {
+  // Get the keys (plant names) from the ImageView object
+  const plantNames = Object.keys(ImageView);
+  
+  // Generate a random index based on the length of the array
+  const randomIndex = Math.floor(Math.random() * plantNames.length);
+  
+  // Get the random plant name using the random index
+  const randomPlantName = plantNames[randomIndex];
+  
+  // Return the corresponding image path
+  return ImageView[randomPlantName];
+}
+
 const generatePost = () => {
     const postArr = []
     let profileImagePath;
+    let postImagePath;
     let post;
     for (let i = 0; i < 20; i++) {
         profileImagePath = getRandomIcon();
+        postImagePath = getRandomImagePath();
         post = <View key={i} style={styles.postContainer}>
                     <View style={styles.upperPost}>
                     <View style={styles.profilePicture}>
@@ -27,7 +44,13 @@ const generatePost = () => {
                         <Text style={{}}>USER Found a PLANT_NAME!!!</Text>
                     </View>
                     <View style={styles.lowerPost}>
-                        <View style={styles.picture}></View>
+                        <View style={styles.picture}>
+                        <Image 
+                            source={postImagePath} 
+                            style={{ width: '100%', height: '100%', borderRadius: 10 }} // Adjust styles as needed
+                            resizeMode="cover" // or "contain", depending on your preference
+                          />
+                        </View>
                     </View>
                </View>;
         postArr.push(post)
