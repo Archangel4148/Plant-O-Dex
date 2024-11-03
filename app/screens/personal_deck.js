@@ -63,11 +63,11 @@ export default function home() {
         plantsArr.push(
           <Pressable key={plant_name} onPress={() => router.push({ pathname: "/screens/plant_locked", params: { plant: plant_name } })}
             style={({ pressed }) => ({ opacity: pressed ? 0.5 : 1 })}>
-            <View style={styles.plantBox}>
+            <View style={[styles.plantBox, {position: 'relative'}]}>
               <Image height={100} width={100} style={{ height: '100%', width: '100%', borderRadius: 10 }} source={{ uri: plant_image }} />
             </View>
-            <View style={styles.plantBoxText}>
-              <Text style={styles.plantBoxText}>{plant_name}</Text>
+            <View style={{display: 'flex', justifyContent: 'center', alignContent: 'center',backgroundColor: 'rgba(0,0,0,0.3)', width: 190, height: 40, transform: "translateY(-10px)"}}>
+              <Text style={{textTransform: 'capitalize', textAlign: 'center', color: 'rgba(255,255,255,0.8)'}}>{plant_name}</Text>
             </View>
           </Pressable>
         );
@@ -119,8 +119,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     flex: 1,
     marginTop: 10,
-    backgroundColor: "#E3FFE5", //The middle of the background
-    width: screenWidth,
+    backgroundColor: "#E3FFE5" //The middle of the backround
   },
   headerContainer: {
     backgroundColor: '#d2d3db',
@@ -136,10 +135,57 @@ const styles = StyleSheet.create({
   },
   headerText: {
     fontSize: 28,
-    fontFamily: 'JetBrains',
     marginTop: 'auto',
     marginBottom: 15,
     
+  },
+  searchContainer: {
+    width: '100%',
+
+    display: 'flex',
+    flexDirection: 'row',
+    justifyContent: 'center',
+    alignItems: 'center',
+    gap: 5,
+  
+  },
+  searchBar: {
+    borderColor: 'black',
+    borderWidth: 1,
+    borderRadius: 70,
+
+    display: 'flex',
+    flexDirection: 'row',
+    alignContent: 'center',
+    alignItems: 'center',
+    
+    width: 360,
+    height: 45,
+    
+    paddingLeft: 10,
+
+    backgroundColor: 'gray',
+    
+  },
+  searchTextInput: {
+    paddingLeft: 10,
+    color: 'white',
+    fontSize: 20,
+    width: 340
+  },
+
+  sortButton: {
+    width: 60,
+    height: 50,
+    
+    borderColor: 'black',
+    borderRadius: 10,
+    borderWidth: 3,
+
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
+
   },
   mainBody: {
     display: 'flex',
@@ -147,32 +193,27 @@ const styles = StyleSheet.create({
     gap: 5,
     justifyContent: 'center',
     
-    alignItems:'center',
     flexWrap: 'wrap',
-    backgroundColor: "E3FFE5", //Color for the backround bottom of the app
+    backgroundColor: "#E3FFE5", //Color for the backround bottom of the app
 
-    width: "100%",
+    width: 400,
     paddingBottom: 200,
-    minHeight: 700,
+    minHeight: 1000,
 
     marginTop: 15,
   },
 
   plantBox: {
-    width: 150, 
-    height: 150,
-    borderColor: "#FCEAFF",
-    borderWidth: 0,
-    borderColor: "#f3a8ff",
+    borderWidth: 1,
+    width: 190, 
+    height: 190,
+    borderColor: "#BDFFC2",
 
     backgroundColor: '#555555',
     borderRadius: 10,
-    marginBottom: 10,
-    justifyContent: 'center'
 
-  },
-  plantBoxText: {
-    textTransform: 'capitalize'
+    marginBottom: -40,
+
   }
 
 })
