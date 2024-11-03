@@ -39,12 +39,11 @@ export default function camera() {
         
       <CameraView style={styles.camera} facing={facing} ref={cameraRef}>
         <View style={styles.buttonContainer}>
-          <TouchableOpacity style={styles.button} onPress={toggleCameraFacing}>
-            <Text style={styles.text}>Flip Camera</Text>
-          </TouchableOpacity>
-          <TouchableOpacity style={styles.button} onPress={captureImage}>
-            <Text style={styles.text}>Capture Image</Text>
-          </TouchableOpacity>
+            <View style={{display: 'flex', alignSelf: 'flex-end', alignItems: 'center', flexDirection: 'row', alignContent: 'center'}}>
+                <TouchableOpacity style={{ width: 90, height: 90, borderRadius: 100, borderWidth: 6, borderColor: 'white'}}>
+                
+                </TouchableOpacity>
+          </View>
         </View>
       </CameraView>
     </View>
@@ -67,6 +66,7 @@ const styles = StyleSheet.create({
     flex: 1,
     flexDirection: 'row',
     backgroundColor: 'transparent',
+    justifyContent: 'center',
     margin: 64,
   },
   button: {

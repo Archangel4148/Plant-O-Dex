@@ -1,4 +1,4 @@
-import { Text, View, ScrollView, TextInput, Pressable, Image } from "react-native";
+import { TouchableOpacity, Text, View, ScrollView, TextInput, Pressable, Image } from "react-native";
 import { StyleSheet } from "react-native";
 import React, { useState } from 'react'; 
 import { useFonts } from "expo-font";
@@ -21,7 +21,7 @@ const populatePlants = (searchTerm) => {
       let src = ImageView[commonName.toLowerCase()]
 
       const newPlant = (
-        <Pressable 
+        <TouchableOpacity 
           key={commonName} 
           onPress={() => { router.push({
             pathname: "/screens/plant_locked", params: {plant: commonName}
@@ -39,7 +39,7 @@ const populatePlants = (searchTerm) => {
           <View style={{display: 'flex', justifyContent: 'center', alignContent: 'center',backgroundColor: 'rgba(0,0,0,0.3)', width: 190, height: 40, transform: "translateY(-10px)"}}>
             <Text style={{textTransform: 'capitalize', textAlign: 'center', color: 'rgba(255,255,255,0.8)'}}>{commonName}</Text>
           </View>
-        </Pressable>
+        </TouchableOpacity>
       );
 
       if (src) {
