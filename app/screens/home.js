@@ -61,7 +61,7 @@ export default function index() {
             <View style={{display: 'flex', justifyContent: 'center', alignContent: 'center',backgroundColor: 'rgba(0,0,0,0.3)', width: 190, height: 40, transform: "translateY(-10px)"}}>
               <Text style={{textTransform: 'capitalize', textAlign: 'center', color: 'rgba(255,255,255,0.8)'}}>{commonName}</Text>
             </View>
-            {(userArray.includes(commonName) &&
+            {(userArray.includes(commonName.toLowerCase()) &&
             <Image source={gold} style={{position: 'absolute', width: 190, height: 190}}></Image>
             )}
     
