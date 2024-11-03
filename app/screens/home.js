@@ -16,8 +16,6 @@ const populatePlants = (searchTerm) => {
 
     // Filter plants based on the search term
     if (commonName.toLowerCase().includes(searchTerm.toLowerCase())) {
-      // let src = require(`@/assets/plant_data/images/` + 
-      //   commonName.toLowerCase().replace(" ", "_") + '.png');
       let src = ImageView[commonName.toLowerCase()]
 
       const newPlant = (
