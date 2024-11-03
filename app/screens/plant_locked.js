@@ -44,7 +44,7 @@ export default function plant_locked() {
       };
 
     checkPlantStatus();
-  });
+ }))
 
   return (
     <View>
