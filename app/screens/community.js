@@ -67,6 +67,7 @@ const generatePost = () => {
 export default function community() {
   const [loaded, error] = useFonts({
     'JetBrains': require('@/assets/fonts/JetBrainsMono-Medium.ttf'),
+    'KunlimPark': require('@/assets/fonts/KulimPark-Bold.ttf'),
   });
     return (
       <View style={{backgroundColor: "#E3FFE5"}}>
@@ -95,7 +96,7 @@ export default function community() {
     marginRight: 50,
   },
   communityPostText: {
-
+    fontFamily: 'KumlinPark',
   },
   postImage: {
     width: '100%',

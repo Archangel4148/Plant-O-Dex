@@ -14,6 +14,7 @@ const routeToLocked = () => {
 export default function Index() {
   const [loaded, error] = useFonts({
     'JetBrains': require('@/assets/fonts/JetBrainsMono-Medium.ttf'),
+    'KunlimPark': require('@/assets/fonts/KulimPark-Bold.ttf'),
   });
   return (
     <View
