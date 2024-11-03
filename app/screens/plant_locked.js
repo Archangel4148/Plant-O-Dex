@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useCallback } from "react";
 import { Text, View, ScrollView, Pressable, Image, Dimensions} from "react-native";
 import { StyleSheet } from "react-native";
 import {router, useLocalSearchParams} from 'expo-router'
@@ -7,7 +7,6 @@ import {plantData} from "@/assets/plant_data/json_data/0_combined_plants.js"
 import FindPlant from '@/components/FindPlant.js'
 import AsyncStorage from "@react-native-async-storage/async-storage";
 import { useFocusEffect } from "@react-navigation/native";
-
 
 
 const backButtonIcon = require('@/assets/temp_images/temp_back_button.png');
@@ -26,24 +25,27 @@ export default function plant_locked() {
   const dataObject = plantData[plant.toLowerCase().replace(/ /g, "_")]
   const [plantFound, setPlantFound] = useState(false);
 
-  useFocusEffect(() => {
-    const checkPlantStatus = async () => {
-      try {
-        const userObjectValue = await AsyncStorage.getItem('userObject');
-        if (userObjectValue) {
-          const userObject = JSON.parse(userObjectValue);
-          const found = userObject.foundPlants.some(
-            (foundPlant) => foundPlant.plant_name === plant.toLowerCase().replace("_", " ")
-          );
-          setPlantFound(found);
+  useFocusEffect(
+    useCallback(() => {
+      const checkPlantStatus = async () => {
+        try {
+          const userObjectValue = await AsyncStorage.getItem("userObject");
+          if (userObjectValue) {
+            const userObject = JSON.parse(userObjectValue);
+            const found = userObject.foundPlants.some(
+              (foundPlant) =>
+                foundPlant.plant_name === plant.toLowerCase().replace("_", " ")
+            );
+            setPlantFound(found);
+          }
+        } catch (error) {
+          console.error("Error retrieving user object:", error);
         }
-      } catch (error) {
-        console.error('Error retrieving user object:', error);
-      }
-    };
+      };
 
-    checkPlantStatus();
-  }, [plant]);
+      checkPlantStatus();
+    }, [plant])
+  );
 
   return (
     <View>
