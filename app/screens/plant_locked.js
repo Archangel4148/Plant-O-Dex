@@ -47,9 +47,7 @@ export default function plant_locked() {
 
   return (
     <View>
-      <View style={[styles.headerContainer]}>
-        <Text style={[styles.headerText]}>Floradex</Text>
-      </View>
+      
       <ScrollView style={[styles.mainScroll]}>
         <View style={styles.main}>
           <View style={[styles.topBar]}> 
@@ -107,6 +105,7 @@ const styles = StyleSheet.create({
 
   // Main Elements
   mainScroll: {
+    paddingTop: 80,
     backgroundColor: '#E3FFE5'
     },
   main: {
