@@ -130,7 +130,7 @@ useEffect(()=> {fetchPosts()}, [])
     height: 360,
 
     borderColor: 'black',
-    borderWidth: 3,
+    borderWidth: 1,
     borderRadius: 10,
   },
   headerContainer: {
@@ -175,7 +175,7 @@ useEffect(()=> {fetchPosts()}, [])
     height: 50,
     borderRadius: 100,
     borderColor: 'black',
-    borderWidth: 3,
+    borderWidth: 2,
   },
   profilePicture: {
     width: '100%',
