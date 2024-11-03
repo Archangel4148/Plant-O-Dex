@@ -111,7 +111,6 @@ useEffect(()=> {fetchPosts()}, [])
     marginRight: 50,
   },
   communityPostText: {
-    fontFamily: 'KumlinPark',
     height: 20,
   },
   postImage: {
