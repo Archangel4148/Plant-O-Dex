@@ -93,22 +93,10 @@ useEffect(() => {
               style={styles.usernameInput}
               value={username}
               onChangeText={handleUsernameChange}
-              placeholder="Enter your username"
+              placeholder="Input a username"
               placeholderTextColor="#888"
             />
           </View>
-          {/* Display the captured image here */}
-          <View style={styles.imageContainer}>
-            {imageUri && (
-              <Image
-                source={{ uri: imageUri }}
-                style={{ width: '100%', height: 200, borderRadius: 10 }}
-                resizeMode="contain"
-              />
-            )}
-          </View>
-          {/* <View style={styles.container}>
-          </View> */}
           <Button onPress={clearAsyncStorage} title={"Clear Cache"} color={'red'}></Button>
         </View>
       </View>
@@ -198,19 +186,27 @@ const styles = StyleSheet.create({
 
   // Username Input
   usernameContainer: {
-
-  },
-  usernameLabel: {
-
-  },
-  usernameInput: {
-
-  },
-  imageContainer: {
     backgroundColor: '#BDFFC2',
     width: 360,
     height: 90,
     borderRadius: 10,
+    alignItems: 'center',
+  },
+  usernameLabel: {
+    fontWeight: 'bold',
+    fontSize: 18,
+    marginTop: 15,
+    marginBottom: 10
+  },
+  usernameInput: {
+    backgroundColor: 'white',
+    borderRadius: 15,
+    height: 25,
+    width: "60%",
+    padding: 15
+  },
+  imageContainer: {
+    
   },
   })
   
