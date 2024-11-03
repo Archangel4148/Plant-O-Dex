@@ -46,6 +46,12 @@ export default FindPlant = async (plant, router) => {
               }, 1000); // Check every second
             });
 
+            // Save the data for the community post
+            userObject.lastFoundPlant = {
+              plant_name: plantName,
+              plant_image: imageUri
+            };
+
             // Add the new plant entry with the captured image URI
             userObject.foundPlants.push({
               plant_name: plant.toLowerCase().replace("_", " "),

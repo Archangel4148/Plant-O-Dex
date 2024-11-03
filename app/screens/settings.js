@@ -9,9 +9,10 @@ import { useFonts } from "expo-font";
 const {screenWidth, screenHeight} = Dimensions.get('window');
 
 
-const storeUsername = async (username) => {
+const storeUserData = async (username, index) => {
   try {
-    await AsyncStorage.setItem('currentUsername', username);
+    const userData = { currentUsername: username, currentIconIndex: index };
+    await AsyncStorage.setItem('userData', JSON.stringify(userData));
   } catch (e) {
     // saving error
   }
@@ -20,7 +21,6 @@ const storeUsername = async (username) => {
 export default function settings() {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [username, setUsername] = useState('');
-  const [imageUri, setImageUri] = useState(null); // State to hold the image URI
   const [loaded, error] = useFonts({
     'JetBrains': require('@/assets/fonts/JetBrainsMono-Medium.ttf'),
   });
@@ -38,32 +38,18 @@ export default function settings() {
 
 const nextIcon = () => {
   setCurrentIndex((prevIndex) => (prevIndex + 1) % Object.values(iconPaths).length);
+  storeUserData(username, (currentIndex + 1) % Object.values(iconPaths).length); // Save new index
 };
 
 const previousIcon = () => {
   setCurrentIndex((prevIndex) => (prevIndex - 1 + Object.values(iconPaths).length) % Object.values(iconPaths).length);
+  storeUserData(username, (currentIndex - 1 + Object.values(iconPaths).length) % Object.values(iconPaths).length); // Save new index
 };
 
 const handleUsernameChange = (newUsername) => {
   setUsername(newUsername);
-  storeUsername(newUsername);
+  storeUserData(newUsername, currentIndex); // Store updated username and current index
 };
-
-// Effect to fetch the image URI from AsyncStorage
-useEffect(() => {
-  const fetchImageUri = async () => {
-    try {
-      const uri = await AsyncStorage.getItem('capturedImageUri');
-      if (uri) {
-        setImageUri(uri);
-      }
-    } catch (error) {
-      console.error('Error fetching image URI:', error);
-    }
-  };
-
-  fetchImageUri();
-}, []);
 
     return (
   <View>
