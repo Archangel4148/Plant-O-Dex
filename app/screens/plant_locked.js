@@ -1,12 +1,16 @@
+import React, { useEffect, useState } from "react";
 import { Text, View, ScrollView, Pressable, Image, Dimensions} from "react-native";
 import { StyleSheet } from "react-native";
 import {router, useLocalSearchParams} from 'expo-router'
 import {ImageView} from "@/components/ImageView"
 import {plantData} from "@/assets/plant_data/json_data/0_combined_plants.js"
 import FindPlant from '@/components/FindPlant.js'
+import AsyncStorage from "@react-native-async-storage/async-storage";
+
 
 const backButtonIcon = require('@/assets/temp_images/temp_back_button.png');
 const lockIconImage = require('@/assets/temp_images/temp_lock_icon.png');
+const starIconImage = require('@/assets/temp_images/temp_star_icon.png');
 const {screenWidth, screenHeight} = Dimensions.get('window');
 
 const formatAttributes = (selectedPlant) => {
@@ -18,6 +22,27 @@ const formatAttributes = (selectedPlant) => {
 export default function plant_locked() {
   const {plant} = useLocalSearchParams();
   const dataObject = plantData[plant.toLowerCase().replace(/ /g, "_")]
+  const [plantFound, setPlantFound] = useState(false);
+
+  useEffect(() => {
+    const checkPlantStatus = async () => {
+      try {
+        const userObjectValue = await AsyncStorage.getItem('userObject');
+        if (userObjectValue) {
+          const userObject = JSON.parse(userObjectValue);
+          const found = userObject.foundPlants.some(
+            (foundPlant) => foundPlant.plant_name === plant.toLowerCase().replace("_", " ")
+          );
+          setPlantFound(found);
+        }
+      } catch (error) {
+        console.error('Error retrieving user object:', error);
+      }
+    };
+
+    checkPlantStatus();
+  }, [plant]);
+
   return (
     <View>
       <View style={[styles.headerContainer]}>
@@ -40,7 +65,8 @@ export default function plant_locked() {
               <Text style={styles.plantNameText}>{String(plant)}</Text>
               <Text style={styles.plantScientificNameText}>{dataObject["Scientific Name"]}</Text>
             </View>
-            <Image source={lockIconImage} style={styles.lockIcon}/>
+            {/* This image icon will be replaced with a star if they have found the plant */}
+            <Image source={plantFound ? starIconImage : lockIconImage} style={styles.lockIcon}/>
           </View>
           <View style={styles.imageWrapper}>
             <Image source={ImageView[plant.toLowerCase()]} style={styles.plantImage}/>
