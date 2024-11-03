@@ -57,6 +57,9 @@ export default function home() {
     for (let plant of user.foundPlants) {
       const { plant_name, plant_image } = plant;
       // Filter plants based on search term
+      if (!plant_name) {
+        return;
+      }
       if (plant_name.toLowerCase().includes(searchTerm.toLowerCase())) {
         plantsArr.push(
           <Pressable key={plant_name} onPress={() => router.push({ pathname: "/screens/plant_locked", params: { plant: plant_name } })}

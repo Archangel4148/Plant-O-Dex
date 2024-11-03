@@ -4,6 +4,7 @@ import { StyleSheet } from "react-native";
 import { ScrollView } from "react-native";
 import AsyncStorage from "@react-native-async-storage/async-storage";
 import { iconPaths } from '@/assets/user_icons/icon_paths.js'
+import { useFonts } from "expo-font";
 
 
 const storeUsername = async (username) => {
@@ -18,6 +19,9 @@ export default function settings() {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [username, setUsername] = useState('');
   const [imageUri, setImageUri] = useState(null); // State to hold the image URI
+  const [loaded, error] = useFonts({
+    'JetBrains': require('@/assets/fonts/JetBrainsMono-Medium.ttf'),
+  });
 
   const clearAsyncStorage = async() => {
     try {
@@ -61,10 +65,10 @@ useEffect(() => {
 
     return (
   <View>
-    <View style={[styles.headerContainer, {backgroundColor: "#EDFFEA"}]}>
+    <View style={[styles.headerContainer, {backgroundColor: "#E3FFE5"}]}>
       <Text style={styles.headerText}>Settings</Text>
     </View>
-    <ScrollView style={{backgroundColor: "#EDFFEA"}}>
+    <ScrollView style={{backgroundColor: "#E3FFE5"}}>
       <View style={styles.webContainer}>
         <View style={styles.mainBody}>
           <View style={styles.instructionAndIconContainer}>
@@ -75,7 +79,7 @@ useEffect(() => {
               </View>
               <Image
                 source={Object.values(iconPaths)[currentIndex]}
-                style={{ width: 50, height: 50 }}
+                style={styles.userIcon}
                 resizeMode="contain"
               />
               <View style={styles.buttonWrapper}>
@@ -128,7 +132,8 @@ const styles = StyleSheet.create({
     alignContent: 'center'
   },
   headerText: {
-    fontSize: 24,
+    fontSize: 28,
+    fontFamily: 'JetBrains',
     marginTop: 'auto',
     marginBottom: 15,
     
@@ -140,7 +145,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     flex: 1,
     marginTop: 10,
-    backgroundColor: "#EDFFEA" //The middle of the back-round
+    backgroundColor: "#E3FFE5" //The middle of the back-round
   },
   mainBody: {
     display: 'flex',
@@ -149,7 +154,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     
     flexWrap: 'wrap',
-    backgroundColor: "#EDFFEA", //Color for the back-round bottom of the app
+    backgroundColor: "#E3FFE5", //Color for the back-round bottom of the app
     
     width: 400,
     paddingBottom: 200,
@@ -160,14 +165,15 @@ const styles = StyleSheet.create({
 
   // User Icon Switcher
   instructionAndIconContainer: {
-    backgroundColor: '#DDDDDD',
+    backgroundColor: '#BDFFC2',
     borderRadius: 10,
     width: 360,
-    height: 90,
+    height: 100,
     alignItems: 'center',
   },
   instructionText: {
     marginBottom: 10,
+    marginTop: 10,
     fontSize: 16,
     fontWeight: 'bold',
   },
@@ -176,13 +182,18 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     justifyContent: 'space-around',
     alignItems: 'center',
-    width: "100%"
+    marginLeft: 10,
+    marginRight: 10,
+  },
+  userIcon: {
+    width: 50,
+    height: 50,
+    marginLeft: 10,
+    marginRight: 10,
   },
   buttonWrapper: {
     flex: 1,
     justifyContent: 'center',
-    marginRight: '20px',
-    marginLeft: '20px'
   },
 
   // Username Input
@@ -196,7 +207,7 @@ const styles = StyleSheet.create({
 
   },
   imageContainer: {
-    backgroundColor: '#DDDDDD',
+    backgroundColor: '#BDFFC2',
     width: 360,
     height: 90,
     borderRadius: 10,
