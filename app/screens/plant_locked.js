@@ -43,7 +43,7 @@ export default function plant_locked() {
     };
 
     checkPlantStatus();
-  }, [plant]);
+  });
 
   return (
     <View>
