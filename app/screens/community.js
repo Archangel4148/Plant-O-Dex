@@ -97,6 +97,7 @@ export default function community() {
     flex: 1,
     gap: 10,
     marginTop: 10,
+    marginBottom: 110,
   },
   headerContainer: {
     backgroundColor: '#d2d3db',
