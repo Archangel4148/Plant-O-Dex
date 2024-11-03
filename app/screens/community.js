@@ -5,6 +5,9 @@ import { useFonts } from "expo-font";
 import { ImageView } from '@/components/ImageView.js';
 import { names } from '@/assets/random_usernames.js'
 import { getRandomIcon } from '@/assets/user_icons/icon_paths.js'
+import { useEffect, useState } from "react";
+
+const url = "https://ad1000dre0.execute-api.us-east-2.amazonaws.com/default/items"
 
 function getRandomImagePath() {
   // Get the keys (plant names) from the ImageView object
@@ -34,7 +37,23 @@ const getRandomUsername = () => {
   return usernames[randomIndex]; // Return a random username
 };
 
-const generatePost = () => {
+export default function community() {
+
+  const [loaded, error] = useFonts({
+    'JetBrains': require('@/assets/fonts/JetBrainsMono-Medium.ttf'),
+  });
+  const [postArr, setPostArr] = useState([])
+
+  const fetchPosts = async() => {
+    const res = await fetch(url)
+    if (res.ok) {
+    const data = await res.json()
+    setPostArr(data)
+    console.log(data)
+    }
+  }
+
+  const generatePost = () => {
     const postArr = []
     let profileImagePath;
     let post;
@@ -63,12 +82,8 @@ const generatePost = () => {
     }
     return postArr;
 }
+useEffect(()=> {fetchPosts()}, [])
 
-export default function community() {
-  const [loaded, error] = useFonts({
-    'JetBrains': require('@/assets/fonts/JetBrainsMono-Medium.ttf'),
-    'KunlimPark': require('@/assets/fonts/KulimPark-Bold.ttf'),
-  });
     return (
       <View style={{backgroundColor: "#E3FFE5"}}>
         <View style={[styles.headerContainer, {backgroundColor: "#E3FFE5"}]}>
