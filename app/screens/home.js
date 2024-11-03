@@ -1,4 +1,4 @@
-import { TouchableOpacity, Text, View, ScrollView, TextInput, Pressable, Image } from "react-native";
+import { TouchableOpacity, Text, View, ScrollView, TextInput, Pressable, Image, Dimensions } from "react-native";
 import { StyleSheet } from "react-native";
 import React, { useState } from 'react'; 
 import { useFonts } from "expo-font";
@@ -8,7 +8,7 @@ import {ImageView} from '@/components/ImageView.js'
 import FontAwesome from '@expo/vector-icons/FontAwesome';
 import {plantData} from "@/assets/plant_data/json_data/0_combined_plants.js"
 
-
+const {screenWidth, screenHeight} = Dimensions.get('window');
 const populatePlants = (searchTerm) => {
   let plantsArr = [];
   for (let plant in plantData) {
@@ -34,8 +34,8 @@ const populatePlants = (searchTerm) => {
               source={src} 
             />
           </View>
-          <View style={{display: 'flex', justifyContent: 'center', alignContent: 'center',backgroundColor: 'rgba(0,0,0,0.3)', width: 190, height: 40, transform: "translateY(-10px)"}}>
-            <Text style={{textTransform: 'capitalize', textAlign: 'center', color: 'rgba(255,255,255,0.8)'}}>{commonName}</Text>
+          <View style={{display: 'flex', justifyContent: 'center', alignContent: 'center',backgroundColor: 'rgba(0,0,0,0.5)', width: 160, height: 40, transform: "translateY(-10px)"}}>
+            <Text style={{textTransform: 'capitalize', textAlign: 'center', color: 'rgba(255,255,255,0.9)'}}>{commonName}</Text>
           </View>
         </TouchableOpacity>
       );
@@ -96,7 +96,8 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     flex: 1,
     marginTop: 10,
-    backgroundColor: "#E3FFE5" //The middle of the backround
+    backgroundColor: "#E3FFE5", //The middle of the backround
+    width: screenWidth,
   },
   headerContainer: {
     backgroundColor: '#d2d3db',
@@ -117,7 +118,7 @@ const styles = StyleSheet.create({
     
   },
   searchContainer: {
-    width: '100%',
+    width: '95%',
 
     display: 'flex',
     flexDirection: 'row',
@@ -136,7 +137,7 @@ const styles = StyleSheet.create({
     alignContent: 'center',
     alignItems: 'center',
     
-    width: 360,
+    width: '100%',
     height: 45,
     
     paddingLeft: 10,
@@ -148,7 +149,7 @@ const styles = StyleSheet.create({
     paddingLeft: 10,
     color: 'white',
     fontSize: 20,
-    width: 340
+    width: '100%'
   },
 
   sortButton: {
@@ -168,28 +169,26 @@ const styles = StyleSheet.create({
     display: 'flex',
     flexDirection: 'row',
     gap: 5,
-    justifyContent: 'center',
-    
+    justifyContent: 'space-around',
     flexWrap: 'wrap',
     backgroundColor: "#E3FFE5", //Color for the backround bottom of the app
 
-    width: 400,
+    width: '95%',
     paddingBottom: 200,
     minHeight: 1000,
-
     marginTop: 15,
   },
 
   plantBox: {
     borderWidth: 1,
-    width: 190, 
-    height: 190,
+    width: 160, 
+    height: 160,
     borderColor: "#BDFFC2",
 
     backgroundColor: '#555555',
     borderRadius: 10,
     marginBottom: -40,
-
+    marginTop: 10,
   }
 
 })
