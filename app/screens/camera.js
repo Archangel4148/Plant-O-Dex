@@ -1,10 +1,11 @@
-import { CameraView, CameraType, useCameraPermissions } from 'expo-camera';
-import { useState } from 'react';
+import { CameraView, Camera,  CameraType, useCameraPermissions, takePictureAsync} from 'expo-camera';
+import { useState, useRef } from 'react';
 import { Button, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
 
-export default function App() {
+export default function camera() {
   const [facing, setFacing] = useState('back');
   const [permission, requestPermission] = useCameraPermissions();
+  const cameraRef = useRef(null);
 
   if (!permission) {
     // Camera permissions are still loading.
@@ -21,16 +22,28 @@ export default function App() {
     );
   }
 
+  const captureImage = async () => {
+    if (cameraRef.current) {
+      const photo = await cameraRef.current.takePictureAsync();
+      console.log(photo); // You can handle the photo here (e.g., display it, save it, etc.)
+    }
+  };
+
   function toggleCameraFacing() {
     setFacing(current => (current === 'back' ? 'front' : 'back'));
   }
 
+  
   return (
     <View style={styles.container}>
-      <CameraView style={styles.camera} facing={facing}>
+        
+      <CameraView style={styles.camera} facing={facing} ref={cameraRef}>
         <View style={styles.buttonContainer}>
           <TouchableOpacity style={styles.button} onPress={toggleCameraFacing}>
             <Text style={styles.text}>Flip Camera</Text>
+          </TouchableOpacity>
+          <TouchableOpacity style={styles.button} onPress={captureImage}>
+            <Text style={styles.text}>Capture Image</Text>
           </TouchableOpacity>
         </View>
       </CameraView>
