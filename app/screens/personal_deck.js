@@ -168,7 +168,11 @@ const styles = StyleSheet.create({
     backgroundColor: '#555555',
     borderRadius: 10,
     marginBottom: 10,
+    justifyContent: 'center'
 
+  },
+  plantBoxText: {
+    textTransform: 'capitalize'
   }
 
 })

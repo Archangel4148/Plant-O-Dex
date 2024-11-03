@@ -65,7 +65,6 @@ export default function plant_locked() {
               <Text style={styles.plantNameText}>{String(plant)}</Text>
               <Text style={styles.plantScientificNameText}>{dataObject["Scientific Name"]}</Text>
             </View>
-            {/* This image icon will be replaced with a star if they have found the plant */}
             <Image source={plantFound ? starIconImage : lockIconImage} style={styles.lockIcon}/>
           </View>
           <View style={styles.imageWrapper}>
