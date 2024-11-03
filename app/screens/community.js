@@ -17,17 +17,16 @@ function getRandomImagePath() {
   // Get the keys (plant names) from the ImageView object
   const plantNames = Object.keys(ImageView);
   
-  // Generate a random index based on the length of the array
   const randomIndex = Math.floor(Math.random() * plantNames.length);
   
-  // Get the random plant name using the random index
+  // Get a random plant name using the random index
   const randomPlantName = plantNames[randomIndex];
 
   const formattedPlantName = randomPlantName
-    .toLowerCase() // Convert to lower case for consistent formatting
-    .split(' ') // Split by spaces
+    .toLowerCase()
+    .split(' ')
     .map(word => word.charAt(0).toUpperCase() + word.slice(1)) // Capitalize first letter of each word
-    .join(' '); // Join back into a single string
+    .join(' ');
   
   // Return the corresponding image path
   return {
@@ -37,7 +36,7 @@ function getRandomImagePath() {
 }
 
 const getRandomUsername = () => {
-  const usernames = names.usernames; // Access the usernames array
+  const usernames = names.usernames;
   const randomIndex = Math.floor(Math.random() * usernames.length);
   return usernames[randomIndex]; // Return a random username
 };
