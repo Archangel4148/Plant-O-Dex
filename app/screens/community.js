@@ -2,16 +2,9 @@ import { View, ScrollView, Text, Image } from "react-native";
 import { StyleSheet } from "react-native";
 import { useFonts } from "expo-font";
 
-import { iconPaths } from "../../assets/user_icons/icon_paths";
 import { ImageView } from '@/components/ImageView.js';
 import { names } from '@/assets/random_usernames.js'
-
-// Function to get a random icon from the iconPaths
-const getRandomIcon = () => {
-  const keys = Object.keys(iconPaths);
-  const randomKey = keys[Math.floor(Math.random() * keys.length)];
-  return iconPaths[randomKey];
-};
+import { getRandomIcon } from '@/assets/user_icons/icon_paths.js'
 
 function getRandomImagePath() {
   // Get the keys (plant names) from the ImageView object

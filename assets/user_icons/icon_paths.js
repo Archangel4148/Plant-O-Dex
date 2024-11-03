@@ -6,3 +6,10 @@ export const iconPaths = {
     "icon5": require("@/assets/user_icons/icon_5.png"),
     "icon6": require("@/assets/user_icons/icon_6.png")
 }
+
+// Function to get a random icon from the iconPaths
+export const getRandomIcon = () => {
+  const keys = Object.keys(iconPaths);
+  const randomKey = keys[Math.floor(Math.random() * keys.length)];
+  return iconPaths[randomKey];
+};

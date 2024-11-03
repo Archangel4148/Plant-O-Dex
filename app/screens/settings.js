@@ -1,11 +1,12 @@
-import { View, Text, Button } from "react-native";
+import React, { useState } from "react";
+import { View, Text, Button, Image } from "react-native";
 import { StyleSheet } from "react-native";
 import { ScrollView } from "react-native";
 import AsyncStorage from "@react-native-async-storage/async-storage";
-
-
+import { iconPaths } from '@/assets/user_icons/icon_paths.js'
 
 export default function settings() {
+  const [currentIndex, setCurrentIndex] = useState(0);
 
   const clearAsyncStorage = async() => {
     try {
@@ -18,6 +19,15 @@ export default function settings() {
     }
 }
 
+const nextIcon = () => {
+  setCurrentIndex((prevIndex) => (prevIndex + 1) % Object.values(iconPaths).length);
+  console.log(currentIndex)
+};
+
+const previousIcon = () => {
+  setCurrentIndex((prevIndex) => (prevIndex - 1 + Object.values(iconPaths).length) % Object.values(iconPaths).length);
+};
+
     return (
       <View>
     <View style={[styles.headerContainer, {backgroundColor: "#EDFFEA"}]}>
@@ -28,9 +38,22 @@ export default function settings() {
 
         <View style={styles.mainBody}>
 
-          <View style={styles.container}>
-
-          </View>
+        <View style={styles.instructionAndIconContainer}>
+              <Text style={styles.instructionText}>Choose your icon!</Text>
+              <View style={styles.icon_container}>
+                <View style={styles.buttonWrapper}>
+                  <Button title="Previous" onPress={previousIcon} />
+                </View>
+                <Image
+                  source={Object.values(iconPaths)[currentIndex]}
+                  style={{ width: 50, height: 50 }}
+                  resizeMode="contain"
+                />
+                <View style={styles.buttonWrapper}>
+                  <Button title="Next" onPress={nextIcon} />
+                </View>
+              </View>
+            </View>
           <View style={styles.container}>
 
           </View>
@@ -64,6 +87,31 @@ export default function settings() {
       width: 360,
       height: 90,
       borderRadius: 10,
+    },
+    instructionAndIconContainer: {
+      backgroundColor: '#DDDDDD',
+      borderRadius: 10,
+      width: 360,
+      height: 90,
+      alignItems: 'center',
+    },
+    icon_container: {
+      display: 'flex',
+      flexDirection: 'row',
+      justifyContent: 'space-around',
+      alignItems: 'center',
+      width: "100%"
+    },
+    buttonWrapper: {
+      flex: 1,
+      justifyContent: 'center',
+      marginRight: '20px',
+      marginLeft: '20px'
+    },
+    instructionText: {
+      marginBottom: 10,
+      fontSize: 16,
+      fontWeight: 'bold',
     },
     headerContainer: {
       backgroundColor: '#d2d3db',
