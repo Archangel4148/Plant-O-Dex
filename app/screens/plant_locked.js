@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import { Text, View, ScrollView, Pressable, Image, Dimensions} from "react-native";
 import { StyleSheet } from "react-native";
 import {router, useLocalSearchParams} from 'expo-router'
@@ -6,6 +6,8 @@ import {ImageView} from "@/components/ImageView"
 import {plantData} from "@/assets/plant_data/json_data/0_combined_plants.js"
 import FindPlant from '@/components/FindPlant.js'
 import AsyncStorage from "@react-native-async-storage/async-storage";
+import { useFocusEffect } from "@react-navigation/native";
+
 
 
 const backButtonIcon = require('@/assets/temp_images/temp_back_button.png');
@@ -24,7 +26,7 @@ export default function plant_locked() {
   const dataObject = plantData[plant.toLowerCase().replace(/ /g, "_")]
   const [plantFound, setPlantFound] = useState(false);
 
-  useEffect(() => {
+  useFocusEffect(() => {
     const checkPlantStatus = async () => {
       try {
         const userObjectValue = await AsyncStorage.getItem('userObject');
