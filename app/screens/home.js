@@ -7,6 +7,8 @@ import {plantData} from "@/assets/plant_data/json_data/0_combined_plants.js"
 import FontAwesome from '@expo/vector-icons/FontAwesome';
 import {router} from 'expo-router'
 import AsyncStorage from "@react-native-async-storage/async-storage";
+import { useFocusEffect } from "expo-router";
+import { useCallback } from "react";
 
 
 
@@ -81,10 +83,15 @@ export default function index() {
     getUser()
   }, [])
 
-  useEffect(() => {
-    console.log(userArray)
-    console.log()
-  }, [userArray])
+  useFocusEffect(
+    useCallback(() => {
+      getUser()
+
+      return () => {
+      }
+    }, [])
+
+  );
   return (
   <View style={{flex: 1}}>
 
