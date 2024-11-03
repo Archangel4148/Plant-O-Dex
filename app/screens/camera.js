@@ -1,48 +1,17 @@
 import { CameraView, Camera,  CameraType, useCameraPermissions, takePictureAsync} from 'expo-camera';
 import { useState, useRef, useEffect } from 'react';
-import { Button, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
+import { Button, StyleSheet, Text, TouchableOpacity, View, Platform } from 'react-native';
 import { useFocusEffect } from 'expo-router';
 import { useCallback } from 'react';
 import * as FileSystem from 'expo-file-system';
-
+import AsyncStorage from '@react-native-async-storage/async-storage'; // Import AsyncStorage
 
 
 export default function camera() {
   const [facing, setFacing] = useState('back');
   const [permission, requestPermission] = useCameraPermissions();
+
   const cameraRef = useRef(null);
-
-  const saveImage = async (uri) => {
-    try {
-      // Define the file path where the image will be saved
-      const fileUri = FileSystem.documentDirectory + '/test.jpg';
-      
-      // Download the image from the URI
-      const response = await FileSystem.downloadAsync(uri, fileUri);
-      console.log(response)
-      // Check if the download was successful
-      
-    } catch (error) {
-      console.error(error);
-        }
-  };
-
-  useFocusEffect(
-    useCallback(() => {
-      console.log('Hello, I am focused!');
-      if (cameraRef.current) {
-        cameraRef.current.resumePreview()
-      }
-      return () => {
-        console.log('This route is now unfocused.');
-        if (cameraRef.current) {
-            cameraRef.current.pausePreview()
-          }
-        
-      }
-    }, [])
-  );
-  
 
   if (!permission) {
     // Camera permissions are still loading.
@@ -54,17 +23,56 @@ export default function camera() {
     return (
       <View style={styles.container}>
         <Text style={styles.message}>We need your permission to show the camera</Text>
-        <Button onPress={requestPermission} title="grant permission" />
+        <Button onPress={requestPermission} title="Grant Permission" />
       </View>
     );
   }
+
+  const saveImage = async (uri) => {
+    try {
+      await AsyncStorage.setItem('capturedImageUri', uri);
+      console.log('Image URI saved to AsyncStorage:', uri);
+    } catch (error) {
+      console.error('Error saving image URI:', error);
+    }
+
+    if (Platform.OS === 'web') {
+      // For web, you might create a link to download the image
+      const link = document.createElement('a');
+      link.href = uri;
+      link.download = 'test.jpg';
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+    } else {
+      // For mobile, use the FileSystem API as you currently do
+      const fileUri = FileSystem.documentDirectory + '/test.jpg';
+      await FileSystem.downloadAsync(uri, fileUri);
+    }
+  };
+
+  // useFocusEffect(
+  //   useCallback(() => {
+  //     console.log('Hello, I am focused!');
+  //     if (cameraRef.current) {
+  //       cameraRef.current.resumePreview()
+  //     }
+  //     return () => {
+  //       console.log('This route is now unfocused.');
+  //       if (cameraRef.current) {
+  //           cameraRef.current.pausePreview()
+  //         }
+        
+  //     }
+  //   }, [])
+  // );
 
   const captureImage = async () => {
     if (cameraRef.current) {
         const options = { quality: 0.5, base64: true };
       const photo = await cameraRef.current.takePictureAsync(options);
       saveImage(photo.uri)
-      console.log(photo.uri); // You can handle the photo here (e.g., display it, save it, etc.)
+      console.log("Captured: " + photo.uri); // You can handle the photo here (e.g., display it, save it, etc.)
     }
   };
 

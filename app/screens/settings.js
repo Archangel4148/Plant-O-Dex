@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { View, Text, Button, Image, TextInput } from "react-native";
 import { StyleSheet } from "react-native";
 import { ScrollView } from "react-native";
@@ -17,6 +17,7 @@ const storeUsername = async (username) => {
 export default function settings() {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [username, setUsername] = useState('');
+  const [imageUri, setImageUri] = useState(null); // State to hold the image URI
 
   const clearAsyncStorage = async() => {
     try {
@@ -41,6 +42,22 @@ const handleUsernameChange = (newUsername) => {
   setUsername(newUsername);
   storeUsername(newUsername);
 };
+
+// Effect to fetch the image URI from AsyncStorage
+useEffect(() => {
+  const fetchImageUri = async () => {
+    try {
+      const uri = await AsyncStorage.getItem('capturedImageUri');
+      if (uri) {
+        setImageUri(uri);
+      }
+    } catch (error) {
+      console.error('Error fetching image URI:', error);
+    }
+  };
+
+  fetchImageUri();
+}, []);
 
     return (
       <View>
@@ -79,9 +96,16 @@ const handleUsernameChange = (newUsername) => {
                 placeholderTextColor="#888"
               />
             </View>
+          {/* Display the captured image here */}
           <View style={styles.container}>
-
-          </View>
+              {imageUri && (
+                <Image
+                  source={{ uri: imageUri }}
+                  style={{ width: '100%', height: 200, borderRadius: 10 }}
+                  resizeMode="contain"
+                />
+              )}
+            </View>
           <View style={styles.container}>
 
           </View>
