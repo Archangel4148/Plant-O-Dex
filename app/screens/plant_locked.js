@@ -20,8 +20,48 @@ export default function plant_locked() {
   const dataObject = plantData[plant.toLowerCase().replace(/ /g, "_")]
   return (
     <View>
+<<<<<<< Updated upstream
       <View styles={styles.headerContainer}>
         <Text style={styles.headerText}>Floradex</Text>
+=======
+        <View styles={styles.headerContainer}>
+          <Text style={styles.headerText}>Floradex</Text>
+        </View>
+
+        <ScrollView style={styles.mainScroll}>
+          <View style={styles.main}>
+            <View style={styles.topBar}>
+            
+        <Pressable 
+          key={0} 
+          onPress={() => { router.push({
+            pathname: "/screens/home"
+          }); 
+        }}          
+        style={({ pressed }) => ({ opacity: pressed ? 0.5 : 1 })}>
+          <View style={styles.plantBox}>
+          <Image source={backButtonIcon} style={styles.backButton}/>
+          </View>
+        </Pressable>
+              <View style={styles.pageHeader}>
+                <Text style={styles.plantNameText}>{String(plant)}</Text>
+                <Text style={styles.plantScientificNameText}>{dataObject["Scientific Name"]}</Text>
+              </View>
+              <Image source={lockIconImage} style={styles.lockIcon}/>
+            </View>
+            <View style={styles.imageWrapper}>
+              <Image source={ImageView[plant.toLowerCase()]} style={styles.plantImage}/>
+            </View>
+            <View style={{display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
+              <Pressable onPress={() => {FindPlant(plant, router)}}style={{borderRadius: 10, backgroundColor: 'red', width: 100, height: 40, display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
+                <Text style={{color: 'white'}}>Find Plant</Text>
+              </Pressable>
+              <Text style={styles.attributesText}>{formatAttributes(dataObject)}
+              </Text>
+            </View>
+          </View>
+        </ScrollView>
+>>>>>>> Stashed changes
       </View>
       <ScrollView style={styles.mainScroll}>
         <View style={styles.main}>

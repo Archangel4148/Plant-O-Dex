@@ -1,5 +1,4 @@
-import { Text, View, ScrollView, TextInput, Pressable, Image } from "react-native";
-import { StyleSheet } from "react-native";
+import { Text, View, ScrollView, Pressable, Image, StyleSheet, AppState } from "react-native";
 import React, { useState, useEffect } from 'react'; 
 import {ImageView} from '@/components/ImageView.js'
 import {plantData} from "@/assets/plant_data/json_data/0_combined_plants.js"
@@ -16,6 +15,7 @@ export default function home() {
   const [loaded, error] = useFonts({
     'JetBrains': require('@/assets/fonts/JetBrainsMono-Medium.ttf'),
   });
+  const [appState, setAppState] = useState(AppState.currentState);
   
   const getUser = async () => {
     try {
@@ -26,50 +26,60 @@ export default function home() {
     }
   };
 
+  useFocusEffect(
+    useCallback(() => {
+      const handleAppStateChange = async (nextAppState) => {
+        if (appState.match(/inactive|background/) && nextAppState === 'active') {
+          // Reload the user data whenever the app returns to the foreground
+          await getUser();
+        }
+        setAppState(nextAppState);
+      };
+
+      // Use the new method to add the event listener
+      const subscription = AppState.addEventListener('change', handleAppStateChange);
+
+      // Cleanup function
+      return () => {
+        // Use the remove method on the subscription
+        subscription.remove();
+      };
+    }, [appState])
+  );
+  
+  // Ensure populatePlants updates when `user` changes
+  useEffect(() => {
+    getUser();
+  }, []);
 
   const populatePlants = (searchTerm) => {
     let plantsArr = [];
-  
-    for (let plant in plantData) {
-      const commonName = plantData[plant]["Common Name"];
-  
-      // Filter plants based on the search term
-      if (commonName.toLowerCase().includes(searchTerm.toLowerCase())) {
-        let src = ImageView[commonName.toLowerCase()]
-  
-        const newPlant = (
-          <Pressable 
-            key={commonName} 
-            onPress={() => { router.push({
-              pathname: "/screens/plant_locked", params: {plant: commonName}
-            }); 
-          }} 
+    for (let plant of user.foundPlants) {
+      const { plant_name, plant_image } = plant;
+      // Filter plants based on search term
+      if (plant_name.toLowerCase().includes(searchTerm.toLowerCase())) {
+        plantsArr.push(
+          <Pressable key={plant_name} onPress={() => router.push({ pathname: "/screens/plant_locked", params: { plant: plant_name } })}
             style={({ pressed }) => ({ opacity: pressed ? 0.5 : 1 })}>
             <View style={styles.plantBox}>
-              <Image 
-                height={100} 
-                width={100} 
-                style={{ height: '100%', width: '100%', borderRadius: 10,}} 
-                source={src} 
-              />
+              <Image height={100} width={100} style={{ height: '100%', width: '100%', borderRadius: 10 }} source={{ uri: plant_image }} />
             </View>
-            <View style={{display: 'flex', justifyContent: 'center', alignContent: 'center',backgroundColor: 'rgba(0,0,0,0.3)', width: 190, height: 40, transform: "translateY(-10px)"}}>
-              <Text style={{textTransform: 'capitalize', textAlign: 'center', color: 'rgba(255,255,255,0.8)'}}>{commonName}</Text>
+            <View style={styles.plantBoxText}>
+              <Text style={styles.plantBoxText}>{plant_name}</Text>
             </View>
           </Pressable>
         );
-  
-        if (src && user["foundPlants"].includes(commonName.toLowerCase())) {
-          plantsArr.push(newPlant);
-        }
       }
     }
-    if (plantsArr.length == 0) {
-      return <View style={{color: 'rgba(255,255,255,0.7)', textAlign: 'center', width: 300}}>
-          <Text style={{color: 'rgba(0,0,0,0.7)', fontSize: 20 }}>You currently have no plants found yet. Find some and you'll see them here!</Text>
+    
+    // Return message if no plants found
+    if (plantsArr.length === 0) {
+      return (
+        <View style={styles.noPlantsText}>
+          <Text>You currently have no plants found yet. Find some and you'll see them here!</Text>
         </View>
+      );
     }
-  
     return plantsArr;
   };
 

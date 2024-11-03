@@ -1,7 +1,9 @@
 import AsyncStorage from "@react-native-async-storage/async-storage";
+import { useNavigation } from '@react-navigation/native';
 
 
-export default FindPlant = async (plant) => {
+export default FindPlant = async (plant, router) => {
+
     const getUser = async () => {
         try {
           const jsonValue = await AsyncStorage.getItem('userObject');
@@ -21,11 +23,40 @@ export default FindPlant = async (plant) => {
 
     try {
         const userObject = await getUser()
-        console.log(userObject)
-        if (!userObject["foundPlants"].includes(plant.toLowerCase().replace("_", " "))) {
-            userObject["foundPlants"].push(plant.toLowerCase().replace("_", " "))
+
+        const plantName = plant.toLowerCase().replace("_", " ");
+        const plantAlreadyFound = userObject["foundPlants"].some(
+          (foundPlant) => foundPlant.plant_name === plantName
+        );
+
+        if (!plantAlreadyFound) {
+            
+            // Navigate to the Camera screen
+            router.push('/screens/camera');
+            
+            // If the user hasn't found this plant, take them to the camera, get the picture, and bring it back for storage in their deck
+            // Wait for the image URI to be saved in AsyncStorage by the Camera component
+            const imageUri = await new Promise((resolve) => {
+              const interval = setInterval(async () => {
+                const uri = await AsyncStorage.getItem('capturedImageUri');
+                if (uri) {
+                  clearInterval(interval);
+                  resolve(uri);
+                }
+              }, 1000); // Check every second
+            });
+
+            // Add the new plant entry with the captured image URI
+            userObject.foundPlants.push({
+              plant_name: plant.toLowerCase().replace("_", " "),
+              plant_image: imageUri
+            });
+            // Clear capturedImageUri from AsyncStorage after using it
+            await AsyncStorage.removeItem('capturedImageUri');
+            console.log('Updated user object:', userObject);
         }
         await storeUser(userObject)
+        router.push('/screens/personal_deck');  // Navigate to your deck after saving the image
     }
     catch (e) {
         console.log('Error finding plant to user' + e);
