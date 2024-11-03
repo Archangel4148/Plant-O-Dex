@@ -41,27 +41,25 @@ const generatePost = () => {
     for (let i = 0; i < 20; i++) {
         profileImagePath = getRandomIcon();
         const { plantname: postPlantName, imagepath: postImagePath } = getRandomImagePath();
-        post = <View key={i} style={styles.postContainer}>
-                    <View style={styles.upperPost}>
-                    <View style={styles.profilePicture}>
-                          <Image 
-                            source={profileImagePath} 
-                            style={{ width: '100%', height: '100%', borderRadius: 10 }} // Adjust styles as needed
-                            resizeMode="cover" // or "contain", depending on your preference
-                          />
-                        </View>
-                        <Text style={{}}>{getRandomUsername()} Found a {postPlantName.replace(/_/g, " ")}!!!</Text>
-                    </View>
-                    <View style={styles.lowerPost}>
-                        <View style={styles.picture}>
-                        <Image 
-                            source={postImagePath} 
-                            style={{ width: '100%', height: '100%', borderRadius: 10 }} // Adjust styles as needed
-                            resizeMode="cover" // or "contain", depending on your preference
-                          />
-                        </View>
-                    </View>
-               </View>;
+        post = 
+        <View key={i} style={styles.postContainer}>
+          <View style={styles.postHeader}>
+            <View style={styles.profilePictureContainer}>
+              <Image 
+                source={profileImagePath} 
+                style={styles.profilePicture}
+              />
+            </View>
+            <Text style={styles.communityPostText}>{getRandomUsername()} Found a {postPlantName.replace(/_/g, " ")}!!!</Text>
+          </View>
+          <View style={styles.postImageContainer}>
+            <Image 
+                source={postImagePath} 
+                style={{ width: '100%', height: '100%', borderRadius: 10 }} // Adjust styles as needed
+                resizeMode="cover" // or "contain", depending on your preference
+              />
+          </View>
+        </View>;
         postArr.push(post)
     }
     return postArr;
@@ -97,6 +95,20 @@ export default function community() {
     flex: 1,
     gap: 10,
     marginTop: 10,
+    marginBottom: 110,
+    marginLeft: 50,
+    marginRight: 50,
+  },
+  communityPostText: {
+
+  },
+  postImageContainer: {
+    width: 360,
+    height: 360,
+
+    borderColor: 'black',
+    borderWidth: 3,
+    borderRadius: 10,
   },
   headerContainer: {
     backgroundColor: '#d2d3db',
@@ -126,7 +138,7 @@ export default function community() {
     gap: 5,
     
   },
-  upperPost: {
+  postHeader: {
     display: 'flex',
     flexDirection: 'row',
     alignItems: 'center',
@@ -135,20 +147,21 @@ export default function community() {
 
     marginRight: 'auto',
   },
-  profilePicture: {
+  profilePictureContainer: {
     width: 50,
     height: 50,
     borderRadius: 100,
     borderColor: 'black',
     borderWidth: 3,
   },
-  picture: {
-    width: 360,
-    height: 360,
-
-    borderColor: 'black',
-    borderWidth: 3,
+  profilePicture: {
+    width: '100%',
+    height: '100%',
     borderRadius: 10,
+    resizeMode: 'cover',
+  },
+  picture: {
+
   },
  
 })

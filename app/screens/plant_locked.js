@@ -126,7 +126,7 @@ export default function plant_locked() {
       // borderStyle: 'solid',
       // borderWidth: 4,
       // borderColor: 'black',
-      borderRadius: '10px',
+      borderRadius: 10,
     },
     backButton: {
       borderRadius: 50,
