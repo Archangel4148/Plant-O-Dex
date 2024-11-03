@@ -110,7 +110,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     flex: 1,
     marginTop: 10,
-    backgroundColor: "#EDFFEA" //The middle of the background
+    backgroundColor: "#E3FFE5" //The middle of the background
   },
   headerContainer: {
     backgroundColor: '#d2d3db',
@@ -187,7 +187,7 @@ const styles = StyleSheet.create({
     
     alignItems:'center',
     flexWrap: 'wrap',
-    backgroundColor: "#EDFFEA", //Color for the backround bottom of the app
+    backgroundColor: "E3FFE5", //Color for the backround bottom of the app
 
     width: 400,
     paddingBottom: 200,
