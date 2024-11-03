@@ -88,10 +88,10 @@ export default function home() {
   return (
   <View>
 
-    <View style={[styles.headerContainer, {backgroundColor: "#EDFFEA"}]}>
+    <View style={[styles.headerContainer, {backgroundColor: "#E3FFE5"}]}>
       <Text style={styles.headerText}>{user["foundPlants"].length}/ 94 Collected</Text>
     </View>
-    <ScrollView style={{backgroundColor: "#EDFFEA"}}>
+    <ScrollView style={{backgroundColor: "#E3FFE5"}}>
       <View style={styles.webContainer}>
 
         <View style={styles.mainBody}>

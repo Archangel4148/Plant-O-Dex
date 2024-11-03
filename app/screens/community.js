@@ -97,6 +97,7 @@ export default function community() {
   },
   communityPostText: {
     fontFamily: 'KumlinPark',
+    height: 20,
   },
   postImage: {
     width: '100%',
