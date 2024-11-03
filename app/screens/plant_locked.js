@@ -20,10 +20,8 @@ export default function plant_locked() {
   const dataObject = plantData[plant.toLowerCase().replace(/ /g, "_")]
   return (
     <View>
-<<<<<<< Updated upstream
       <View styles={styles.headerContainer}>
         <Text style={styles.headerText}>Floradex</Text>
-=======
         <View styles={styles.headerContainer}>
           <Text style={styles.headerText}>Floradex</Text>
         </View>
@@ -61,7 +59,6 @@ export default function plant_locked() {
             </View>
           </View>
         </ScrollView>
->>>>>>> Stashed changes
       </View>
       <ScrollView style={styles.mainScroll}>
         <View style={styles.main}>
