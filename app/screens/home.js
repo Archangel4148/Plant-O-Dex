@@ -1,11 +1,12 @@
 import { Text, View, ScrollView, TextInput, Pressable, Image } from "react-native";
 import { StyleSheet } from "react-native";
 import React, { useState } from 'react'; 
-import {ImageView} from '@/components/ImageView.js'
-
-import {plantData} from "@/assets/plant_data/json_data/0_combined_plants.js"
-import FontAwesome from '@expo/vector-icons/FontAwesome';
+import { useFonts } from "expo-font";
 import {router} from 'expo-router'
+
+import {ImageView} from '@/components/ImageView.js'
+import FontAwesome from '@expo/vector-icons/FontAwesome';
+import {plantData} from "@/assets/plant_data/json_data/0_combined_plants.js"
 
 
 const populatePlants = (searchTerm) => {
@@ -52,7 +53,9 @@ const populatePlants = (searchTerm) => {
 
 export default function home() {
   const [searchTerm, setSearchTerm] = useState(''); // Initializing state
-
+  const [loaded, error] = useFonts({
+    'JetBrains': require('@/assets/fonts/JetBrainsMono-Medium.ttf'),
+  });
   return (
   <View style={{flex: 1}}>
 

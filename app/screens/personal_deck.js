@@ -8,13 +8,15 @@ import FontAwesome from '@expo/vector-icons/FontAwesome';
 import {router} from 'expo-router'
 import { useFocusEffect } from 'expo-router';
 import { useCallback } from 'react';
+import { useFonts } from "expo-font";
+
 
 export default function home() {
-
-  
-
   const [user, setUser] = useState({foundPlants: [],})
   const [searchTerm, setSearchTerm] = useState(''); // Initializing state
+  const [loaded, error] = useFonts({
+    'JetBrains': require('@/assets/fonts/JetBrainsMono-Medium.ttf'),
+  });
   
   const getUser = async () => {
     try {

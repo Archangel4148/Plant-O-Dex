@@ -1,7 +1,10 @@
 import { View, ScrollView, Text, Image } from "react-native";
 import { StyleSheet } from "react-native";
+import { useFonts } from "expo-font";
+
 import { iconPaths } from "../../assets/user_icons/icon_paths";
-import {ImageView} from '@/components/ImageView.js';
+import { ImageView } from '@/components/ImageView.js';
+import { names } from '@/assets/random_usernames.js'
 
 // Function to get a random icon from the iconPaths
 const getRandomIcon = () => {
@@ -19,19 +22,33 @@ function getRandomImagePath() {
   
   // Get the random plant name using the random index
   const randomPlantName = plantNames[randomIndex];
+
+  const formattedPlantName = randomPlantName
+    .toLowerCase() // Convert to lower case for consistent formatting
+    .split(' ') // Split by spaces
+    .map(word => word.charAt(0).toUpperCase() + word.slice(1)) // Capitalize first letter of each word
+    .join(' '); // Join back into a single string
   
   // Return the corresponding image path
-  return ImageView[randomPlantName];
+  return {
+    plantname: formattedPlantName, 
+    imagepath: ImageView[randomPlantName]
+  };
 }
+
+const getRandomUsername = () => {
+  const usernames = names.usernames; // Access the usernames array
+  const randomIndex = Math.floor(Math.random() * usernames.length);
+  return usernames[randomIndex]; // Return a random username
+};
 
 const generatePost = () => {
     const postArr = []
     let profileImagePath;
-    let postImagePath;
     let post;
     for (let i = 0; i < 20; i++) {
         profileImagePath = getRandomIcon();
-        postImagePath = getRandomImagePath();
+        const { plantname: postPlantName, imagepath: postImagePath } = getRandomImagePath();
         post = <View key={i} style={styles.postContainer}>
                     <View style={styles.upperPost}>
                     <View style={styles.profilePicture}>
@@ -41,7 +58,7 @@ const generatePost = () => {
                             resizeMode="cover" // or "contain", depending on your preference
                           />
                         </View>
-                        <Text style={{}}>USER Found a PLANT_NAME!!!</Text>
+                        <Text style={{}}>{getRandomUsername()} Found a {postPlantName.replace(/_/g, " ")}!!!</Text>
                     </View>
                     <View style={styles.lowerPost}>
                         <View style={styles.picture}>
@@ -59,6 +76,9 @@ const generatePost = () => {
 }
 
 export default function community() {
+  const [loaded, error] = useFonts({
+    'JetBrains': require('@/assets/fonts/JetBrainsMono-Medium.ttf'),
+  });
     return (
       <View>
 
@@ -99,7 +119,8 @@ export default function community() {
     alignContent: 'center'
   },
   headerText: {
-    fontSize: 24,
+    fontFamily: 'JetBrains',
+    fontSize: 28,
     marginTop: 'auto',
     marginBottom: 15,
   },
