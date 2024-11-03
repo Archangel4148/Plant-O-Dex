@@ -6,6 +6,7 @@ import {ImageView} from '@/components/ImageView.js'
 import {plantData} from "@/assets/plant_data/json_data/0_combined_plants.js"
 import FontAwesome from '@expo/vector-icons/FontAwesome';
 import {router} from 'expo-router'
+import AsyncStorage from "@react-native-async-storage/async-storage";
 
 
 
@@ -13,14 +14,19 @@ import {router} from 'expo-router'
 
 export default function home() {
   const [searchTerm, setSearchTerm] = useState(''); // Initializing state
-  const [userArray, setUserArray] = useState({foundPlants: [],})
+  const [userArray, setUserArray] = useState([])
 
   const getUser = async () => {
     try {
+      let newPlantArr = []
       const jsonValue = await AsyncStorage.getItem('userObject');
-      setUserArray((jsonValue != null) ? JSON.parse(jsonValue) : {foundPlants: [],});
+      let jsonData = ((jsonValue != null) ? JSON.parse(jsonValue) : {foundPlants: []});
+      for (i of jsonData["foundPlants"]) {
+          newPlantArr.push(i["plant_name"])
+      }
+      setUserArray(newPlantArr)
     } catch (e) {
-      // error reading value
+      
     }
   };
 
@@ -55,10 +61,10 @@ export default function home() {
             <View style={{display: 'flex', justifyContent: 'center', alignContent: 'center',backgroundColor: 'rgba(0,0,0,0.3)', width: 190, height: 40, transform: "translateY(-10px)"}}>
               <Text style={{textTransform: 'capitalize', textAlign: 'center', color: 'rgba(255,255,255,0.8)'}}>{commonName}</Text>
             </View>
-            {(userArray["foundPlants"] && userArray["foundPlants"].includes(commonName) &&
+            {(userArray.includes(commonName) &&
             <Image source={gold} style={{position: 'absolute', width: 190, height: 190}}></Image>
             )}
-            {() => {console.log(commonName)}}
+    
           </Pressable>
         );
   
