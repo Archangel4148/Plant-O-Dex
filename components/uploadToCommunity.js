@@ -1,4 +1,5 @@
 import AsyncStorage from "@react-native-async-storage/async-storage";
+import FormData from "form-data";
 
 const serverURL = "https://ad1000dre0.execute-api.us-east-2.amazonaws.com/default/items"
 
@@ -20,6 +21,7 @@ export default uploadToCommunity = async (localUri) => {
         console.error('Error retrieving user data:', error);
     }
 
+
     // Retrieve plant name and image from userObject
     try {
         const userObjectValue = await AsyncStorage.getItem('userObject');
@@ -33,21 +35,32 @@ export default uploadToCommunity = async (localUri) => {
         console.error('Error retrieving user object:', error);
     }
 
-    const postSubmission = { 
-    photo : {
-        uri: "data:image/jpeg;base64," + localUri,
-        type: 'image/png',
-        name: localUri + '.png',
-    },
-    user: userName,
-    pfp: pfpIndex,
-    plantName : plantName
-}
     let body = new FormData();
-    body.append('post', postSubmission)
+    body.append('photo', {
+        uri:   localUri, // Directly using localUri
+        type: 'image/png', // Adjust according to the actual image type
+        name: `${plantName}.png`, // Use a relevant name
+    });
+    body.append('user', userName);
+    body.append('pfp', pfpIndex);
+    body.append('plantName', plantName);
 
-    let xhr = new XMLHttpRequest();
-    console.log(body)
-    xhr.open('POST', serverURL);
-    xhr.send(body);
+    
+    const requestOptions = {
+        method: 'PUT',
+        body: body // Set body to the FormData instance
+    };
+
+    try {
+        let res = await fetch(serverURL, requestOptions);
+        if (res.ok) {
+            let jsonData = res;
+            console.log(jsonData);
+        } else {
+            const errorText = await res.text(); // Get error details
+            console.error('Error response:', errorText);
+        }
+    } catch (error) {
+        console.error('Fetch error:', error);
+    }
 }

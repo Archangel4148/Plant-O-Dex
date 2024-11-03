@@ -27,10 +27,10 @@ export default function camera() {
   }
 
   const saveImage = async (uri) => {
+    if (!uri) {return;}
     try {
       await AsyncStorage.setItem('capturedImageUri', uri);
       await uploadToCommunity(uri)
-      console.log('Image URI saved to AsyncStorage:', uri);
       
     } catch (error) {
       console.error('Error saving image URI:', error);
@@ -42,7 +42,6 @@ export default function camera() {
         const options = { quality: 0.5, base64: true };
       const photo = await cameraRef.current.takePictureAsync(options);
       saveImage(photo.uri)
-      console.log("Captured: " + photo.uri); // You can handle the photo here (e.g., display it, save it, etc.)
     }
   };
 
