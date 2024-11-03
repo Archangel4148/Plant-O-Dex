@@ -1,12 +1,22 @@
 import React, { useState } from "react";
-import { View, Text, Button, Image } from "react-native";
+import { View, Text, Button, Image, TextInput } from "react-native";
 import { StyleSheet } from "react-native";
 import { ScrollView } from "react-native";
 import AsyncStorage from "@react-native-async-storage/async-storage";
 import { iconPaths } from '@/assets/user_icons/icon_paths.js'
 
+
+const storeUsername = async (username) => {
+  try {
+    await AsyncStorage.setItem('currentUsername', username);
+  } catch (e) {
+    // saving error
+  }
+};
+
 export default function settings() {
   const [currentIndex, setCurrentIndex] = useState(0);
+  const [username, setUsername] = useState('');
 
   const clearAsyncStorage = async() => {
     try {
@@ -21,11 +31,15 @@ export default function settings() {
 
 const nextIcon = () => {
   setCurrentIndex((prevIndex) => (prevIndex + 1) % Object.values(iconPaths).length);
-  console.log(currentIndex)
 };
 
 const previousIcon = () => {
   setCurrentIndex((prevIndex) => (prevIndex - 1 + Object.values(iconPaths).length) % Object.values(iconPaths).length);
+};
+
+const handleUsernameChange = (newUsername) => {
+  setUsername(newUsername);
+  storeUsername(newUsername);
 };
 
     return (
@@ -54,9 +68,17 @@ const previousIcon = () => {
                 </View>
               </View>
             </View>
-          <View style={styles.container}>
-
-          </View>
+            
+            <View style={styles.usernameContainer}>
+              <Text style={styles.usernameLabel}>Change Username:</Text>
+              <TextInput
+                style={styles.usernameInput}
+                value={username}
+                onChangeText={handleUsernameChange}
+                placeholder="Enter your username"
+                placeholderTextColor="#888"
+              />
+            </View>
           <View style={styles.container}>
 
           </View>
