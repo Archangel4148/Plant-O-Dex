@@ -78,7 +78,7 @@ export default function home() {
     if (plantsArr.length === 0) {
       return (
         <View style={styles.noPlantsText}>
-          <Text>You currently have no plants found yet. Find some and you'll see them here!</Text>
+          <Text>You currently have no plants found yet. Capture some and you'll see them here!</Text>
         </View>
       );
     }
@@ -120,6 +120,9 @@ const styles = StyleSheet.create({
     flex: 1,
     marginTop: 10,
     backgroundColor: "#E3FFE5" //The middle of the backround
+  },
+  noPlantsText: {
+    width: 350,
   },
   headerContainer: {
     backgroundColor: '#d2d3db',
