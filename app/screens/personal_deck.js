@@ -1,7 +1,5 @@
 import { Text, View, ScrollView, Pressable, Image, StyleSheet, AppState, Dimensions } from "react-native";
 import React, { useState, useEffect } from 'react'; 
-import {ImageView} from '@/components/ImageView.js'
-import {plantData} from "@/assets/plant_data/json_data/0_combined_plants.js"
 import AsyncStorage from "@react-native-async-storage/async-storage";
 import {router} from 'expo-router'
 import { useFocusEffect } from 'expo-router';

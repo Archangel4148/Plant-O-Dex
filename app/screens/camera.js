@@ -2,6 +2,7 @@ import { CameraView, Camera,  CameraType, useCameraPermissions, takePictureAsync
 import { useState, useRef, useEffect } from 'react';
 import { Button, StyleSheet, Text, TouchableOpacity, View, Platform } from 'react-native';
 import { router, useFocusEffect } from 'expo-router';
+import uploadToCommunity from '@/components/uploadToCommunity.js'
 import AsyncStorage from '@react-native-async-storage/async-storage'; // Import AsyncStorage
 
 export default function camera() {
@@ -28,6 +29,7 @@ export default function camera() {
   const saveImage = async (uri) => {
     try {
       await AsyncStorage.setItem('capturedImageUri', uri);
+      await uploadToCommunity(uri)
       console.log('Image URI saved to AsyncStorage:', uri);
       
     } catch (error) {

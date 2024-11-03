@@ -3,8 +3,7 @@ import AsyncStorage from "@react-native-async-storage/async-storage";
 const serverURL = "https://ad1000dre0.execute-api.us-east-2.amazonaws.com/default/items"
 
 
-export default uploadToCommunity = async () => {
-    let localUri;
+export default uploadToCommunity = async (localUri) => {
     let userName;
     let pfpIndex;
     let plantName;
@@ -36,7 +35,7 @@ export default uploadToCommunity = async () => {
 
     const postSubmission = { 
     photo : {
-        uri: localUri,
+        uri: "data:image/jpeg;base64," + localUri,
         type: 'image/png',
         name: localUri + '.png',
     },
@@ -46,9 +45,9 @@ export default uploadToCommunity = async () => {
 }
     let body = new FormData();
     body.append('post', postSubmission)
-    body.append({})
 
     let xhr = new XMLHttpRequest();
+    console.log(body)
     xhr.open('POST', serverURL);
     xhr.send(body);
 }
